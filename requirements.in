@@ -1,0 +1,14 @@
+pip-tools
+pycodestyle
+pydocstyle
+pylint
+pylint_mccabe
+pylint-flask
+
+click
+
+markdown
+
+jinja2
+
+lxml
