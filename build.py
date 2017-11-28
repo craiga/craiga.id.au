@@ -68,7 +68,7 @@ def build(content_dir, template_file, output_dir):
         content = markdown_file_to_html(content_file)
         title = title_from_html(content)
         html = template.render(title=title, content=content)
-        html = minify(html)
+        html = minify(html, remove_optional_attribute_quotes=False)
         html_path = Path(output_dir,
                          content_file.name.replace('.markdown', '.html'))
         write_html(html, html_path)

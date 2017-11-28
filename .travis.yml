@@ -1,3 +1,7 @@
+before_install:
+  - wget https://github.com/htacg/tidy-html5/releases/download/5.4.0/tidy-5.4.0-64bit.deb
+  - sudo apt-get -y autoremove libtidy-0.99-0
+  - sudo dpkg -i tidy-5.4.0-64bit.deb
 language: python
 cache: pip
 python:
@@ -7,4 +11,5 @@ script:
   - pycodestyle
   - pydocstyle
   - pylint *.py
+  - tidy -config .tidyrc -errors docs/*.html
   - piprot
