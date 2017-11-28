@@ -4,6 +4,7 @@ pydocstyle
 pylint
 pylint_mccabe
 pylint-flask
+piprot
 
 click
 
