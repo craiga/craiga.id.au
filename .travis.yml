@@ -1,7 +1,6 @@
-addons:
-  apt:
-    packages:
-      - tidy
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y tidy
 language: python
 cache: pip
 python:
@@ -11,5 +10,5 @@ script:
   - pycodestyle
   - pydocstyle
   - pylint *.py
-  - tidy --errors docs/*.html
+  - tidy -errors docs/*.html
   - piprot
