@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/craiga/craiga.id.au.svg?branch=master)](https://travis-ci.org/craiga/craiga.id.au)
+
     $ python build.py --help
     Usage: build.py [OPTIONS]
 
