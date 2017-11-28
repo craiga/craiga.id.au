@@ -9,6 +9,7 @@ certifi==2017.11.5        # via requests
 chardet==3.0.4            # via requests
 click==6.7
 first==2.0.1              # via pip-tools
+htmlmin==0.1.11
 idna==2.6                 # via requests
 isort==4.2.15             # via pylint
 jinja2==2.10

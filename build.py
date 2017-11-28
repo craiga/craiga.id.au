@@ -4,6 +4,7 @@ from pathlib import Path
 
 import click
 import jinja2
+from htmlmin import minify
 from lxml import html
 from markdown import markdown
 
@@ -55,12 +56,16 @@ def build(content, template_file, output_dir):
             title = ''
 
         # …process through the template…
-        html_stream = template.stream(title=title, content=content_html)
+        html_content = template.render(title=title, content=content_html)
+
+        # …minify the HTML…
+        html_content = minify(html_content)
 
         # …and write the HTML file.
-        html_file_path = Path(output_dir,
-                              content_file.name.replace('.markdown', '.html'))
-        html_stream.dump(str(html_file_path))
+        html_file = Path(output_dir,
+                         content_file.name.replace('.markdown', '.html'))
+        with html_file.open('w') as html_file_obj:
+            html_file_obj.write(html_content)
 
 
 if __name__ == '__main__':

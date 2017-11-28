@@ -13,3 +13,5 @@ markdown
 jinja2
 
 lxml
+
+htmlmin
