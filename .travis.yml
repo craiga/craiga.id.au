@@ -1,3 +1,7 @@
+addons:
+  apt:
+    packages:
+      - tidy
 language: python
 cache: pip
 python:
@@ -7,4 +11,5 @@ script:
   - pycodestyle
   - pydocstyle
   - pylint *.py
+  - tidy --errors docs/*.html
   - piprot
