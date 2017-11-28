@@ -10,5 +10,6 @@ script:
   - pycodestyle
   - pydocstyle
   - pylint *.py
+  - tidy -version
   - tidy -config .tidyrc -errors docs/*.html
   - piprot
