@@ -1,12 +1,15 @@
-import click
-import glob
-from markdown import markdown
+"""Build content for craiga.id.au from a series of Markdown files."""
+
 from pathlib import Path
-from lxml import html
+
+import click
 import jinja2
+from lxml import html
+from markdown import markdown
 
 
 def markdown_files(directory_name, *args, **kwargs):
+    """Yield markdown files."""
     path = Path(directory_name)
     with click.progressbar(path.glob('*.markdown'), *args, **kwargs) as fnames:
         yield from fnames
@@ -26,7 +29,7 @@ def markdown_files(directory_name, *args, **kwargs):
               type=click.Path(writable=True, file_okay=False),
               help='Output directory. Where the HTML files will be written.')
 def build(content, template_file, output_dir):
-    """Build a web site based on a series of Markdown files."""
+    """Build content for craiga.id.au from a series of Markdown files."""
     # Load the template.
     template_html = ''
     for template_line in template_file:
@@ -38,8 +41,8 @@ def build(content, template_file, output_dir):
     for content_file in markdown_files(content, label='Building site'):
         # …convert to HTML…
         content_markdown = ''
-        with content_file.open() as f:
-            content_markdown = f.read()
+        with content_file.open() as content_file_obj:
+            content_markdown = content_file_obj.read()
 
         content_html = markdown(content_markdown)
 
@@ -61,4 +64,4 @@ def build(content, template_file, output_dir):
 
 
 if __name__ == '__main__':
-    build()
+    build()  # pylint: disable=no-value-for-parameter
