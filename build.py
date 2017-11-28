@@ -4,9 +4,19 @@ from pathlib import Path
 
 import click
 import jinja2
+import lxml.html
 from htmlmin import minify
-from lxml import html
 from markdown import markdown
+
+
+def create_template(template_file):
+    """Create the Jinja2 template."""
+    # Load the template.
+    template_content = ''
+    for line in template_file:
+        template_content = template_content + line
+
+    return jinja2.Template(template_content)
 
 
 def markdown_files(directory_name, *args, **kwargs):
@@ -16,8 +26,30 @@ def markdown_files(directory_name, *args, **kwargs):
         yield from fnames
 
 
+def markdown_file_to_html(file_path):
+    """Convert the markdown file to HTML."""
+    with file_path.open() as file:
+        return markdown(file.read())
+
+
+def title_from_html(html, default=''):
+    """Extract a title from the given HTML."""
+    tree = lxml.html.fromstring(html)
+    headings = tree.xpath('//h1/text()')
+    if headings:
+        return headings[0]
+
+    return default
+
+
+def write_html(html, html_path):
+    """Write HTML to the given path."""
+    with html_path.open('w') as file:
+        file.write(html)
+
+
 @click.command()
-@click.option('--content',
+@click.option('--content_dir',
               default='content',
               type=click.Path(exists=True, file_okay=False),
               help='A directory containing Markdown files.')
@@ -29,43 +61,17 @@ def markdown_files(directory_name, *args, **kwargs):
               default='docs',
               type=click.Path(writable=True, file_okay=False),
               help='Output directory. Where the HTML files will be written.')
-def build(content, template_file, output_dir):
+def build(content_dir, template_file, output_dir):
     """Build content for craiga.id.au from a series of Markdown files."""
-    # Load the template.
-    template_html = ''
-    for template_line in template_file:
-        template_html = template_html + template_line
-
-    template = jinja2.Template(template_html)
-
-    # For each Markdown file…
-    for content_file in markdown_files(content, label='Building site'):
-        # …convert to HTML…
-        content_markdown = ''
-        with content_file.open() as content_file_obj:
-            content_markdown = content_file_obj.read()
-
-        content_html = markdown(content_markdown)
-
-        # …get title…
-        html_tree = html.fromstring(content_html)
-        headings = html_tree.xpath('//h1/text()')
-        if headings:
-            title = headings[0]
-        else:
-            title = ''
-
-        # …process through the template…
-        html_content = template.render(title=title, content=content_html)
-
-        # …minify the HTML…
-        html_content = minify(html_content)
-
-        # …and write the HTML file.
-        html_file = Path(output_dir,
+    template = create_template(template_file)
+    for content_file in markdown_files(content_dir, label='Building site'):
+        content = markdown_file_to_html(content_file)
+        title = title_from_html(content)
+        html = template.render(title=title, content=content)
+        html = minify(html)
+        html_path = Path(output_dir,
                          content_file.name.replace('.markdown', '.html'))
-        with html_file.open('w') as html_file_obj:
-            html_file_obj.write(html_content)
+        write_html(html, html_path)
 
 
 if __name__ == '__main__':
