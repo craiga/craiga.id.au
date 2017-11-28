@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/craiga/craiga.id.au.svg?branch=master)](https://travis-ci.org/craiga/craiga.id.au)
+[![Build Status](https://travis-ci.org/craiga/craiga.id.au.svg?branch=master)](https://travis-ci.org/craiga/craiga.id.au) [![Requirements Status](https://requires.io/github/craiga/craiga.id.au/requirements.svg?branch=master)](https://requires.io/github/craiga/craiga.id.au/requirements/?branch=master)
+
 
     $ python build.py --help
     Usage: build.py [OPTIONS]
