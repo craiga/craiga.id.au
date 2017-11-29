@@ -29,7 +29,8 @@ def markdown_files(directory_name, *args, **kwargs):
 def markdown_file_to_html(file_path):
     """Convert the markdown file to HTML."""
     with file_path.open() as file:
-        return markdown(file.read())
+        return markdown(file.read(),
+                        extensions=('markdown.extensions.footnotes',))
 
 
 def title_from_html(html, default=''):
