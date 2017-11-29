@@ -4,7 +4,7 @@ I’m a back end web developer with over 17 years of experience. I’m a strong 
 
 ## Contact Details
 
- * Email: craiga@craiga.id.au
+ * Email: [craiga@craiga.id.au](mailto:craiga@craiga.id.au)
  * Web [craiga.id.au](http://craiga.id.au/)
 
 ## Skills Summary
