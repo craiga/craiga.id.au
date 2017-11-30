@@ -1,6 +1,6 @@
 # Craig Anderson — CV
 
-I’m a back end web developer with over 17 years of experience. I’m a strong proponent for test-driven development, and am motivated by work for social good.
+I’m a back end web developer with over 17 years of experience looking for my first freelancing role. I’m interested in freelancing as it should, in time, give me the freedom to move as my partner’s academic career demands. I’m a strong proponent for test-driven development, and am motivated by work for social good.
 
 ## Contact Details
 
@@ -19,7 +19,7 @@ I’m a back end web developer with over 17 years of experience. I’m a strong 
 
 ## Work History
 
-### Senior Back End Developer, Ten Group (Feb ‘17–present)
+### Senior Back End Developer, Ten Group (Feb ‘17–Jan ‘18)
 
 As part of a team of senior developers, established a platform to replace an existing prototype. The new platform is implemented using Django Rest Framework, Docker Compose, PostgreSQL and Celery.
 
