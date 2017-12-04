@@ -1,16 +1,15 @@
 """Build content for craiga.id.au from a series of Markdown files."""
 
 from pathlib import Path
+from shutil import copy
 
 import click
 import jinja2
 import lxml.html
 import sass
-import shutil
-import os
-from xstatic.pkg import bootstrap_scss, font_awesome
 from htmlmin import minify
 from markdown import markdown
+from xstatic.pkg import bootstrap_scss, font_awesome
 
 
 def create_template(template_file):
@@ -100,14 +99,14 @@ def build(content_dir, style_dir, template_file, output_dir):
                  output_style='compressed')
 
     # Copy required static assets.
-    asset_subdirs_to_ignore = ('scss', 'less')
     for base_dir in (Path(d) for d in base_dirs):
         for source_file in asset_files(base_dir,
                                        subdirs_to_ignore=('scss', 'less')):
             destination_file = Path(output_dir,
                                     source_file.relative_to(base_dir))
+            # pylint: disable=no-member
             destination_file.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy(source_file, destination_file)
+            copy(source_file, destination_file)
 
 
 if __name__ == '__main__':
