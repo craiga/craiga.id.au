@@ -8,6 +8,7 @@
 
     Options:
       --content_dir DIRECTORY   A directory containing Markdown files.
+      --style_dir DIRECTORY     A directory containing Sass files.
       --template_file FILENAME  Template used to build the site.
       --output_dir DIRECTORY    Output directory. Where the HTML files will be
                                 written.

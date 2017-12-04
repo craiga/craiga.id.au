@@ -15,3 +15,7 @@ jinja2
 lxml
 
 htmlmin
+
+libsass
+xstatic-bootstrap-scss
+xstatic-font-awesome
