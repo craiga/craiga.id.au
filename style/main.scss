@@ -1,6 +1,38 @@
+@import "scss/bootstrap/_variables";
+
+$font-family-sans-serif: 'Lato', sans-serif;
+$font-family-serif: 'Merriweather', serif;
+
+$font-family-base: $font-family-serif;
+$font-size-base: 16px;
+
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 700;
+
+$line-height-base: 1.8;
+
 @import "scss/bootstrap";
 @import "scss/font-awesome";
 
 body {
-  padding-top: ($padding-base-vertical * 3);
+  margin-top: ($padding-base-vertical * 3);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+  margin-top: ($line-height-computed * 2);
+  margin-bottom: $line-height-computed;
+}
+
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: $line-height-computed;
+  margin-bottom: ($line-height-computed / 2);
+
+  small,
+  .small {
+    font-size: 75%;
+  }
 }
