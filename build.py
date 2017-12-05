@@ -13,6 +13,9 @@ from jsmin import jsmin
 from xstatic.pkg import bootstrap_scss, font_awesome, jquery
 
 
+ASSET_MODULES = (bootstrap_scss, font_awesome, jquery)
+
+
 def create_template(template_file):
     """Create the Jinja2 template."""
     # Load the template.
@@ -27,13 +30,6 @@ def markdown_files(directory_name, *args, **kwargs):
     """Yield markdown files."""
     path = Path(directory_name)
     with click.progressbar(path.glob('*.markdown'), *args, **kwargs) as fnames:
-        yield from fnames
-
-
-def script_files(directory_name, *args, **kwargs):
-    """Yield script files."""
-    path = Path(directory_name)
-    with click.progressbar(path.glob('*.js'), *args, **kwargs) as fnames:
         yield from fnames
 
 
@@ -60,6 +56,44 @@ def write_html(html, html_path):
         file.write(html)
 
 
+def build_content(content_dir, template_file, output_dir):
+    """Build site content."""
+    template = create_template(template_file)
+    for content_file in markdown_files(content_dir, label='Building content'):
+        content = markdown_file_to_html(content_file)
+        title = title_from_html(content)
+        html = template.render(title=title, content=content)
+        html = minify(html, remove_optional_attribute_quotes=False)
+        html_path = Path(output_dir,
+                         content_file.name.replace('.markdown', '.html'))
+        write_html(html, html_path)
+
+
+def build_style(style_dir, output_dir):
+    """Build style."""
+    sass.compile(dirname=(style_dir, Path(output_dir, 'css')),
+                 include_paths=(m.BASE_DIR for m in ASSET_MODULES),
+                 output_style='compressed')
+
+
+def script_files(directory_name, *args, **kwargs):
+    """Yield script files."""
+    path = Path(directory_name)
+    with click.progressbar(path.glob('*.js'), *args, **kwargs) as fnames:
+        yield from fnames
+
+
+def build_script(script_dir, output_dir):
+    """Build site script."""
+    for script_file in script_files(script_dir, label='Building scripts'):
+        with script_file.open() as file:
+            script = jsmin(file.read())
+        script_path = Path(output_dir, 'js',
+                           script_file.name.replace('.js', '.min.js'))
+        with script_path.open('w') as file:
+            file.write(script)
+
+
 def asset_files(base_path, subdirs_to_ignore=()):
     """Iterate over asset files."""
     for path in base_path.iterdir():
@@ -68,6 +102,18 @@ def asset_files(base_path, subdirs_to_ignore=()):
                 yield from asset_files(path)
         else:
             yield path
+
+
+def copy_assets(output_dir):
+    """Copy assets from asset modules."""
+    for base_dir in (Path(m.BASE_DIR) for m in ASSET_MODULES):
+        for source_file in asset_files(base_dir,
+                                       subdirs_to_ignore=('scss', 'less')):
+            destination_file = Path(output_dir,
+                                    source_file.relative_to(base_dir))
+            # pylint: disable=no-member
+            destination_file.parent.mkdir(parents=True, exist_ok=True)
+            copy(source_file, destination_file)
 
 
 @click.command()
@@ -93,41 +139,10 @@ def asset_files(base_path, subdirs_to_ignore=()):
               help='Output directory. Where the HTML files will be written.')
 def build(content_dir, style_dir, script_dir, template_file, output_dir):
     """Build content for craiga.id.au from a series of Markdown files."""
-    template = create_template(template_file)
-    for content_file in markdown_files(content_dir, label='Building content'):
-        content = markdown_file_to_html(content_file)
-        title = title_from_html(content)
-        html = template.render(title=title, content=content)
-        html = minify(html, remove_optional_attribute_quotes=False)
-        html_path = Path(output_dir,
-                         content_file.name.replace('.markdown', '.html'))
-        write_html(html, html_path)
-
-    # Minify JavaScript.
-    for script_file in script_files(script_dir, label='Building scripts'):
-        with script_file.open() as file:
-            script = jsmin(file.read())
-        script_path = Path(output_dir, 'js', script_file.name.replace('.js', '.min.js'))
-        with script_path.open('w') as file:
-            file.write(script)
-
-
-    base_dirs = (bootstrap_scss.BASE_DIR, font_awesome.BASE_DIR, jquery.BASE_DIR)
-
-    # Compile Sass stylesheets.
-    sass.compile(dirname=(style_dir, Path(output_dir, 'css')),
-                 include_paths=base_dirs,
-                 output_style='compressed')
-
-    # Copy required static assets.
-    for base_dir in (Path(d) for d in base_dirs):
-        for source_file in asset_files(base_dir,
-                                       subdirs_to_ignore=('scss', 'less')):
-            destination_file = Path(output_dir,
-                                    source_file.relative_to(base_dir))
-            # pylint: disable=no-member
-            destination_file.parent.mkdir(parents=True, exist_ok=True)
-            copy(source_file, destination_file)
+    build_content(content_dir, template_file, output_dir)
+    build_style(style_dir, output_dir)
+    build_script(script_dir, output_dir)
+    copy_assets(output_dir)
 
 
 if __name__ == '__main__':
