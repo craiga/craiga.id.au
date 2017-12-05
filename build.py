@@ -9,7 +9,8 @@ import lxml.html
 import sass
 from htmlmin import minify
 from markdown import markdown
-from xstatic.pkg import bootstrap_scss, font_awesome
+from jsmin import jsmin
+from xstatic.pkg import bootstrap_scss, font_awesome, jquery
 
 
 def create_template(template_file):
@@ -26,6 +27,13 @@ def markdown_files(directory_name, *args, **kwargs):
     """Yield markdown files."""
     path = Path(directory_name)
     with click.progressbar(path.glob('*.markdown'), *args, **kwargs) as fnames:
+        yield from fnames
+
+
+def script_files(directory_name, *args, **kwargs):
+    """Yield script files."""
+    path = Path(directory_name)
+    with click.progressbar(path.glob('*.js'), *args, **kwargs) as fnames:
         yield from fnames
 
 
@@ -71,6 +79,10 @@ def asset_files(base_path, subdirs_to_ignore=()):
               default='style',
               type=click.Path(exists=True, file_okay=False),
               help='A directory containing Sass files.')
+@click.option('--script_dir',
+              default='script',
+              type=click.Path(exists=True, file_okay=False),
+              help='A directory containing JavaScript files.')
 @click.option('--template_file',
               default='template.html',
               type=click.File(),
@@ -79,7 +91,7 @@ def asset_files(base_path, subdirs_to_ignore=()):
               default='docs',
               type=click.Path(writable=True, file_okay=False),
               help='Output directory. Where the HTML files will be written.')
-def build(content_dir, style_dir, template_file, output_dir):
+def build(content_dir, style_dir, script_dir, template_file, output_dir):
     """Build content for craiga.id.au from a series of Markdown files."""
     template = create_template(template_file)
     for content_file in markdown_files(content_dir, label='Building content'):
@@ -91,7 +103,16 @@ def build(content_dir, style_dir, template_file, output_dir):
                          content_file.name.replace('.markdown', '.html'))
         write_html(html, html_path)
 
-    base_dirs = (bootstrap_scss.BASE_DIR, font_awesome.BASE_DIR)
+    # Minify JavaScript.
+    for script_file in script_files(script_dir, label='Building scripts'):
+        with script_file.open() as file:
+            script = jsmin(file.read())
+        script_path = Path(output_dir, 'js', script_file.name.replace('.js', '.min.js'))
+        with script_path.open('w') as file:
+            file.write(script)
+
+
+    base_dirs = (bootstrap_scss.BASE_DIR, font_awesome.BASE_DIR, jquery.BASE_DIR)
 
     # Compile Sass stylesheets.
     sass.compile(dirname=(style_dir, Path(output_dir, 'css')),
