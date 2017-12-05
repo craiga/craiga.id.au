@@ -15,6 +15,9 @@ lxml
 
 htmlmin
 
+jsmin
+
 libsass
 xstatic-bootstrap-scss
 xstatic-font-awesome
+xstatic-jquery
