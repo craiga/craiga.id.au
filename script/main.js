@@ -28,6 +28,7 @@ Raven.context(function () {
     if (keyLog.toString().indexOf(konami) >= 0) {
       $(document).unbind('keydown',arguments.callee);
       konamiRotate();
+      $('.konami-audio').get(0).play();
     }
   });
 });
