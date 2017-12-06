@@ -1,4 +1,4 @@
-function rotateForEver($elem, rotator) {
+function konamiRotate(rotator) {
   if (rotator === void(0)) {
     rotator = $({deg: 0});
   } else {
@@ -8,24 +8,26 @@ function rotateForEver($elem, rotator) {
   return rotator.animate(
     {deg: 360},
     {
-      duration: 45 / 60 * 1000,
+      duration: 45 / 60 * 1000,  // 45 RPM
       easing: 'linear',
-      step: function(now){
-        $elem.css({transform: 'rotate(' + now + 'deg)'});
+      step: function(x){
+        $('.konami-rotate').css({transform: 'rotate(' + x + 'deg)'});
       },
       complete: function(){
-        rotateForEver($elem, rotator);
+        konamiRotate($('.konami-rotate'), rotator);
       },
     }
   );
 }
 
-var kkeys = [], konami = "38,38,40,40,37,39,37,39";
-
-$(document).keydown(function(e) {
-  kkeys.push( e.keyCode );
-  if ( kkeys.toString().indexOf( konami ) >= 0 ) {
-    $(document).unbind('keydown',arguments.callee);
-    rotateForEver($('.konami-rotate'))
-  }
+Raven.context(function () {
+  var keyLog = [];
+  var konami = '38,38,40,40,37,39,37,39';
+  $(document).keydown(function(e) {
+    keyLog.push(e.keyCode);
+    if (keyLog.toString().indexOf(konami) >= 0) {
+      $(document).unbind('keydown',arguments.callee);
+      konamiRotate();
+    }
+  });
 });
