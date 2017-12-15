@@ -11,4 +11,5 @@
       --script_dir DIRECTORY    A directory containing JavaScript files.
       --template_file FILENAME  Template used to build the site.
       --output_dir DIRECTORY    Output directory.
+      --no-pdf                  Do not render PDFs.
       --help                    Show this message and exit.

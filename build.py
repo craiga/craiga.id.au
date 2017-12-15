@@ -148,13 +148,16 @@ def build_pdf(output_dir):
               default='docs',
               type=click.Path(writable=True, file_okay=False),
               help='Output directory.')
-def build(content_dir, style_dir, script_dir, template_file, output_dir):
+@click.option('--no-pdf', is_flag=True, help='Do not render PDFs.')
+def build(content_dir, style_dir, script_dir, template_file, output_dir,
+          no_pdf):
     """Build content for craiga.id.au from a series of Markdown files."""
     build_content(content_dir, template_file, output_dir)
     build_style(style_dir, output_dir)
     build_script(script_dir, output_dir)
-    build_pdf(output_dir)
     copy_assets(output_dir)
+    if not no_pdf:
+        build_pdf(output_dir)
 
 
 if __name__ == '__main__':

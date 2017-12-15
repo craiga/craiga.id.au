@@ -13,6 +13,6 @@ script:
   - pycodestyle
   - pydocstyle
   - pylint *.py
-  - python build.py && git diff --no-ext-diff --exit-code
+  - python build.py --no-pdf && git diff --no-ext-diff --exit-code
   - tidy -config .tidyrc -errors docs/*.html
   - piprot
