@@ -42,3 +42,13 @@ h6, .h6 {
     max-width: 33%;
   }
 }
+
+@media print {
+  .full-width-print {
+    width: 100%;
+  }
+
+  h1 {
+      page-break-after: avoid;
+  }
+}

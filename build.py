@@ -7,6 +7,7 @@ import click
 import jinja2
 import lxml.html
 import sass
+import weasyprint
 from htmlmin import minify
 from markdown import markdown
 from jsmin import jsmin
@@ -14,6 +15,13 @@ from xstatic.pkg import bootstrap_scss, font_awesome, jquery
 
 
 ASSET_MODULES = (bootstrap_scss, font_awesome, jquery)
+
+
+def files(directory_name, glob_pattern, *args, **kwargs):
+    """Yield files."""
+    path = Path(directory_name)
+    with click.progressbar(path.glob(glob_pattern), *args, **kwargs) as fnames:
+        yield from fnames
 
 
 def create_template(template_file):
@@ -24,13 +32,6 @@ def create_template(template_file):
         template_content = template_content + line
 
     return jinja2.Template(template_content)
-
-
-def markdown_files(directory_name, *args, **kwargs):
-    """Yield markdown files."""
-    path = Path(directory_name)
-    with click.progressbar(path.glob('*.markdown'), *args, **kwargs) as fnames:
-        yield from fnames
 
 
 def markdown_file_to_html(file_path):
@@ -59,7 +60,8 @@ def write_html(html, html_path):
 def build_content(content_dir, template_file, output_dir):
     """Build site content."""
     template = create_template(template_file)
-    for content_file in markdown_files(content_dir, label='Building content'):
+    for content_file in files(content_dir, '*.markdown',
+                              label='Building content'):
         content = markdown_file_to_html(content_file)
         title = title_from_html(content)
         html = template.render(title=title, content=content)
@@ -76,16 +78,9 @@ def build_style(style_dir, output_dir):
                  output_style='compressed')
 
 
-def script_files(directory_name, *args, **kwargs):
-    """Yield script files."""
-    path = Path(directory_name)
-    with click.progressbar(path.glob('*.js'), *args, **kwargs) as fnames:
-        yield from fnames
-
-
 def build_script(script_dir, output_dir):
     """Build site script."""
-    for script_file in script_files(script_dir, label='Building scripts'):
+    for script_file in files(script_dir, '*.js', label='Building scripts'):
         with script_file.open() as file:
             script = jsmin(file.read())
         script_path = Path(output_dir, 'js',
@@ -116,6 +111,22 @@ def copy_assets(output_dir):
             copy(source_file, destination_file)
 
 
+def script_files(directory_name, *args, **kwargs):
+    """Yield HTML files."""
+    path = Path(directory_name)
+    with click.progressbar(path.glob('*.html'), *args, **kwargs) as fnames:
+        yield from fnames
+
+
+def build_pdf(output_dir):
+    """Build PDF versions of each content page."""
+    for html_file in files(output_dir, '*.html', label='Building PDFs'):
+        html = weasyprint.HTML(filename=html_file)
+        pdf_path = Path(output_dir,
+                        html_file.name.replace('.html', '.pdf'))
+        html.write_pdf(pdf_path)
+
+
 @click.command()
 @click.option('--content_dir',
               default='content',
@@ -136,12 +147,13 @@ def copy_assets(output_dir):
 @click.option('--output_dir',
               default='docs',
               type=click.Path(writable=True, file_okay=False),
-              help='Output directory. Where the HTML files will be written.')
+              help='Output directory.')
 def build(content_dir, style_dir, script_dir, template_file, output_dir):
     """Build content for craiga.id.au from a series of Markdown files."""
     build_content(content_dir, template_file, output_dir)
     build_style(style_dir, output_dir)
     build_script(script_dir, output_dir)
+    build_pdf(output_dir)
     copy_assets(output_dir)
 
 
