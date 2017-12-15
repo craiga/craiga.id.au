@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
-astroid==1.5.3            # via pylint
+astroid==1.6.0            # via pylint
 cairocffi==0.8.0          # via cairosvg, weasyprint
 cairosvg==2.1.2           # via weasyprint
 certifi==2017.11.5        # via requests
