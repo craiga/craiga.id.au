@@ -149,15 +149,16 @@ def build_pdf(output_dir):
               type=click.Path(writable=True, file_okay=False),
               help='Output directory.')
 @click.option('--no-pdf', is_flag=True, help='Do not render PDFs.')
-def build(content_dir, style_dir, script_dir, template_file, output_dir,
-          no_pdf):
+def build(**kwargs):
     """Build content for craiga.id.au from a series of Markdown files."""
-    build_content(content_dir, template_file, output_dir)
-    build_style(style_dir, output_dir)
-    build_script(script_dir, output_dir)
-    copy_assets(output_dir)
+    build_content(kwargs['content_dir'],
+                  kwargs['template_file'],
+                  kwargs['output_dir'])
+    build_style(kwargs['style_dir'], kwargs['output_dir'])
+    build_script(kwargs['script_dir'], kwargs['output_dir'])
+    copy_assets(kwargs['output_dir'])
     if not no_pdf:
-        build_pdf(output_dir)
+        build_pdf(kwargs['output_dir'])
 
 
 if __name__ == '__main__':
