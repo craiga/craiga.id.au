@@ -157,7 +157,7 @@ def build(**kwargs):
     build_style(kwargs['style_dir'], kwargs['output_dir'])
     build_script(kwargs['script_dir'], kwargs['output_dir'])
     copy_assets(kwargs['output_dir'])
-    if not no_pdf:
+    if not kwargs['no_pdf']:
         build_pdf(kwargs['output_dir'])
 
 
