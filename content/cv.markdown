@@ -4,8 +4,7 @@ I’m a back end web developer with over 17 years of experience looking for my f
 
 ## Contact Details
 
- * Email: [craiga@craiga.id.au](mailto:craiga@craiga.id.au)
- * Web: [craiga.id.au](http://www.craiga.id.au/)
+I'm contactable via [email](mailto:craiga@craiga.id.au) or via other methods listed on [my web site](http://craiga.id.au/).
 
 ## Skills Summary
 
@@ -81,11 +80,11 @@ Assisted with the development of a tram scheduling system which utilised a genet
 
 ### unixtimesta.mp
 
-[unixtimesta.mp](https://www.unixtimesta.mp/) is a simple web site for converting Unix timestamps into human-readable dates. Originally written in PHP and hosted on AWS, the site now uses the Flask framework, and Travis CI and Heroku for constant deployment.  The rewrite employed test-driven development practices. [The source code is available on GitHub.](https://github.com/craiga/unixtimesta.mp/)
+[unixtimesta.mp](https://www.unixtimesta.mp/) is a simple web site for converting Unix timestamps into human-readable dates. Originally written in PHP and hosted on AWS, the site now uses the Flask framework, and Travis CI and Heroku for constant deployment.  The rewrite employed test-driven development practices. [The source code is available on GitHub](https://github.com/craiga/unixtimesta.mp/).
 
 ### Open Footy Data
 
-Open Footy Data is an API built using the Django REST Framework intended to become part of a footy tipping[^footy-tipping] web app. [The source code is available on GitHub.](https://github.com/craiga/openfootydata/)
+Open Footy Data is an API built using the Django REST Framework intended to become part of a footy tipping[^footy-tipping] web app. [The source code is available on GitHub](https://github.com/craiga/openfootydata/).
 
 
 ## Education
