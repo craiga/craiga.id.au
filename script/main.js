@@ -22,7 +22,7 @@ function konamiRotate(rotator) {
 
 Raven.context(function () {
   var keyLog = [];
-  var konami = '38,38,40,40,37,39,37,39';
+  var konami = '38,38,40,40,37,39,37,39,66,65';
   $(document).keydown(function(e) {
     keyLog.push(e.keyCode);
     if (keyLog.toString().indexOf(konami) >= 0) {
