@@ -2,7 +2,6 @@ pip-tools
 pycodestyle
 pydocstyle
 pylint
-pylint_mccabe
 piprot
 
 click
