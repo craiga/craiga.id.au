@@ -8,12 +8,12 @@ I'm contactable via [email](mailto:craiga@craiga.id.au) or via other methods lis
 
 ## Skills Summary
 
+ * Python 3
  * Django
  * Django Rest Framework
  * Celery
  * Docker and Docker Compose
  * Flask
- * Python
 
 
 ## Work History
