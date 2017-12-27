@@ -18,7 +18,7 @@ I'm contactable via [email](mailto:craiga@craiga.id.au) or via other methods lis
 
 ## Work History
 
-### Senior Back End Developer, Ten Group (Feb ‘17–Jan ‘18)
+### Senior Back End Developer, Ten Group (Feb&nbsp;‘17–Jan&nbsp;‘18)
 
 As part of a team of senior developers, established a platform to replace an existing prototype. The new platform is implemented using Django Rest Framework, Docker Compose, PostgreSQL and Celery.
 
@@ -26,11 +26,11 @@ Technical lead on the Ten platform's travel component, a web site which integrat
 
 Also led development of the platform's integration with Ten's internal CRM platform using SOAP and a custom XML API.
 
-### Tech Team Lead, Ubiquity Press (Oct ‘16–Feb ‘17)
+### Tech Team Lead, Ubiquity Press (Oct&nbsp;‘16–Feb&nbsp;‘17)
 
 Responsible for setting the technical direction of the company whilst maintaining a suite of Django- and PHP-based legacy applications.
 
-### Senior Web Developer, Squareweave (Dec ‘15–Oct ‘16)
+### Senior Web Developer, Squareweave (Dec&nbsp;‘15–Oct&nbsp;‘16)
 
 Technical lead on ehHAT, a survey implemented in Django and MySQL using test-driven development techniques in a Docker-powered development environment. ehHAT is used by mental health clinicians to interview young people before their counselling session. In this project I:
 
@@ -40,13 +40,13 @@ Technical lead on ehHAT, a survey implemented in Django and MySQL using test-dri
 
 Worked developing and maintaining HAPI, a system used by headspace (the Australian national youth mental health foundation) to collect and analyse information from young people. This project made use of Vagrant to maintain development environments.
 
-### Back End and API Custom Services Development Team Lead, Australian Broadcasting Corporation (Jul ‘15–Dec ‘15)
+### Back End and API Custom Services Development Team Lead, Australian Broadcasting Corporation (Jul&nbsp;‘15–Dec&nbsp;‘15)
 
 Managed a geographically diverse team of developers through an organisational restructure.
 
 Ran an audit of systems across the ABC and worked with stakeholders to rationalise systems.
 
-### Senior Web Developer, Australian Broadcasting Corporation (Sep ‘11–Jun ‘15)
+### Senior Web Developer, Australian Broadcasting Corporation (Sep&nbsp;‘11–Jun&nbsp;‘15)
 
 Technical lead on Club3, a social network for 8– to 12–year olds. Club3 was written in PHP using the Symfony framework, backed by MySQL and SQLite databases. As part of my work on Club3, I:
 
@@ -57,7 +57,7 @@ Technical lead on Club3, a social network for 8– to 12–year olds. Club3 was 
 
 Provided technical leadership and advice to producers, managers and developers in the ABC Kids team.
 
-### Senior Web Developer, SitePoint Group (Jan ‘07–Sep ‘11)
+### Senior Web Developer, SitePoint Group (Jan&nbsp;‘07–Sep&nbsp;‘11)
 
 Worked in the development teams of 99designs, Learnable and SitePoint.
 
@@ -65,11 +65,11 @@ Worked on custom PHP applications for government and corporate clients.
 
 Provided technical mentoring to other developers within the company, specifically on JavaScript development and application architecture.
 
-### Technical Editor, SitePoint Group (Jun ‘05–Dec ‘06)
+### Technical Editor, SitePoint Group (Jun&nbsp;‘05–Dec&nbsp;‘06)
 
 Edited books for technical correctness and adherence to best practices on subjects such as ASP.NET development, server administration, AJAX, web design and CSS.
 
-### Analyst Programmer, Infosys (Jan 2000–Jun ‘05)
+### Analyst Programmer, Infosys (Jan&nbsp;2000–Jun&nbsp;‘05)
 
 Architected an asset management system for City West Water for development offshore. Liaised extensively with a development team in India.
 
