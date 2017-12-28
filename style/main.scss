@@ -99,3 +99,13 @@ h6, .h6 {
   h5, .h5 { font-size: $font-size-h5; }
   h6, .h6 { font-size: $font-size-h6; }
 }
+
+@page {
+  @bottom-left {
+    content: 'http://craiga.id.au/';
+  }
+
+  @bottom-right {
+    content: counter(page) " of " counter(pages);
+  }
+}
