@@ -20,9 +20,9 @@ Contact me via [email](mailto:craiga@craiga.id.au) or [my web site](http://craig
 
 ### Senior Back End Developer, Ten Group (Feb&nbsp;‘17–Jan&nbsp;‘18)
 
-As part of a team of senior developers, established a platform to replace an existing prototype. The new platform is implemented using Django Rest Framework, Docker Compose, PostgreSQL and Celery.
+As part of a team of senior developers, established a platform to replace an existing prototype. The new platform was implemented using Django Rest Framework, PostgreSQL and Celery. It made extensive use of Docker and Docker Compose.
 
-Technical lead on the Ten platform's travel component, a web site which integrates with a number of services to book flights, hotels, and car hire.
+Technical lead on the Ten platform's back end travel component, an API which integrates with a number of services to book flights, hotels, and car hire.
 
 Also led development of the platform's integration with Ten's internal CRM platform using SOAP and a custom XML API.
 

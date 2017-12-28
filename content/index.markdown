@@ -1,10 +1,8 @@
 # Craig Anderson
 
-Australian in London.
+By day, he's a contracting Python developer specialising in Django. [Check out his <abbr title="curriculum vitae">CV</abbr>](/cv) or [download the PDF version](/cv.pdf). If you'd like to hire him, [send him an email](mailto:craiga@craiga.id.au).
 
-By day, he's a contract Python developer specialising in Django based in London. [Check out his <abbr title="curriculum vitae">CV</abbr>](/cv) or [download the PDF version](/cv.pdf). If you'd like to hire him, [send him an email](mailto:craiga@craiga.id.au).
-
-By night, he's probably seeing live music or hunting out an obscure craft beer. When in Australia, he might occasionally play bass guitar in [Look Who's Toxic](http://lookwhostoxic.com).
+By night, he's exploring his adopted home city of London, probably seeing live music or hunting out an obscure craft beer. When back in Melbourne, he might occasionally play bass guitar in [Look Who's Toxic](http://lookwhostoxic.com).
 
 He also runs [a little Unix Timestamp conversion site](https://www.unixtimesta.mp).
 
