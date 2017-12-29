@@ -15,7 +15,7 @@ cssselect2==0.2.1         # via cairosvg, weasyprint
 defusedxml==0.5.0         # via cairosvg
 first==2.0.1              # via pip-tools
 html5lib==1.0.1           # via weasyprint
-htmlmin==0.1.11
+htmlmin==0.1.12
 idna==2.6                 # via requests
 isort==4.2.15             # via pylint
 jinja2==2.10
