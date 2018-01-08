@@ -6,7 +6,7 @@
 #
 astroid==1.6.0            # via pylint
 cairocffi==0.8.0          # via cairosvg, weasyprint
-cairosvg==2.1.2           # via weasyprint
+cairosvg==2.1.3           # via weasyprint
 certifi==2017.11.5        # via requests
 cffi==1.11.2              # via cairocffi, weasyprint
 chardet==3.0.4            # via requests
@@ -23,12 +23,11 @@ jsmin==2.2.2
 lazy-object-proxy==1.3.1  # via astroid
 libsass==0.13.4
 lxml==4.1.1
-markdown==2.6.10
+markdown==2.6.11
 markupsafe==1.0           # via jinja2
 mccabe==0.6.1             # via pylint
-olefile==0.44             # via pillow
 pdfrw==0.4                # via weasyprint
-pillow==4.3.0             # via cairosvg
+pillow==5.0.0             # via cairosvg
 pip-tools==1.11.0
 piprot==0.9.7
 pycodestyle==2.3.1
