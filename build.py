@@ -137,6 +137,10 @@ def update_cvs():
         ('LinkedIn', 'https://www.linkedin.com/in/craigeanderson/'),
         ('Stack Overflow', 'https://stackoverflow.com/users/story/1852024'),
         ('YunoJuno', 'https://uk.yunojuno.com/profile/manage/'),
+        (
+            'DjangoGigs',
+            'https://djangogigs.com/developers/craig-anderson/edit/',
+        ),
     )
     for title, url in msgs:
         template = ("I've you've updated your CV, maybe you should update {} "
