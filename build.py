@@ -17,6 +17,28 @@ from xstatic.pkg import bootstrap_scss, font_awesome, jquery
 ASSET_MODULES = (bootstrap_scss, font_awesome, jquery)
 
 
+# 3-tuples of URLs, titles, and FontAwesome 4 class names.
+LINKS = (('/', 'Home', 'fa-home'),
+         ('/cv', 'CV', 'fa-briefcase'),
+         (
+             'https://www.linkedin.com/in/craigeanderson',
+             'LinkedIn',
+             'fa-linkedin'
+         ),
+         (
+             'https://www.nextfree.co.uk/for/craig-anderson',
+             'Nextfree',
+             'fa-calendar',
+         ),
+         ('https://uk.yunojuno.com/p/craiga', 'YunoJuno', 'fa-asterisk'),
+         ('https://github.com/craiga', 'GitHub', 'fa-github'),
+         ('https://twitter.com/_craiga', 'Twitter', 'fa-twitter'),
+         ('https://facebook.com/craiga', 'Facebook', 'fa-facebook'),
+         ('https://www.instagram.com/_craiga/', 'Instagram', 'fa-instagram'),
+         ('https://www.last.fm/user/craiganderson', 'Last.fm', 'fa-lastfm'),
+         ('mailto:craiga@craiga.id.au', 'Email', 'fa-envelope'))
+
+
 def files(directory_name, glob_pattern, *args, **kwargs):
     """Yield files."""
     path = Path(directory_name)
@@ -64,7 +86,7 @@ def build_content(content_dir, template_file, output_dir):
                               label='Building content'):
         content = markdown_file_to_html(content_file)
         title = title_from_html(content)
-        html = template.render(title=title, content=content)
+        html = template.render(title=title, content=content, links=LINKS)
         html = minify(html, remove_optional_attribute_quotes=False)
         html_path = Path(output_dir,
                          content_file.name.replace('.markdown', '.html'))
