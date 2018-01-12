@@ -127,6 +127,27 @@ def build_pdf(output_dir):
         html.write_pdf(pdf_path)
 
 
+def update_cvs():
+    """
+    Update CVs on other sites.
+
+    Advises user to do this manually.
+    """
+    msgs = (
+        ('LinkedIn', 'https://www.linkedin.com/in/craigeanderson/'),
+        ('Stack Overflow', 'https://stackoverflow.com/users/story/1852024'),
+        ('YunoJuno', 'https://uk.yunojuno.com/profile/manage/'),
+        (
+            'DjangoGigs',
+            'https://djangogigs.com/developers/craig-anderson/edit/',
+        ),
+    )
+    for title, url in msgs:
+        template = ("I've you've updated your CV, maybe you should update {} "
+                    "at {} too?")
+        click.echo(template.format(title, url))
+
+
 @click.command()
 @click.option('--content_dir',
               default='content',
@@ -159,6 +180,7 @@ def build(**kwargs):
     copy_assets(kwargs['output_dir'])
     if not kwargs['no_pdf']:
         build_pdf(kwargs['output_dir'])
+    update_cvs()
 
 
 if __name__ == '__main__':
