@@ -21,6 +21,8 @@ ASSET_MODULES = (bootstrap_scss, font_awesome, jquery)
 LINKS = (('/', 'Home', 'fa-home'),
          ('/cv', 'CV', 'fa-briefcase'),
          ('https://www.linkedin.com/in/craigeanderson', 'LinkedIn', 'fa-linkedin'),
+         ('https://www.nextfree.co.uk/for/craig-anderson', 'Nextfree', 'fa-calendar'),
+         ('https://uk.yunojuno.com/p/craiga', 'YunoJuno', 'fa-asterisk'),
          ('https://github.com/craiga', 'GitHub', 'fa-github'),
          ('https://twitter.com/_craiga', 'Twitter', 'fa-twitter'),
          ('https://facebook.com/craiga', 'Facebook', 'fa-facebook'),
