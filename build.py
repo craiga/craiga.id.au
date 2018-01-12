@@ -20,17 +20,23 @@ ASSET_MODULES = (bootstrap_scss, font_awesome, jquery)
 # 3-tuples of URLs, titles, and FontAwesome 4 class names.
 LINKS = (('/', 'Home', 'fa-home'),
          ('/cv', 'CV', 'fa-briefcase'),
-         ('https://www.linkedin.com/in/craigeanderson', 'LinkedIn', 'fa-linkedin'),
-         ('https://www.nextfree.co.uk/for/craig-anderson', 'Nextfree', 'fa-calendar'),
+         (
+             'https://www.linkedin.com/in/craigeanderson',
+             'LinkedIn',
+             'fa-linkedin'
+         ),
+         (
+             'https://www.nextfree.co.uk/for/craig-anderson',
+             'Nextfree',
+             'fa-calendar',
+         ),
          ('https://uk.yunojuno.com/p/craiga', 'YunoJuno', 'fa-asterisk'),
          ('https://github.com/craiga', 'GitHub', 'fa-github'),
          ('https://twitter.com/_craiga', 'Twitter', 'fa-twitter'),
          ('https://facebook.com/craiga', 'Facebook', 'fa-facebook'),
          ('https://www.instagram.com/_craiga/', 'Instagram', 'fa-instagram'),
          ('https://www.last.fm/user/craiganderson', 'Last.fm', 'fa-lastfm'),
-         ('mailto:craiga@craiga.id.au', 'Email', 'fa-envelope'),
-        )
-
+         ('mailto:craiga@craiga.id.au', 'Email', 'fa-envelope'))
 
 
 def files(directory_name, glob_pattern, *args, **kwargs):
