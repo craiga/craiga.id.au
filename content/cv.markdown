@@ -13,7 +13,6 @@ Contact me via [email](mailto:craiga@craiga.id.au) or [my web site](http://craig
  * Django Rest Framework
  * Celery
  * Docker and Docker Compose
- * Flask
 
 
 ## Work History
