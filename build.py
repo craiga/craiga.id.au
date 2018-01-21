@@ -163,6 +163,10 @@ def update_cvs():
             'DjangoGigs',
             'https://djangogigs.com/developers/craig-anderson/edit/',
         ),
+        (
+            'JobServe',
+            'https://www.jobserve.com/gb/en/Candidate/MyProfile.aspx',
+        ),
     )
     for title, url in msgs:
         template = ("I've you've updated your CV, maybe you should update {} "
