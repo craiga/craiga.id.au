@@ -167,6 +167,8 @@ def update_cvs():
             'JobServe',
             'https://www.jobserve.com/gb/en/Candidate/MyProfile.aspx',
         ),
+        ('Dice', ('https://uk.dice.com/dashboard/profiles/'
+                  'cbe4c8e43cfb622cf97d86572860760e')),
     )
     for title, url in msgs:
         template = ("I've you've updated your CV, maybe you should update {} "
