@@ -163,6 +163,10 @@ def update_cvs():
             'DjangoGigs',
             'https://djangogigs.com/developers/craig-anderson/edit/',
         ),
+        (
+            'JobServe',
+            'https://www.jobserve.com/gb/en/Candidate/MyProfile.aspx',
+        ),
         ('Dice', ('https://uk.dice.com/dashboard/profiles/'
                   'cbe4c8e43cfb622cf97d86572860760e')),
     )
