@@ -169,6 +169,7 @@ def update_cvs():
         ),
         ('Dice', ('https://uk.dice.com/dashboard/profiles/'
                   'cbe4c8e43cfb622cf97d86572860760e')),
+        ('Honeypot', 'https://app.honeypot.io/profile'),
     )
     for title, url in msgs:
         template = ("I've you've updated your CV, maybe you should update {} "
