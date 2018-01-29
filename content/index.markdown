@@ -1,9 +1,9 @@
-# Craig Anderson
+# Hello, I'm Craig Anderson
 
-By day, he's a contracting Python developer specialising in Django. [Check out his <abbr title="curriculum vitae">CV</abbr>](/cv) or [download the PDF version](/cv.pdf). If you'd like to hire him, [send him an email](mailto:craiga@craiga.id.au).
+By day, I'm a contracting Python developer specialising in Django. [Check out my <abbr title="curriculum vitae">CV</abbr>](/cv) (or [download the PDF version](/cv.pdf) if you prefer). If you'd like to hire me, [please send me an email](mailto:craiga@craiga.id.au). At the moment, I'm available from 31st January.
 
-By night, he's exploring his adopted home city of London, probably seeing live music or hunting out an obscure craft beer. When back in Melbourne, he might occasionally play bass guitar in [Look Who's Toxic](http://lookwhostoxic.com).
+By night, you might find me exploring my adopted home city of London, seeing live music, or hunting out an obscure craft beer. When back in Melbourne, I might occasionally play bass guitar in [Look Who's Toxic](http://lookwhostoxic.com).
 
-He also runs [a little Unix Timestamp conversion site](https://www.unixtimesta.mp).
+I also run [a little Unix Timestamp conversion site](https://www.unixtimesta.mp).
 
-There are plenty of other things he should be doing, but most of the time he's dreaming of what he'll do when he grows up while watching bad Star Trek spin-offs.
+There are plenty of other things I should be doing, but most of the time I'm dreaming about what I'll do when I grow up while watching bad Star Trek spin-offs.
