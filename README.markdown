@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/craiga/craiga.id.au.svg?branch=master)](https://travis-ci.org/craiga/craiga.id.au) [![Requirements Status](https://requires.io/github/craiga/craiga.id.au/requirements.svg?branch=master)](https://requires.io/github/craiga/craiga.id.au/requirements/?branch=master)
 
-    $ python build.py --help
+    $ pipenv run python build.py --help
     Usage: build.py [OPTIONS]
 
       Build content for craiga.id.au from a series of Markdown files.

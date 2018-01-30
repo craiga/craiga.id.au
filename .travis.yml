@@ -9,10 +9,12 @@ cache: pip
 python:
   - "3.6"
   - "3.6-dev"
+install:
+  - pip install pipenv
+  - pipenv install --dev
 script:
-  - pycodestyle
-  - pydocstyle
-  - pylint *.py
-  - python build.py --no-pdf && git diff --no-ext-diff --exit-code
+  - pipenv run pycodestyle
+  - pipenv run pydocstyle
+  - find . -iname "*.py" | xargs pipenv run pylint
+  - pipenv run python build.py --no-pdf && git diff --no-ext-diff --exit-code
   - tidy -config .tidyrc -errors docs/*.html
-  - piprot
