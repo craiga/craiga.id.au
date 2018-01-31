@@ -1,6 +1,6 @@
 # Craig Anderson — CV
 
-I’m a back end web developer with over 17 years of experience looking for my first contracting role. I’m interested in contracting as it should, in time, give me more flexibility to move as my partner’s academic career demands. I’m a strong proponent for test-driven development, and am motivated by work for social good.
+I’m a back end web developer with over 18 years of experience looking for my first contracting role. I’m interested in contracting as it should, in time, give me more flexibility to move as my partner’s academic career demands. I’m a strong proponent for test-driven development, and am motivated by work for social good.
 
 ## Contact Details
 
@@ -8,82 +8,80 @@ Contact me via [email](mailto:craiga@craiga.id.au) or [my web site](http://craig
 
 ## Skills Summary
 
- * Python 3
- * Django
- * Django Rest Framework
- * Celery
- * Docker and Docker Compose
+* Python 3
+* Django
+* Django Rest Framework
+* Celery
+* Docker and Docker Compose
 
 
 ## Work History
 
 ### Senior Back End Developer, Ten Group (Feb&nbsp;‘17–Jan&nbsp;‘18)
 
-As part of a team of senior developers, established a platform to replace an existing prototype. The new platform was implemented using Django Rest Framework, PostgreSQL and Celery. It made extensive use of Docker and Docker Compose.
+[Ten Group](http://tengroup.com) is a luxury lifestyle concierge service. In 2016, they chose to start development of an online concierge platform in-house.
 
-Technical lead on the Ten platform's back end travel component, an API which integrates with a number of services to book flights, hotels, and car hire.
-
-Also led development of the platform's integration with Ten's internal CRM platform using SOAP and a custom XML API.
+* As part of a team of senior developers, I helped establish a new platform to replace an existing prototype. The new platform was implemented using Django Rest Framework, PostgreSQL and Celery. It made extensive use of Docker and Docker Compose.
+* I was technical lead on the platform's back end travel component, an API which integrates with a number of services to book flights, hotels, and car hire.
+* I also led development of the platform's integration with Ten's internal CRM platform using SOAP and a custom XML API.
 
 ### Tech Team Lead, Ubiquity Press (Oct&nbsp;‘16–Feb&nbsp;‘17)
 
-Responsible for setting the technical direction of the company whilst maintaining a suite of Django- and PHP-based legacy applications.
+[Ubiquity Press](http://ubiquitypress.com) is a publisher of open-access academic journals, books and data.
+
+* I was responsible for setting the technical direction of the company whilst maintaining a suite of Django- and PHP-based legacy applications.
 
 ### Senior Web Developer, Squareweave (Dec&nbsp;‘15–Oct&nbsp;‘16)
 
-Technical lead on ehHAT, a survey implemented in Django and MySQL using test-driven development techniques in a Docker-powered development environment. ehHAT is used by mental health clinicians to interview young people before their counselling session. In this project I:
+[Squareweave](http://squareweave.com.au) is a full-service digital agency focused on non-profits and social enterprise clients.
 
- * Led back end development;
- * Coordinated with project stakeholders; and
- * Participated in user experience testing sessions.
+* I was technical lead on ehHAT, a survey implemented in Django and MySQL using test-driven development techniques in a Docker-powered development environment. ehHAT is used by mental health clinicians to interview young people before their counselling session. In this project I:
+    * Led back end development;
+    * Coordinated with project stakeholders; and
+    * Participated in user experience testing sessions.
+* I was also part of the team developing and maintaining HAPI, a system used by headspace (the Australian national youth mental health foundation) to collect and analyse information from young people. This project made use of Vagrant to maintain development environments.
 
-Worked developing and maintaining HAPI, a system used by headspace (the Australian national youth mental health foundation) to collect and analyse information from young people. This project made use of Vagrant to maintain development environments.
+### Australian Broadcasting Corporation (ABC)
 
-### Back End and API Custom Services Development Team Lead, Australian Broadcasting Corporation (Jul&nbsp;‘15–Dec&nbsp;‘15)
+The [ABC](http://abc.net.au) is Australia's national broadcaster, similar to the BBC in Britain.
 
-Managed a geographically diverse team of developers through an organisational restructure.
+#### Back End and API Custom Services Development Team Lead (Jul&nbsp;‘15–Dec&nbsp;‘15)
 
-Ran an audit of systems across the ABC and worked with stakeholders to rationalise systems.
+* I managed a geographically diverse team of developers through an organisational restructure.
+* I ran an audit of systems across the ABC and worked with stakeholders to rationalise systems.
 
-### Senior Web Developer, Australian Broadcasting Corporation (Sep&nbsp;‘11–Jun&nbsp;‘15)
+#### Senior Web Developer (Sep&nbsp;‘11–Jun&nbsp;‘15)
 
-Technical lead on Club3, a social network for 8– to 12–year olds. Club3 was written in PHP using the Symfony framework, backed by MySQL and SQLite databases. As part of my work on Club3, I:
+* I was technical lead on Club3, a social network for 8– to 12–year olds. Club3 was written in PHP using the Symfony framework, backed by MySQL and SQLite databases. As part of my work on Club3, I:
+    * Coordinated migration of Club3 onto Amazon Web Services for production and Vagrant for development;
+    * Led development of ABC3 RAWR, a user-generated video platform built on top of Club3 which was nominated for a Webby award. Video uploaded to this platform is now broadcast on ABC3[^abc3-rebrand]; and
+    * Developed the Club3 game scoring API, and coordinated with game developers to improve the game scoring API and its documentation.
+    * Developed a video transcoding microservice to manage interaction with Zencoder in Flask (a Python microframework) with a DynamoDB NoSQL database.
+* I provided technical leadership and advice to producers, managers and developers in the ABC Kids team.
 
- * Coordinated migration of Club3 onto Amazon Web Services for production and Vagrant for development;
- * Led development of ABC3 RAWR, a user-generated video platform built on top of Club3 which was nominated for a Webby award. Video uploaded to this platform is now broadcast on ABC3[^abc3-rebrand]; and
- * Developed the Club3 game scoring API, and coordinated with game developers to improve the game scoring API and its documentation.
- * Developed a video transcoding microservice to manage interaction with Zencoder in Flask (a Python microframework) with a DynamoDB NoSQL database.
+### SitePoint Group
 
-Provided technical leadership and advice to producers, managers and developers in the ABC Kids team.
+[The SitePoint Group](https://www.sitepoint.com) is a publisher of books, courses and articles for web developers as well as being a collective of start-up business.
 
-### Senior Web Developer, SitePoint Group (Jan&nbsp;‘07–Sep&nbsp;‘11)
+#### Senior Web Developer (Jan&nbsp;‘07–Sep&nbsp;‘11)
 
-Worked in the development teams of 99designs, Learnable and SitePoint.
+* I worked in the development teams of 99designs, Learnable and SitePoint as well as custom PHP applications for government and corporate clients.
+* I provided technical mentoring to other developers within the company, specifically on JavaScript development and application architecture.
 
-Worked on custom PHP applications for government and corporate clients.
+#### Technical Editor (Jun&nbsp;‘05–Dec&nbsp;‘06)
 
-Provided technical mentoring to other developers within the company, specifically on JavaScript development and application architecture.
+* As part of the editorial team, I edited books for technical correctness and adherence to best practices on subjects such as ASP.NET development, server administration, AJAX, web design and CSS.
 
-### Technical Editor, SitePoint Group (Jun&nbsp;‘05–Dec&nbsp;‘06)
+### Prior Roles
 
-Edited books for technical correctness and adherence to best practices on subjects such as ASP.NET development, server administration, AJAX, web design and CSS.
-
-### Analyst Programmer, Infosys (Jan&nbsp;2000–Jun&nbsp;‘05)
-
-Architected an asset management system for City West Water for development offshore. Liaised extensively with a development team in India.
-
-Assisted with the development of a tram scheduling system which utilised a genetic algorithm to produce the most efficient schedule possible.
-
+* Analyst Programmer, Infosys (Jan&nbsp;2000–Jun&nbsp;‘05)
+* Duty Programmer, RMIT University Department of Computer Science (July&nbsp;'99–Dec&nbsp;'99)
 
 ## Personal Projects
 
 ### unixtimesta.mp
 
 [unixtimesta.mp](https://www.unixtimesta.mp/) is a simple web site for converting Unix timestamps into human-readable dates. Originally written in PHP and hosted on AWS, the site now uses the Flask framework, and Travis CI and Heroku for constant deployment.  The rewrite employed test-driven development practices. [The source code is available on GitHub](https://github.com/craiga/unixtimesta.mp/).
-
-### Open Footy Data
-
-Open Footy Data is an API built using the Django REST Framework intended to become part of a footy tipping[^footy-tipping] web app. [The source code is available on GitHub](https://github.com/craiga/openfootydata/).
 
 
 ## Education
