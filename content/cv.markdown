@@ -94,5 +94,3 @@ Used languages such as Java, C, C++ and Ada.
 
 
 [^abc3-rebrand]: The ABC have since re-branded ABC3 as ABC ME, and ABC3 RAWR as ABC ME Your Films.
-
-[^footy-tipping]: “Footy Tipping” is popular in many Australian social groups. It’s a competition conducted over a football season where each competitor attempts to guess (or “tip”) the winner of each week’s matches. Scores are updated weekly, and the winner is the person who tipped the most correct matches during the season. There’s usually a small cash prize involved, but gambling isn’t the main motivation.
