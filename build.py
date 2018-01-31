@@ -161,7 +161,7 @@ def update_cvs():
         ('YunoJuno', 'https://uk.yunojuno.com/profile/manage/'),
         (
             'DjangoGigs',
-            'https://djangogigs.com/developers/craig-anderson/edit/',
+            'https://djangogigs.com/developers/craig-anderson2/',
         ),
         (
             'JobServe',
