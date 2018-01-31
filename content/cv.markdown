@@ -21,8 +21,8 @@ Contact me via [email](mailto:craiga@craiga.id.au) or [my web site](http://craig
 
 [Ten Group](http://tengroup.com) is a luxury lifestyle concierge service. In 2016, they chose to start development of an online concierge platform in-house.
 
-* As part of a team of senior developers, I helped establish a new platform to replace an existing prototype. The new platform was implemented using Django Rest Framework, PostgreSQL and Celery. It made extensive use of Docker and Docker Compose.
-* I was technical lead on the platform's back end travel component, an API which integrates with a number of services to book flights, hotels, and car hire.
+* As part of a team of senior developers, I helped establish a new platform to replace an existing prototype. The new platform is being implemented using Django, Django Rest Framework and Celery. It's also making extensive user of Docker and Docker Compose.
+* I was technical lead on the platform's back end travel component, an API which integrates with a number of third-party services to search for and book flights, hotels, and cars to hire.
 * I also led development of the platform's integration with Ten's internal CRM platform using SOAP and a custom XML API.
 
 ### Tech Team Lead, Ubiquity Press (Oct&nbsp;‘16–Feb&nbsp;‘17)
@@ -35,11 +35,11 @@ Contact me via [email](mailto:craiga@craiga.id.au) or [my web site](http://craig
 
 [Squareweave](http://squareweave.com.au) is a full-service digital agency focused on non-profits and social enterprise clients.
 
-* I was technical lead on ehHAT, a survey implemented in Django and MySQL using test-driven development techniques in a Docker-powered development environment. ehHAT is used by mental health clinicians to interview young people before their counselling session. In this project I:
+* I was technical lead on ehHAT, a survey system for headspace (the Australian national youth mental health foundation) implemented using Django  in a Docker-powered development environment. ehHAT is used by mental health clinicians to interview young people before their counselling session. In this project I:
     * Led back end development;
     * Coordinated with project stakeholders; and
     * Participated in user experience testing sessions.
-* I was also part of the team developing and maintaining HAPI, a system used by headspace (the Australian national youth mental health foundation) to collect and analyse information from young people. This project made use of Vagrant to maintain development environments.
+* I was also part of the team developing and maintaining HAPI, a PHP-based system used by headspace to collect and analyse information from young people.
 
 ### Australian Broadcasting Corporation (ABC)
 
@@ -91,6 +91,11 @@ The [ABC](http://abc.net.au) is Australia's national broadcaster, similar to the
 Graduated with Distinction.
 
 Used languages such as Java, C, C++ and Ada.
+
+
+## Volunteering
+
+I'm a coach at [codebar](http://codebar.io), teaching people from underrepresented groups how to program.
 
 
 [^abc3-rebrand]: The ABC have since re-branded ABC3 as ABC ME, and ABC3 RAWR as ABC ME Your Films.

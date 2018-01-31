@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Build content for craiga.id.au from a series of Markdown files."""
 
 from pathlib import Path
