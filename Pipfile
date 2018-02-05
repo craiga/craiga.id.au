@@ -4,11 +4,12 @@ url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
+
 [packages]
 
 click = "*"
 markdown = "*"
-jinja2 = "*"
+"jinja2" = "*"
 lxml = "*"
 htmlmin = "*"
 jsmin = "*"
@@ -17,6 +18,8 @@ xstatic-bootstrap-scss = "*"
 xstatic-font-awesome = "*"
 xstatic-jquery = "*"
 weasyprint = "*"
+pyembed-markdown = "*"
+
 
 [dev-packages]
 

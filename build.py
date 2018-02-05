@@ -59,9 +59,11 @@ def create_template(template_file):
 
 def markdown_file_to_html(file_path):
     """Convert the markdown file to HTML."""
+    extensions = ('markdown.extensions.footnotes',
+                  'markdown.extensions.toc',
+                  'pyembed.markdown')
     with file_path.open() as file:
-        return markdown(file.read(),
-                        extensions=('markdown.extensions.footnotes',))
+        return markdown(file.read(), extensions=extensions)
 
 
 def title_from_html(html, default=''):
