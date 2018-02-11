@@ -4,6 +4,7 @@
 from os import environ
 from pathlib import Path
 from shutil import copy
+from urllib.parse import quote_plus
 
 import click
 import jinja2
@@ -11,7 +12,8 @@ import lxml.html
 import sass
 import weasyprint
 from htmlmin import minify
-from markdown import markdown
+from markdown import markdown, inlinepatterns, extensions
+from markdown.util import etree
 from jsmin import jsmin
 from xstatic.pkg import bootstrap_scss, font_awesome, jquery
 
@@ -58,13 +60,40 @@ def create_template(template_file):
     return jinja2.Template(template_content)
 
 
+class GoogleMapPattern(inlinepatterns.Pattern):
+    """Google Map inline pattern handler for Python-Markdown."""
+
+    def __init__(self):
+        """Create pattern with fixed regular expression."""
+        super().__init__(r'\[google\-map([^\]]*)\]')
+
+    def handleMatch(self, m):
+        """Handle [google-map Address] in Markdown."""
+        ele = etree.Element('iframe')
+        url = ('https://www.google.com/maps/embed/v1/place'
+               '?q={place}&zoom={zoom}&key={api_key}')
+        ele.set('src', url.format(place=quote_plus(m.group(2)),
+                                  zoom=15,
+                                  api_key=environ.get('GOOGLE_MAPS_API_KEY')))
+        ele.set('class', 'map')
+        return ele
+
+
+class GoogleMapExtension(extensions.Extension):
+    """Google Map extension for Python-Markdown."""
+
+    def extendMarkdown(self, md, md_globals):
+        """Register GoogleMapPattern."""
+        md.inlinePatterns.add('google-map', GoogleMapPattern(), '_end')
+
+
 def markdown_file_to_html(file_path):
     """Convert the markdown file to HTML."""
-    extensions = ('markdown.extensions.footnotes',
-                  'markdown.extensions.toc',
-                  'pyembed.markdown')
+    md_extensions = ('markdown.extensions.footnotes',
+                     'markdown.extensions.toc',
+                     GoogleMapExtension())
     with file_path.open() as file:
-        return markdown(file.read(), extensions=extensions)
+        return markdown(file.read(), extensions=md_extensions)
 
 
 def title_from_html(html, default=''):
@@ -86,13 +115,11 @@ def write_html(html, html_path):
 def build_content(content_dir, template_file, output_dir):
     """Build site content."""
     template = create_template(template_file)
-    google_maps_api_key = environ.get('GOOGLE_MAPS_API_KEY')
     for content_file in files(content_dir, '*.markdown',
                               label='Building content'):
         content = markdown_file_to_html(content_file)
         title = title_from_html(content)
-        html = template.render(title=title, content=content, links=LINKS,
-                               google_maps_api_key=google_maps_api_key)
+        html = template.render(title=title, content=content, links=LINKS)
         html = minify(html, remove_optional_attribute_quotes=False)
         html_path = Path(output_dir,
                          content_file.name.replace('.markdown', '.html'))
