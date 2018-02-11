@@ -33,52 +33,6 @@ function konamiInit() {
   });
 }
 
-function mapLoadPlace(map, placeName) {
-  var placeRequest = {
-    location: map.getCenter(),
-    radius: '10',
-    query: placeName
-  };
-  var placesService = new google.maps.places.PlacesService(map);
-  placesService.textSearch(placeRequest, function callback(results, status) {
-    if (status == google.maps.places.PlacesServiceStatus.OVER_QUERY_LIMIT) {
-      setTimeout(function() {
-        mapLoadPlace(map, placeName);
-      }, 5000);
-    } else if (status == google.maps.places.PlacesServiceStatus.OK) {
-      result = results[0];
-      var marker = new google.maps.Marker({
-        map: map,
-        place: {
-          placeId: result.place_id,
-          location: result.geometry.location
-        }
-      });
-      map.setCenter(result.geometry.location);
-    }
-  });
-}
-
-function mapInject() {
-  regex = /google\.(?:[\w\.]+)\/maps\/place\/(.+)\/@(\-?[\d\.]+),(\-?[\d\.]+)/i;
-  $('a').each(function(i, link) {
-    var href = $(link).attr('href');
-    matches = regex.exec(href);
-    if (matches) {
-      placeName = decodeURIComponent(matches[1]);
-      coords = {lat: parseFloat(matches[2]), lng: parseFloat(matches[3])};
-      var mapEle = $('<div class="map"></div>').get(0);
-      var map = new google.maps.Map(mapEle, {
-        zoom: 15,
-        center: coords
-      });
-      $(link).parent().after(mapEle);
-      google.maps.event.trigger(map, 'resize');
-      mapLoadPlace(map, placeName);
-    }
-  });
-}
-
 Raven.context(function () {
   konamiInit();
 });
