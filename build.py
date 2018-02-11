@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 """Build content for craiga.id.au from a series of Markdown files."""
 
+from os import environ
 from pathlib import Path
 from shutil import copy
 
@@ -85,11 +86,13 @@ def write_html(html, html_path):
 def build_content(content_dir, template_file, output_dir):
     """Build site content."""
     template = create_template(template_file)
+    google_maps_api_key = environ.get('GOOGLE_MAPS_API_KEY')
     for content_file in files(content_dir, '*.markdown',
                               label='Building content'):
         content = markdown_file_to_html(content_file)
         title = title_from_html(content)
-        html = template.render(title=title, content=content, links=LINKS)
+        html = template.render(title=title, content=content, links=LINKS,
+                               google_maps_api_key=google_maps_api_key)
         html = minify(html, remove_optional_attribute_quotes=False)
         html_path = Path(output_dir,
                          content_file.name.replace('.markdown', '.html'))
