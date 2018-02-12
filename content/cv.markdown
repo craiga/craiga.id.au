@@ -12,7 +12,6 @@ Contact me via [email](mailto:craiga@craiga.id.au) or [my web site](http://craig
 * Django
 * Django Rest Framework
 * Celery
-* Docker and Docker Compose
 
 
 ## Work History
@@ -99,3 +98,5 @@ I'm a coach at [codebar](http://codebar.io), teaching people from underrepresent
 
 
 [^abc3-rebrand]: The ABC have since re-branded ABC3 as ABC ME, and ABC3 RAWR as ABC ME Your Films.
+
+*[RMIT]: Royal Melbourne Institute of Technology

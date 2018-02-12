@@ -92,6 +92,7 @@ def markdown_file_to_html(file_path):
     """Convert the markdown file to HTML."""
     md_extensions = ('markdown.extensions.footnotes',
                      'markdown.extensions.toc',
+                     'markdown.extensions.abbr',
                      SmartypantsExt(configs={}),
                      GoogleMapExtension())
     with file_path.open() as file:
