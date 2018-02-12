@@ -37,19 +37,6 @@ LINKS = (('/', 'Home', 'fa-home'),
          ('https://facebook.com/craiga', 'Facebook', 'fa-facebook'),
          ('https://www.instagram.com/_craiga/', 'Instagram', 'fa-instagram'),
          ('https://twitter.com/_craiga', 'Twitter', 'fa-twitter'),
-         # Work-related
-         (
-             'https://www.nextfree.co.uk/for/craig-anderson',
-             'Nextfree',
-             'fa-calendar'
-         ),
-         ('https://uk.yunojuno.com/p/craiga', 'YunoJuno', 'fa-asterisk'),
-         ('https://bitbucket.org/craiganderson/', 'Bitbucket', 'fa-bitbucket'),
-         (
-             'https://stackoverflow.com/users/1852024/craig-anderson',
-             'Stack Overflow',
-             'fa-stack-overflow'
-         ),
          # Music
          ('https://www.last.fm/user/craiganderson', 'Last.fm', 'fa-lastfm'),
          (
@@ -62,6 +49,19 @@ LINKS = (('/', 'Home', 'fa-home'),
          # Booze
          ('https://untappd.com/user/craiganderson', 'Untappd', 'fa-beer'),
          ('https://distiller.com/profile/craiga', 'Distiller', 'fa-glass'),
+         # Work
+         (
+             'https://www.nextfree.co.uk/for/craig-anderson',
+             'Nextfree',
+             'fa-calendar'
+         ),
+         ('https://uk.yunojuno.com/p/craiga', 'YunoJuno', 'fa-asterisk'),
+         ('https://bitbucket.org/craiganderson/', 'Bitbucket', 'fa-bitbucket'),
+         (
+             'https://stackoverflow.com/users/1852024/craig-anderson',
+             'Stack Overflow',
+             'fa-stack-overflow'
+         ),
          # Other
          ('http://amzn.eu/5UobAlG', 'Amazon', 'fa-amazon'),
          ('https://www.meetup.com/members/24626782/', 'Meetup', 'fa-meetup'),
