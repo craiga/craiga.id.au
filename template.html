@@ -25,11 +25,14 @@ gtag('config', 'UA-1061927-3');
                     {{ content }}
                 </div>
                 <div class="col-sm-4 hidden-print">
-                    <img src="https://en.gravatar.com/userimage/17008/5ed5e51f6b0afc7be98feeea1585f0dd.jpg?size=400" alt="" class="img-responsive center-block img-circle sm-third-size konami-rotate">
+                    <p><img src="https://en.gravatar.com/userimage/17008/5ed5e51f6b0afc7be98feeea1585f0dd.jpg?size=400" alt="" class="img-responsive center-block img-circle sm-third-size konami-rotate"></p>
                     <div class="list-group links row">
                         {% for url, title, fa_class in links: %}
-                            <a class="list-group-item col-lg-4 col-sm-6 col-xs-4" href="{{ url }}"><i class="fa {{ fa_class }} fa-fw" aria-hidden="true"></i>&nbsp; {{ title }}</a>
+                            {% if loop.index < 6: %}
+                                <a class="list-group-item col-lg-4 col-sm-6 col-xs-4" href="{{ url }}"><i class="fa {{ fa_class }} fa-fw" aria-hidden="true"></i>&nbsp; {{ title }}</a>
+                            {% endif %}
                         {% endfor %}
+                        <a class="list-group-item col-lg-4 col-sm-6 col-xs-4" href="/elsewhere"><i class="fa fa-globe fa-fw" aria-hidden="true"></i>&nbsp; Elsewhere</a>
                     </div>
                 </div>
             </div>
