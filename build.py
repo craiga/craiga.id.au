@@ -14,6 +14,7 @@ import weasyprint
 from htmlmin import minify
 from markdown import markdown, inlinepatterns, extensions
 from markdown.util import etree
+from mdx_smartypants import SmartypantsExt
 from jsmin import jsmin
 from xstatic.pkg import bootstrap_scss, font_awesome, jquery
 
@@ -91,6 +92,7 @@ def markdown_file_to_html(file_path):
     """Convert the markdown file to HTML."""
     md_extensions = ('markdown.extensions.footnotes',
                      'markdown.extensions.toc',
+                     SmartypantsExt(configs={}),
                      GoogleMapExtension())
     with file_path.open() as file:
         return markdown(file.read(), extensions=md_extensions)

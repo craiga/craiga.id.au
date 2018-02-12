@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "410521821a9ac601f3f0307ac43d7b2ac7e0e603c97497bb408d22e532c0ab0e"
+            "sha256": "8e872a148c990633864265b5804fa0fec0aa84dea05fefe2562133db5e991f4a"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -94,6 +94,12 @@
             ],
             "version": "==0.5.0"
         },
+        "guess-language-spirit": {
+            "hashes": [
+                "sha256:a9b20470246bbfd1b69b055ff6459e05aa8cb5f1f1d8481350819cd7680792cc"
+            ],
+            "version": "==0.5.3"
+        },
         "html5lib": {
             "hashes": [
                 "sha256:20b159aa3badc9d5ee8f5c647e5efd02ed2a66ab8d354930bd9ff139fc1dc0a3",
@@ -185,6 +191,20 @@
                 "sha256:a6be69091dac236ea9c6bc7d012beab42010fa914c459791d627dad4910eb665"
             ],
             "version": "==1.0"
+        },
+        "mdx-smartypants": {
+            "hashes": [
+                "sha256:089a5483f53e452c8e0d4ef3df7d695ab6eca0631aade29e39f80c8781854306",
+                "sha256:d11ff8664d7a7ef091a954028aca6bd0278f149cfce6dbcf42fabcd1f1934c1f"
+            ],
+            "version": "==1.5.1"
+        },
+        "namedentities": {
+            "hashes": [
+                "sha256:c8a0c33ec309c5ec4320eab956ceb46e2994fac69ab475b26bd916f56978d583",
+                "sha256:7ce8a90414d12fb65d8120eb32c80620f467576d58ce31f51ded211d7c49ae61"
+            ],
+            "version": "==1.5.2"
         },
         "pdfrw": {
             "hashes": [
