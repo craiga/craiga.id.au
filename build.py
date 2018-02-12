@@ -23,6 +23,7 @@ ASSET_MODULES = (bootstrap_scss, font_awesome, jquery)
 
 
 # 3-tuples of URLs, titles, and FontAwesome 4 class names.
+# Top 5 featured in sidebar.
 LINKS = (('/', 'Home', 'fa-home'),
          ('/cv', 'CV', 'fa-briefcase'),
          (
@@ -30,18 +31,44 @@ LINKS = (('/', 'Home', 'fa-home'),
              'LinkedIn',
              'fa-linkedin'
          ),
+         ('https://github.com/craiga', 'GitHub', 'fa-github'),
+         ('mailto:craiga@craiga.id.au', 'Email', 'fa-envelope'),
+         # Popular
+         ('https://facebook.com/craiga', 'Facebook', 'fa-facebook'),
+         ('https://www.instagram.com/_craiga/', 'Instagram', 'fa-instagram'),
+         ('https://twitter.com/_craiga', 'Twitter', 'fa-twitter'),
+         # Music
+         ('https://www.last.fm/user/craiganderson', 'Last.fm', 'fa-lastfm'),
+         (
+             'https://itunes.apple.com/profile/craigeanderson',
+             'Apple Music',
+             'fa-apple'
+         ),
+         ('https://bandcamp.com/craiga', 'Bandcamp', 'fa-bandcamp'),
+         ('https://soundcloud.com/craig', 'SoundCloud', 'fa-soundcloud'),
+         # Booze
+         ('https://untappd.com/user/craiganderson', 'Untappd', 'fa-beer'),
+         ('https://distiller.com/profile/craiga', 'Distiller', 'fa-glass'),
+         # Work
          (
              'https://www.nextfree.co.uk/for/craig-anderson',
              'Nextfree',
-             'fa-calendar',
+             'fa-calendar'
          ),
          ('https://uk.yunojuno.com/p/craiga', 'YunoJuno', 'fa-asterisk'),
-         ('https://github.com/craiga', 'GitHub', 'fa-github'),
-         ('https://twitter.com/_craiga', 'Twitter', 'fa-twitter'),
-         ('https://facebook.com/craiga', 'Facebook', 'fa-facebook'),
-         ('https://www.instagram.com/_craiga/', 'Instagram', 'fa-instagram'),
-         ('https://www.last.fm/user/craiganderson', 'Last.fm', 'fa-lastfm'),
-         ('mailto:craiga@craiga.id.au', 'Email', 'fa-envelope'))
+         ('https://bitbucket.org/craiganderson/', 'Bitbucket', 'fa-bitbucket'),
+         (
+             'https://stackoverflow.com/users/1852024/craig-anderson',
+             'Stack Overflow',
+             'fa-stack-overflow'
+         ),
+         # Other
+         ('http://amzn.eu/5UobAlG', 'Amazon', 'fa-amazon'),
+         ('https://www.meetup.com/members/24626782/', 'Meetup', 'fa-meetup'),
+         ('https://www.pinterest.co.uk/craiga/', 'Pinterest', 'fa-pinterest'),
+         ('https://www.reddit.com/user/craiga/', 'Reddit', 'fa-reddit'),
+         ('http://steamcommunity.com/id/craiga', 'Steam', 'fa-steam'),
+         ('http://blog.craiga.id.au/', 'Tumblr', 'fa-tumblr'))
 
 
 def files(directory_name, glob_pattern, *args, **kwargs):
@@ -88,13 +115,53 @@ class GoogleMapExtension(extensions.Extension):
         md.inlinePatterns.add('google-map', GoogleMapPattern(), '_end')
 
 
+class ExternalLinksPattern(inlinepatterns.Pattern):
+    """External link inline pattern handler for Python-Markdown."""
+
+    def __init__(self):
+        """Create pattern with fixed regular expression."""
+        super().__init__(r'\[external\-links\]')
+
+    def handleMatch(self, m):
+        """Handle [external-links] in Markdown."""
+        div = etree.Element('div')
+        div_classes = ' '.join(('list-group', 'links', 'row'))
+        div.set('class', div_classes)
+        for url, title, fa_class in LINKS[5:]:
+            if url.startswith(('http://', 'https://')):
+                anchor = etree.SubElement(div, 'a')
+                anchor_classes = ' '.join(('list-group-item',
+                                           'col-md-3',
+                                           'col-sm-4',
+                                           'col-xs-4'))
+                anchor.set('class', anchor_classes)
+                anchor.set('href', url)
+
+                icon = etree.SubElement(anchor, 'i')
+                icon_classes = ' '.join(('fa', fa_class, 'fa-fw'))
+                icon.set('class', icon_classes)
+                icon.set('aria-hidden', 'true')
+                icon.tail = '&nbsp; ' + title
+
+        return div
+
+
+class ExternalLinksExtension(extensions.Extension):
+    """Google Map extension for Python-Markdown."""
+
+    def extendMarkdown(self, md, md_globals):
+        """Register ExternalLinksPattern."""
+        md.inlinePatterns.add('google-map', ExternalLinksPattern(), '_end')
+
+
 def markdown_file_to_html(file_path):
     """Convert the markdown file to HTML."""
     md_extensions = ('markdown.extensions.footnotes',
                      'markdown.extensions.toc',
                      'markdown.extensions.abbr',
                      SmartypantsExt(configs={}),
-                     GoogleMapExtension())
+                     GoogleMapExtension(),
+                     ExternalLinksExtension())
     with file_path.open() as file:
         return markdown(file.read(), extensions=md_extensions)
 
