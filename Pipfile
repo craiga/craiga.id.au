@@ -8,16 +8,17 @@ name = "pypi"
 [packages]
 
 click = "*"
-Markdown = "*"
-"Jinja2" = "*"
+markdown = "*"
+"jinja2" = "*"
 lxml = "*"
 htmlmin = "*"
 jsmin = "*"
 libsass = "*"
-XStatic-Bootstrap-SCSS = "*"
-XStatic-Font-Awesome = "*"
-XStatic-jQuery = "*"
-WeasyPrint = "*"
+xstatic-bootstrap-scss = "*"
+xstatic-font-awesome = "*"
+xstatic-jquery = "*"
+weasyprint = "*"
+mdx-smartypants = "*"
 
 
 [dev-packages]
