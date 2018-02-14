@@ -85,11 +85,9 @@ The [ABC](http://abc.net.au) is Australia's national broadcaster, similar to the
 
 ## Education
 
-### Bachelor of Applied Science (Computer Science), RMIT University (1997–1999)
+### Bachelor of Applied Science (Computer Science), RMIT University, Australia (1997–1999)
 
 Graduated with Distinction.
-
-Used languages such as Java, C, C++ and Ada.
 
 
 ## Volunteering
