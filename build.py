@@ -64,6 +64,7 @@ LINKS = (('/', 'Home', 'fa-home'),
          ),
          # Other
          ('http://amzn.eu/5UobAlG', 'Amazon', 'fa-amazon'),
+         ('https://www.goodreads.com/craiga', 'Goodreads', 'fa-book'),
          ('https://www.meetup.com/members/24626782/', 'Meetup', 'fa-meetup'),
          ('https://www.pinterest.co.uk/craiga/', 'Pinterest', 'fa-pinterest'),
          ('https://www.reddit.com/user/craiga/', 'Reddit', 'fa-reddit'),
