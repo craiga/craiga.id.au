@@ -46,6 +46,7 @@ LINKS = (('/', 'Home', 'fa-home'),
          ),
          ('https://bandcamp.com/craiga', 'Bandcamp', 'fa-bandcamp'),
          ('https://soundcloud.com/craiga', 'SoundCloud', 'fa-soundcloud'),
+         ('https://www.discogs.com/user/craiga', 'Discogs', 'fa-volume-up'),
          # Booze
          ('https://untappd.com/user/craiganderson', 'Untappd', 'fa-beer'),
          ('https://distiller.com/profile/craiga', 'Distiller', 'fa-glass'),
