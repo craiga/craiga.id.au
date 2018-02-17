@@ -1,10 +1,8 @@
 #!/usr/bin/env python
 """Build content for craiga.id.au from a series of Markdown files."""
 
-from os import environ
 from pathlib import Path
 from shutil import copy
-from urllib.parse import quote_plus
 
 import click
 import jinja2
@@ -90,33 +88,6 @@ def create_template(template_file):
     return jinja2.Template(template_content)
 
 
-class GoogleMapPattern(inlinepatterns.Pattern):
-    """Google Map inline pattern handler for Python-Markdown."""
-
-    def __init__(self):
-        """Create pattern with fixed regular expression."""
-        super().__init__(r'\[google\-map([^\]]*)\]')
-
-    def handleMatch(self, m):
-        """Handle [google-map Address] in Markdown."""
-        ele = etree.Element('iframe')
-        url = ('https://www.google.com/maps/embed/v1/place'
-               '?q={place}&zoom={zoom}&key={api_key}')
-        ele.set('src', url.format(place=quote_plus(m.group(2)),
-                                  zoom=15,
-                                  api_key=environ.get('GOOGLE_MAPS_API_KEY')))
-        ele.set('class', 'map')
-        return ele
-
-
-class GoogleMapExtension(extensions.Extension):
-    """Google Map extension for Python-Markdown."""
-
-    def extendMarkdown(self, md, md_globals):
-        """Register GoogleMapPattern."""
-        md.inlinePatterns.add('google-map', GoogleMapPattern(), '_end')
-
-
 class ExternalLinksPattern(inlinepatterns.Pattern):
     """External link inline pattern handler for Python-Markdown."""
 
@@ -162,7 +133,6 @@ def markdown_file_to_html(file_path):
                      'markdown.extensions.toc',
                      'markdown.extensions.abbr',
                      SmartypantsExt(configs={}),
-                     GoogleMapExtension(),
                      ExternalLinksExtension())
     with file_path.open() as file:
         return markdown(file.read(), extensions=md_extensions)
