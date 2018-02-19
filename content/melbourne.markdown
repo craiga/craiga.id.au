@@ -264,6 +264,12 @@ My top picks are the peppered kangaroo fillets from [The Chicken Pantry](http://
 
 Inside the Queen Victoria Market precinct, this place is serious about it's coffee.
 
+### Town Hall Hotel 🍻
+
+<iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=Town Hall Hotel, North Melbourne, Australia"></iframe>
+
+Another old-school neighbourhood boozer with a pretty good kitchen. Way back in the early 2000s, this is where [Look Who's Toxic](http://lookwhostoxic.com) played their first gig to an appreciative audience.
+
 ### Beatrix 🍰🍽☕️
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=Beatrix, North Melbourne, Australia"></iframe>
