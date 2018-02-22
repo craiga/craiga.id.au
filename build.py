@@ -100,7 +100,7 @@ class ExternalLinksPattern(inlinepatterns.Pattern):
         div = etree.Element('div')
         div_classes = ' '.join(('list-group', 'links', 'row'))
         div.set('class', div_classes)
-        for url, title, fa_class in LINKS[5:]:
+        for url, title, fa_class in LINKS:
             if url.startswith(('http://', 'https://')):
                 anchor = etree.SubElement(div, 'a')
                 anchor_classes = ' '.join(('list-group-item',
