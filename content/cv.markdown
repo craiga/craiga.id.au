@@ -16,7 +16,7 @@ Contact me via [email](mailto:craiga@craiga.id.au) or [my web site](http://craig
 
 ## Work History
 
-### Senior Back End Developer, Ten Group (Feb&nbsp;‘17–Jan&nbsp;‘18)
+### Back End Developer (Permanent and Contract), Ten Group (Feb&nbsp;‘17–May&nbsp;‘18)
 
 [Ten Group](http://tengroup.com) is a luxury lifestyle concierge service. In 2016, they chose to start development of an online concierge platform in-house.
 
