@@ -1,5 +1,3 @@
-# Where else can I find Craig on the Internet?
-
-Lots of places.
+# Other places you can find me on the Internet
 
 [external-links]
