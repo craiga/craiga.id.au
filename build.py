@@ -24,11 +24,8 @@ ASSET_MODULES = (bootstrap_scss, font_awesome, jquery)
 # Top 5 featured in sidebar.
 LINKS = (('/', 'Home', 'fa-home'),
          ('/cv', 'CV', 'fa-briefcase'),
-         (
-             'https://www.linkedin.com/in/craigeanderson',
-             'LinkedIn',
-             'fa-linkedin'
-         ),
+         ('https://www.linkedin.com/in/craigeanderson',
+          'LinkedIn', 'fa-linkedin'),
          ('https://github.com/craiga', 'GitHub', 'fa-github'),
          ('mailto:craiga@craiga.id.au', 'Email', 'fa-envelope'),
          # Popular
@@ -37,30 +34,23 @@ LINKS = (('/', 'Home', 'fa-home'),
          ('https://twitter.com/_craiga', 'Twitter', 'fa-twitter'),
          # Music
          ('https://www.last.fm/user/craiganderson', 'Last.fm', 'fa-lastfm'),
-         (
-             'https://itunes.apple.com/profile/craigeanderson',
-             'Apple Music',
-             'fa-apple'
-         ),
+         ('https://itunes.apple.com/profile/craigeanderson',
+          'Apple Music', 'fa-apple'),
          ('https://bandcamp.com/craiga', 'Bandcamp', 'fa-bandcamp'),
          ('https://soundcloud.com/craiga', 'SoundCloud', 'fa-soundcloud'),
-         ('https://www.discogs.com/user/craiga', 'Discogs', 'fa-volume-up'),
+         ('https://www.discogs.com/user/craiga', 'Discogs', 'fa-play'),
+         ('https://www.songkick.com/users/craigeanderson',
+          'Songkick', 'fa-volume-up'),
          # Booze
          ('https://untappd.com/user/craiganderson', 'Untappd', 'fa-beer'),
          ('https://distiller.com/profile/craiga', 'Distiller', 'fa-glass'),
          # Work
-         (
-             'https://www.nextfree.co.uk/for/craig-anderson',
-             'Nextfree',
-             'fa-calendar'
-         ),
+         ('https://www.nextfree.co.uk/for/craig-anderson',
+          'Nextfree', 'fa-calendar'),
          ('https://uk.yunojuno.com/p/craiga', 'YunoJuno', 'fa-asterisk'),
          ('https://bitbucket.org/craiganderson/', 'Bitbucket', 'fa-bitbucket'),
-         (
-             'https://stackoverflow.com/users/1852024/craig-anderson',
-             'Stack Overflow',
-             'fa-stack-overflow'
-         ),
+         ('https://stackoverflow.com/users/1852024/craig-anderson',
+          'Stack Overflow', 'fa-stack-overflow'),
          # Other
          ('http://amzn.eu/5UobAlG', 'Amazon', 'fa-amazon'),
          ('https://www.goodreads.com/craiga', 'Goodreads', 'fa-book'),
