@@ -1,6 +1,8 @@
 # Craig Anderson — CV
 
-I’m a back end web developer with over 18 years of experience looking for my first contracting role. I’m interested in contracting as it should, in time, give me more flexibility to move as my partner’s academic career demands. I’m a strong proponent for test-driven development, and am motivated by work for social good.
+I’m a back end web developer with over 18 years of experience. I’m pursuing contract roles as it should, in time, give me more flexibility to move as my partner’s academic career demands. I’m a strong proponent for test-driven development, and am motivated by work for social good.
+
+I'm a signatory to [the programmer's oath](https://github.com/Widdershin/programmers-oath/blob/2a7455c/README.md).
 
 ## Contact Details
 
