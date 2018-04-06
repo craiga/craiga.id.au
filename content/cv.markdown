@@ -94,7 +94,7 @@ Graduated with Distinction.
 
 ## Volunteering
 
-I'm a coach at [codebar](http://codebar.io), teaching people from underrepresented groups how to program.
+I'm a coach at [codebar](http://codebar.io), teaching people from underrepresented groups how to code, and am one of the organisers of the [London Django Meetup](https://www.djangolondon.com).
 
 
 [^abc3-rebrand]: The ABC have since re-branded ABC3 as ABC ME, and ABC3 RAWR as ABC ME Your Films.
