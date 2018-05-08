@@ -1,12 +1,12 @@
 # Craig Anderson — CV
 
-I’m a back end web developer with over 18 years of experience. I’m pursuing contract roles as it should, in time, give me more flexibility to move as my partner’s academic career demands. I’m a strong proponent for test-driven development, and am motivated by work for social good.
+I’m a web developer specialising in Python and Django with over 18 years of experience. I’m pursuing contract roles as it should, in time, give me more flexibility to move as my partner’s academic career demands. I’m motivated by work for social and environmental good.
 
 I'm a signatory to [the programmer's oath](https://github.com/Widdershin/programmers-oath/blob/2a7455c/README.md).
 
 ## Contact Details
 
-Contact me via [email](mailto:craiga@craiga.id.au) or [my web site](http://craiga.id.au/).
+You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 ## Skills Summary
 
@@ -94,7 +94,7 @@ Graduated with Distinction.
 
 ## Volunteering
 
-I'm a coach at [codebar](http://codebar.io), teaching people from underrepresented groups how to code, and am one of the organisers of the [London Django Meetup](https://www.djangolondon.com).
+I'm a coach at [codebar](http://codebar.io), teaching people from underrepresented groups how to code, a mentor at [Meet a Mentor](http://meetamentor.co.uk), and am one of the organisers of the [London Django Meetup](https://www.djangolondon.com).
 
 
 [^abc3-rebrand]: The ABC have since re-branded ABC3 as ABC ME, and ABC3 RAWR as ABC ME Your Films.
