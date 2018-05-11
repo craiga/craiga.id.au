@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 """Build content for craiga.id.au from a series of Markdown files."""
 
+from hashlib import md5
 from pathlib import Path
 from shutil import copy
 
@@ -144,14 +145,27 @@ def write_html(html, html_path):
         file.write(html)
 
 
+def gravatar_hash(email_address):
+    """
+    Hash for gravatar.com.
+
+    https://gravatar.com/site/implement/hash/
+    """
+    return md5(email_address.encode()).hexdigest()
+
+
 def build_content(content_dir, template_file, output_dir):
     """Build site content."""
     template = create_template(template_file)
+    g_hash = gravatar_hash('craiga@craiga.id.au')
     for content_file in files(content_dir, '*.markdown',
                               label='Building content'):
         content = markdown_file_to_html(content_file)
         title = title_from_html(content)
-        html = template.render(title=title, content=content, links=LINKS)
+        html = template.render(title=title,
+                               content=content,
+                               links=LINKS,
+                               gravatar_hash=g_hash)
         html = minify(html, remove_optional_attribute_quotes=False)
         html_path = Path(output_dir,
                          content_file.name.replace('.markdown', '.html'))
