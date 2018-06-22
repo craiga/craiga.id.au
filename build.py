@@ -59,7 +59,9 @@ LINKS = (('/', 'Home', 'fa-home'),
          ('https://www.pinterest.co.uk/craiga/', 'Pinterest', 'fa-pinterest'),
          ('https://www.reddit.com/user/craiga/', 'Reddit', 'fa-reddit'),
          ('http://steamcommunity.com/id/craiga', 'Steam', 'fa-steam'),
-         ('http://blog.craiga.id.au/', 'Tumblr', 'fa-tumblr'))
+         ('http://blog.craiga.id.au/', 'Tumblr', 'fa-tumblr'),
+         ('https://www.strava.com/athletes/craiganderson',
+          'Strava', 'fa-bicycle'))
 
 
 def files(directory_name, glob_pattern, *args, **kwargs):
