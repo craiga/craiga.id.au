@@ -40,13 +40,13 @@ Great for cocktails. Go upstairs.
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=Slowbeer Fitzroy, Fitzroy, Australia"></iframe>
 
-This place was formerly named Two Row, and I haven't visited since it was relaunched. I can only assume it's still a small, well-curated craft beer bar. Melbourne's craft beer scene is pretty dang friendly.
+This place was formerly named Two Row, and I haven't visited since it was relaunched. I can only assume it's still a small, well-curated craft beer bar. Melbourne's craft beer scene is pretty friendly.
 
 ### Beermash 🍺🍾
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=Beermash, Collingwood, Australia"></iframe>
 
-Pretty nice craft beer shop/bar just down the road from Slow Beer.
+Good craft beer shop/bar just down the road from Slow Beer.
 
 ### Smith and Daughters 🍽🥕
 
@@ -58,7 +58,7 @@ Great vegan restaurant. I've got their cookbook and it's pretty great.
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=Smith and Deli, Fitzroy, Australia"></iframe>
 
-Take-away spinoff from Smith and Daughters.
+Take-away spinoff of Smith and Daughters.
 
 ### Wabi Sabi Salon 🇯🇵🍽
 
@@ -76,19 +76,19 @@ Home of the Bogan Burger, a meaty behemoth of a burger.
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=The Standard Hotel, Fitzroy, Australia"></iframe>
 
-Great (but very popular and occasionally crowded) beer garden and pretty good pub food.
+Great and popular beer garden. Pretty good pub food.
 
 ### Industry Beans ☕️
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=Industry Beans, Fitzroy, Australia"></iframe>
 
-If I had to recommend one place to go for Melbourne's over-the-top coffee culture, this would be the one. Have at least one espresso here.
+If I had to recommend one place to go to experience Melbourne's over-the-top coffee culture, this would be the one. Have at least one espresso here.
 
 ### Proud Mary ☕️
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=Proud%20Mary%2C%20Collingwood%2C%20Australia"></iframe>
 
-Another very, very popular cafe. Expect to need to queue if you're going here on the weekend. This is where Zoe and I had our first date.
+Another very popular cafe. Expect to need to queue if you're going here on the weekend. This is where Zoe and I had our first date.
 
 ### Vegie Bar 🍽🥕
 
@@ -104,7 +104,9 @@ A little removed from the hustle and bustle of Brunswick and Smith Streets, this
 
 ## Fitzroy North
 
-I lived in a one bedroom flat by Edinburgh Gardens for just over two years in the early 2010s. It's a very well-to-do area, populated primarily by champagne socialists.
+I lived in a one bedroom flat by Edinburgh Gardens for a couple of years in the early 2010s.
+
+Fitzroy North is a very well-to-do area, populated primarily by champagne socialists.
 
 ### Edinburgh Gardens 🌳🍻
 
@@ -122,19 +124,19 @@ High-end bottle shop; a great place to grab a few cold beers to drink in Edinbur
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=Dench%20Bakers%2C%20Fitzroy%20North%2C%20Australia"></iframe>
 
-Pretty good bakery/cafe. Worth visiting for either brunch or grabbing some bread and cakes.
+Good bakery/cafe. Worth visiting for either brunch or grabbing some bread and cakes.
 
 ### The Pinnacle 🍺
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=The%20Pinnacle%2C%20Fitzroy%20North%2C%20Australia"></iframe>
 
-Pretty nice local boozer. Good range of craft beers and reasonable food.
+Nice local boozer. Good range of craft beers and reasonable food.
 
 ### Danny’s Burgers 🍔
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=Danny%27s%20Burgers%2C%20Fitzroy%20North%2C%20Australia"></iframe>
 
-One of the places in Melbourne for an Australian style burger. It’s massive, sloppy, and has egg and beetroot. Some people will say that the beetroot should be swapped for a pineapple ring, but they're wrong.
+One of the places in Melbourne for an Australian-style burger. It’s massive, sloppy, and has egg and beetroot. Some people will say that the beetroot should be swapped for a pineapple ring, but they're wrong.
 
 Order one with the lot. You're wasting your time otherwise.
 
@@ -147,7 +149,7 @@ Good for Indian. They had a buffet night on Sunday. And craft beer!
 
 ## Footscray
 
-After getting a big fed up with the trappings of the hipster inner north, I moved back in the direction of my birthplace and rented a flat in Footscray with Zoe in the mid-2010s, where we lived until I left Australia.
+After getting tired of the hipster inner north, I moved westward and rented a flat in Footscray with Zoe in the mid-2010s, where we lived until I left Australia.
 
 Footscray has a reputation of being rough, but it's not really warranted these days. There are some social issues in the area, and recently some media beat-ups about "african gangs", but nothing which should scare you away.
 
@@ -155,7 +157,11 @@ Footscray has a reputation of being rough, but it's not really warranted these d
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=Pho Hung Vuong Saigon, Footscray, Australia"></iframe>
 
-One of the most popular reasons to visit Footscray is the good, cheap Vietnamese food, and this is probably the best place to go. Pho is breakfast food in Vietnam, so this place is open early if you want something other than avocado on toast with a poached egg. For the price, the service is what you'd expect—not rude, but not exactly welcoming and friendly either.
+One of the most popular reasons to visit Footscray is the good, cheap Vietnamese food. This is my favourite of the local Vietnamese places.
+
+Pho is breakfast food in Vietnam, so this place is open early if you want something other than toast with a poached egg.
+
+For the price, the service is what you'd expect—not rude, but not exactly welcoming and friendly either.
 
 ### To’s Bakery 🇻🇳🥖
 
@@ -191,20 +197,20 @@ Ethiopian-French fusion place. Another good option for breakfast if you're looki
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=Rudimentary%2C%20Footscray%2C%20Australia"></iframe>
 
-Of course, eventually the hipsters and yuppies are always going to descend on any interesting neighbourhood, and Footscray is no different. Rudimentary is probably the best representation of that, but it is a pretty good cafe. Minimalist decor set up inside a shipping container surrounded by herb gardens. It's peak Melbourne.
+Rudimentary represents the hipsterfication of Footscray. A cafe with minimalist decor set up inside a shipping container surrounded by herb gardens. It's peak Melbourne.
 
 
 ### The Reverence 🍻🎸🔊
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=The%20Reverence%2C%20Footscray%2C%20Australia"></iframe>
 
-A favourite of Melbourne's hardcore scene. Vegan food and punk rock music. Good on Sunday afternoon if you want some heartfelt straightedge.
+A favourite of Melbourne's hardcore scene. Vegan food and punk rock music. I liked going on a Sunday afternoon for some heartfelt straightedge.
 
 ### Bar Josephine 🍺
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=Bar%20Josephine%2C%20Footscray%2C%20Australia"></iframe>
 
-Turns out that I'm not the only person moving from the hipster belt to the west, and it seems we're starting to bring our favourite things with us as well. This is a craft beer bar which opened soon after I left Melbourne but I spent a fair bit of time there when I returned to Footscray for a week. A large number of taps rotating through an interesting selection of craft beers. A great spot to pull up a bar stool and have a chat with some locals.
+A craft beer bar which opened soon after I left Melbourne. I spent a fair bit of time here last time I visited Footscray on holiday. A large number of taps rotating through an interesting selection of craft beers. A great spot to pull up a bar stool and have a chat with some locals.
 
 ### Mr West 🍺🍾
 
@@ -260,7 +266,7 @@ My top picks are the peppered kangaroo fillets from [The Chicken Pantry](http://
 
 ### Market Lane Coffee ☕️
 
-<iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=Market Lane Coffee, Melbourne, Australia"></iframe>
+<iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=Market Lane Coffee, Therry Street, Melbourne, Australia"></iframe>
 
 Inside the Queen Victoria Market precinct, this place is serious about it's coffee.
 

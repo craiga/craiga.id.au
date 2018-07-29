@@ -1,10 +1,12 @@
 # Craig Anderson — CV
 
-I’m a back end web developer with over 18 years of experience. I’m pursuing contract roles as it should, in time, give me more flexibility to move as my partner’s academic career demands. I'm motivated by work for social good and am a signatory to [the programmer's oath](https://github.com/Widdershin/programmers-oath/blob/2a7455c/README.md).
+I’m a web developer specialising in Python and Django with over 18 years of experience. I’m pursuing contract roles as it should, in time, give me more flexibility to move as my partner’s academic career demands. I’m motivated by work for social and environmental good.
+
+I'm a signatory to [the programmer's oath](https://github.com/Widdershin/programmers-oath/blob/2a7455c/README.md).
 
 ## Contact Details
 
-Contact me via [email](mailto:craiga@craiga.id.au) or [my web site](http://craiga.id.au/).
+You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 ## Skills Summary
 
