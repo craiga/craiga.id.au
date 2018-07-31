@@ -13,14 +13,20 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 * Python 3
 * Django
 * Django Rest Framework
-* Celery
 
 
 ## Work History
 
+### Python Developer, MyOptique Group (Jul&nbsp;‘18–Nov&nbsp;‘18)
+
+[MyOptique Group](http://www.myoptiquegroup.com) are an online retailer of glasses and contact lenses with brands including Glasses Direct and Sunglasses Shop.
+
+* I joined their multi-brand fulfilment development team to help maintain and modernise microservices which take orders through their warehouse and lens manufacturing processes.
+
+
 ### Back End Developer (Permanent and Contract), Ten Group (Feb&nbsp;‘17–May&nbsp;‘18)
 
-[Ten Group](http://tengroup.com) is a luxury lifestyle concierge service. In 2016, they chose to start development of an online concierge platform in-house.
+[Ten Group](http://tengroup.com) is a luxury lifestyle concierge service.
 
 * As part of a team of senior developers, I helped establish a new platform to replace an existing prototype. The new platform is being implemented using Django, Django Rest Framework and Celery. It's also making extensive user of Docker and Docker Compose.
 * I was technical lead on the platform's back end travel component, an API which integrates with a number of third-party services to search for and book flights, hotels, and cars to hire.
@@ -28,7 +34,7 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 ### Tech Team Lead, Ubiquity Press (Oct&nbsp;‘16–Feb&nbsp;‘17)
 
-[Ubiquity Press](http://ubiquitypress.com) is a publisher of open-access academic journals, books and data.
+[Ubiquity Press](http://ubiquitypress.com) is a publisher of open-access academic books and journals.
 
 * I was responsible for setting the technical direction of the company whilst maintaining a suite of Django- and PHP-based legacy applications.
 
@@ -60,30 +66,24 @@ The [ABC](http://abc.net.au) is Australia's national broadcaster, similar to the
     * Developed a video transcoding microservice to manage interaction with Zencoder in Flask (a Python microframework) with a DynamoDB NoSQL database.
 * I provided technical leadership and advice to producers, managers and developers in the ABC Kids team.
 
-### SitePoint Group
-
-[The SitePoint Group](https://www.sitepoint.com) is a publisher of books, courses and articles for web developers as well as being a collective of start-up business.
-
-#### Senior Web Developer (Jan&nbsp;‘07–Sep&nbsp;‘11)
-
-* I worked in the development teams of 99designs, Learnable and SitePoint as well as custom PHP applications for government and corporate clients.
-* I provided technical mentoring to other developers within the company, specifically on JavaScript development and application architecture.
-
-#### Technical Editor (Jun&nbsp;‘05–Dec&nbsp;‘06)
-
-* As part of the editorial team, I edited books for technical correctness and adherence to best practices on subjects such as ASP.NET development, server administration, AJAX, web design and CSS.
-
 ### Prior Roles
 
-* Analyst Programmer, Infosys (Jan&nbsp;2000–Jun&nbsp;‘05)
-* Duty Programmer, RMIT University Department of Computer Science (July&nbsp;'99–Dec&nbsp;'99)
+* Technical Editor (Jun&nbsp;‘05–Dec&nbsp;‘06) and Senior Web Developer (Jan&nbsp;‘07–Sep&nbsp;‘11), [SitePoint](https://www.sitepoint.com)
+* Analyst Programmer (Jan&nbsp;2000–Jun&nbsp;‘05), [Infosys Australia](https://www.infosys.com/australia/)
+* Duty Programmer (July&nbsp;'99–Dec&nbsp;'99), [RMIT University](https://www.rmit.edu.au) Department of Computer Science
 
 ## Personal Projects
 
+The code for these projects is available on [GitHub](https://github.com/craiga/).
+
 ### unixtimesta.mp
 
-[unixtimesta.mp](https://www.unixtimesta.mp/) is a simple web site for converting Unix timestamps into human-readable dates. Originally written in PHP and hosted on AWS, the site now uses the Flask framework, and Travis CI and Heroku for constant deployment.  The rewrite employed test-driven development practices. [The source code is available on GitHub](https://github.com/craiga/unixtimesta.mp/).
+[unixtimesta.mp](https://www.unixtimesta.mp/) is a simple web site for converting Unix timestamps into human-readable dates. Originally written in PHP and hosted on AWS, the site now uses the Flask framework, and Travis CI and Heroku for constant deployment.
 
+
+### Will of the Prophets
+
+[Will of the Prophets](https://will-of-the-prophets.herokuapp.com) is a board game played by the hosts of [The Greatest Generation](http://gagh.biz), "a Star Trek podcast by two guys who are a bit embarrassed to have a Star Trek podcast". I worked with the hosts and [designer Felipe Sobreiro](http://www.sobreiro.com) to take what was a difficult to maintain Google spreadsheet and convert it into a web app.
 
 ## Education
 
