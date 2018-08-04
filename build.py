@@ -160,7 +160,7 @@ def build_content(content_dir, template_file, output_dir):
     """Build site content."""
     template = create_template(template_file)
     g_hash = gravatar_hash('craiga@craiga.id.au')
-    for content_file in files(content_dir, '*.markdown',
+    for content_file in files(content_dir, '**/*.markdown',
                               label='Building content'):
         content = markdown_file_to_html(content_file)
         title = title_from_html(content)
@@ -169,9 +169,10 @@ def build_content(content_dir, template_file, output_dir):
                                links=LINKS,
                                gravatar_hash=g_hash)
         html = minify(html, remove_optional_attribute_quotes=False)
-        html_path = Path(output_dir,
-                         content_file.name.replace('.markdown', '.html'))
-        write_html(html, html_path)
+        destination_file = str(content_file.relative_to(content_dir))
+        destination_file = destination_file.replace('.markdown', '.html')
+        destination_file = Path(output_dir, destination_file)
+        write_html(html, destination_file)
 
 
 def build_style(style_dir, output_dir):

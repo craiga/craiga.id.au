@@ -9,7 +9,7 @@
             <link rel="icon" type="image/png" sizes="{{ favicon_size }}x{{ favicon_size }}" href="https://gravatar.com/avatar/{{ gravatar_hash }}.jpeg?size={{ favicon_size }}">
         {% endfor %}
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:400,700" rel="stylesheet">
-        <link href="css/main.css" rel="stylesheet">
+        <link href="/css/main.css" rel="stylesheet">
     </head>
     <body>
         <div class="container">
@@ -32,15 +32,15 @@
                 </div>
             </div>
         </div>
-        <script src="jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
         <script src="https://cdn.ravenjs.com/3.20.1/raven.min.js" crossorigin="anonymous"></script>
         <script>
 Raven.config('https://87a4caa0fd8c4333929598cdd2e4b19b@sentry.io/255252').install();
 </script>
         <audio class="konami-audio">
-            <source src="audio/sick-loop.mp3" type='audio/mp3' />
+            <source src="/audio/sick-loop.mp3" type='audio/mp3' />
         </audio>
-        <script src="js/main.min.js"></script>
+        <script src="/js/main.min.js"></script>
     </body>
 </html>
