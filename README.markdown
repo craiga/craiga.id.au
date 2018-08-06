@@ -13,3 +13,7 @@
       --output_dir DIRECTORY    Output directory.
       --no-pdf                  Do not render PDFs.
       --help                    Show this message and exit.
+
+To preview locally, you can make use of Python's built-in HTTP server.
+
+    pipenv run python -m http.server --directory docs
