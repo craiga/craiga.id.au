@@ -21,9 +21,10 @@ from xstatic.pkg import bootstrap_scss, font_awesome, jquery
 ASSET_MODULES = (bootstrap_scss, font_awesome, jquery)
 
 
-# 3-tuples of URLs, titles, and FontAwesome 4 class names.
+# 3-tuples of URLs, titles, and FontAwesome 4 class names
+# (https://fontawesome.com/v4.7.0/icons/).
 # Top 5 featured in sidebar.
-LINKS = (('/', 'Home', 'fa-home'),
+LINKS = [('/', 'Home', 'fa-home'),
          ('/cv', 'CV', 'fa-briefcase'),
          ('https://www.linkedin.com/in/craigeanderson',
           'LinkedIn', 'fa-linkedin'),
@@ -61,7 +62,8 @@ LINKS = (('/', 'Home', 'fa-home'),
          ('http://steamcommunity.com/id/craiga', 'Steam', 'fa-steam'),
          ('http://blog.craiga.id.au/', 'Tumblr', 'fa-tumblr'),
          ('https://www.strava.com/athletes/craiganderson',
-          'Strava', 'fa-bicycle'))
+          'Strava', 'fa-bicycle'),
+         ('https://www.kiva.org/lender/craiga', 'Kiva', 'fa-leaf')]
 
 
 def files(directory_name, glob_pattern, *args, **kwargs):
