@@ -63,7 +63,8 @@ LINKS = [('/', 'Home', 'fa-home'),
          ('http://blog.craiga.id.au/', 'Tumblr', 'fa-tumblr'),
          ('https://www.strava.com/athletes/craiganderson',
           'Strava', 'fa-bicycle'),
-         ('https://www.kiva.org/lender/craiga', 'Kiva', 'fa-leaf')]
+         ('https://www.kiva.org/lender/craiga', 'Kiva', 'fa-leaf'),
+         ('https://hub.docker.com/u/craiga/', 'Docker Hub', 'fa-server')]
 
 
 def files(directory_name, glob_pattern, *args, **kwargs):
