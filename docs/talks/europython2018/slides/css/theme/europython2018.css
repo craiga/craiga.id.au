@@ -269,3 +269,17 @@ body {
 .jaunty {
   display: block;
   position: absolute; }
+
+/* https://stackoverflow.com/a/47139091/1852024 */
+.multiCol {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  text-align: left; }
+  .multiCol .col {
+    display: table-cell;
+    vertical-align: top;
+    width: 50%;
+    padding: 2% 0 2% 3%; }
+    .multiCol .col:first-of-type {
+      padding-left: 0; }
