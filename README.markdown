@@ -1,3 +1,3 @@
-[![Build Status](https://travis-ci.org/craiga/craiga.id.au.svg?branch=master)](https://travis-ci.org/craiga/craiga.id.au) [![Requirements Status](https://requires.io/github/craiga/craiga.id.au/requirements.svg?branch=master)](https://requires.io/github/craiga/craiga.id.au/requirements/?branch=master) [![Maintainability](https://api.codeclimate.com/v1/badges/1a366a2204bbba152e12/maintainability)](https://codeclimate.com/github/craiga/craiga.id.au/maintainability)
+[![Build Status](https://travis-ci.org/craiga/craiga.id.au.svg?branch=master)](https://travis-ci.org/craiga/craiga.id.au)
 
 Built using [Jekyll](https://jekyllrb.com) and [Bootstrap](https://getbootstrap.com). Hosted right here on [GitHub Pages](https://pages.github.com).
