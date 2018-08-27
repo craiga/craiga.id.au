@@ -1,0 +1,155 @@
+---
+title: Craig Anderson
+description: Personal web site of Craig Anderson.
+email: craiga@craiga.id.au
+url: https://www.craiga.id.au
+lang: en_AU
+author: Craig Anderson
+gravatar_hash: b593bb966ccde8a4a4fbdc32d2aafb6f
+
+# defaults:
+#   - scope:
+#       path: ""
+#     values:
+#       layout: "default"
+
+social:
+  name: Craig Anderson
+  links:
+    - https://www.linkedin.com/in/craigeanderson
+    - https://github.com/craiga
+    - https://facebook.com/craiga
+    - https://www.instagram.com/_craiga/
+    - https://twitter.com/_craiga
+    - https://www.last.fm/user/craiganderson
+    - https://itunes.apple.com/profile/craigeanderson
+    - https://bandcamp.com/craiga
+    - https://soundcloud.com/craiga
+    - https://www.discogs.com/user/craiga
+    - https://www.songkick.com/users/craigeanderson
+    - https://untappd.com/user/craiganderson
+    - https://distiller.com/profile/craiga
+    - https://www.nextfree.co.uk/for/craig-anderson
+    - https://uk.yunojuno.com/p/craiga
+    - https://bitbucket.org/craiganderson/
+    - https://stackoverflow.com/users/1852024/craig-anderson
+    - http://amzn.eu/5UobAlG
+    - https://www.goodreads.com/craiga
+    - https://www.meetup.com/members/24626782/
+    - https://www.pinterest.co.uk/craiga/
+    - https://www.reddit.com/user/craiga/
+    - http://steamcommunity.com/id/craiga
+    - http://blog.craiga.id.au/
+    - https://www.strava.com/athletes/craiganderson
+    - https://www.kiva.org/lender/craiga
+    - https://hub.docker.com/u/craiga/
+
+sidebar_links:
+  - url: /
+    name: Home
+    fontawesome-classes: fas fa-home
+  - url: /cv
+    name: CV
+    fontawesome-classes: fas fa-briefcase
+  - url: https://www.linkedin.com/in/craigeanderson
+    name: LinkedIn
+    fontawesome-classes: fab fa-linkedin
+  - url: https://github.com/craiga
+    name: GitHub
+    fontawesome-classes: fab fa-github
+  - url: mailto:craiga@craiga.id.au
+    name: Email
+    fontawesome-classes: fas fa-envelope
+  - url: /elsewhere
+    name: Elsewhere
+    fontawesome-classes: fas fa-globe
+
+external_profiles:
+  - url: https://www.linkedin.com/in/craigeanderson
+    name: LinkedIn
+    fontawesome-classes: fab fa-linkedin
+  - url: https://github.com/craiga
+    name: GitHub
+    fontawesome-classes: fab fa-github
+  - url: https://facebook.com/craiga
+    name: Facebook
+    fontawesome-classes: fab fa-facebook
+  - url: https://www.instagram.com/_craiga/
+    name: Instagram
+    fontawesome-classes: fab fa-instagram
+  - url: https://twitter.com/_craiga
+    name: Twitter
+    fontawesome-classes: fab fa-twitter
+  - url: https://www.last.fm/user/craiganderson
+    name: Last.fm
+    fontawesome-classes: fab fa-lastfm
+  - url: https://itunes.apple.com/profile/craigeanderson'
+    name: Apple Music
+    fontawesome-classes: fab fa-apple
+  - url: https://bandcamp.com/craiga
+    name: Bandcamp
+    fontawesome-classes: fab fa-bandcamp
+  - url: https://soundcloud.com/craiga
+    name: SoundCloud
+    fontawesome-classes: fab fa-soundcloud
+  - url: https://www.discogs.com/user/craiga
+    name: Discogs
+    fontawesome-classes: fas fa-compact-disc
+  - url: https://www.songkick.com/users/craigeanderson
+    name: Songkick
+    fontawesome-classes: fas fa-volume-up
+  - url: https://untappd.com/user/craiganderson
+    name: Untappd
+    fontawesome-classes: fab fa-untappd
+  - url: https://distiller.com/profile/craiga
+    name: Distiller
+    fontawesome-classes: fas fa-wine-glass-alt
+  - url: https://www.nextfree.co.uk/for/craig-anderson
+    name: Nextfree
+    fontawesome-classes: fas fa-calendar
+  - url: https://uk.yunojuno.com/p/craiga
+    name: YunoJuno
+    fontawesome-classes: fas fa-asterisk
+  - url: https://bitbucket.org/craiganderson/
+    name: Bitbucket
+    fontawesome-classes: fab fa-bitbucket
+  - url: https://stackoverflow.com/users/1852024/craig-anderson
+    name: Stack Overflow
+    fontawesome-classes: fab fa-stack-overflow
+  - url: http://amzn.eu/5UobAlG
+    name: Amazon
+    fontawesome-classes: fab fa-amazon
+  - url: https://www.goodreads.com/craiga
+    name: Goodreads
+    fontawesome-classes: fab fa-goodreads
+  - url: https://www.meetup.com/members/24626782/
+    name: Meetup
+    fontawesome-classes: fab fa-meetup
+  - url: https://www.pinterest.co.uk/craiga/
+    name: Pinterest
+    fontawesome-classes: fab fa-pinterest
+  - url: https://www.reddit.com/user/craiga/
+    name: Reddit
+    fontawesome-classes: fab fa-reddit
+  - url: http://steamcommunity.com/id/craiga
+    name: Steam
+    fontawesome-classes: fab fa-steam
+  - url: http://blog.craiga.id.au/
+    name: Tumblr
+    fontawesome-classes: fab fa-tumblr
+  - url: https://www.strava.com/athletes/craiganderson
+    name: Strava
+    fontawesome-classes: fab fa-strava
+  - url: https://www.kiva.org/lender/craiga
+    name: Kiva
+    fontawesome-classes: fas fa-leaf
+  - url: https://hub.docker.com/u/craiga/
+    name: Docker Hub
+    fontawesome-classes: fab fa-docker
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-coffeescript
+
+markdown: kramdown

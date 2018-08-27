@@ -1,12 +1,6 @@
-language: python
-cache: pip
-python:
-  - "3.6"
-install:
-  - pip install pipenv
-  - pipenv install --dev
-script:
-  - pipenv run pycodestyle
-  - pipenv run pydocstyle
-  - find . -iname "*.py" | xargs pipenv run pylint
-  - pipenv run python build.py --no-pdf && git diff --no-ext-diff --exit-code
+language: ruby
+script: bundle exec jekyll doctor
+notifications:
+  email:
+    on_success: change
+    on_failure: always
