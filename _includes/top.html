@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{ title }}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        {% assign favicon_sizes = "16, 32, 64, 128, 192, 256" | split: ' ' %}
+        {% for favicon_size in favicon_sizes %}
+            <link rel="icon" type="image/png" sizes="{{ favicon_size }}x{{ favicon_size }}" href="https://gravatar.com/avatar/{{ side.gravatar_hash }}.jpeg?size={{ favicon_size }}">
+        {% endfor %}
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}?{{site.time | date: '%s%N'}}">
+        {% seo %}
+    </head>
+    <body>
