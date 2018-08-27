@@ -43,6 +43,7 @@ social:
     - https://www.strava.com/athletes/craiganderson
     - https://www.kiva.org/lender/craiga
     - https://hub.docker.com/u/craiga/
+    - https://vimeo.com/craiga
 
 sidebar_links:
   - url: /
@@ -146,6 +147,9 @@ external_profiles:
   - url: https://hub.docker.com/u/craiga/
     name: Docker Hub
     fontawesome-classes: fab fa-docker
+  - url: https://vimeo.com/craiga
+    name: Vimeo
+    fontawesome-classes: fab fa-vimeo
 
 plugins:
   - jekyll-seo-tag
