@@ -4,14 +4,18 @@ description: Personal web site of Craig Anderson.
 email: craiga@craiga.id.au
 url: https://www.craiga.id.au
 lang: en_AU
-author: Craig Anderson
 gravatar_hash: b593bb966ccde8a4a4fbdc32d2aafb6f
+logo: https://gravatar.com/avatar/b593bb966ccde8a4a4fbdc32d2aafb6f.jpeg?size=400
 
-# defaults:
-#   - scope:
-#       path: ""
-#     values:
-#       layout: "default"
+author:
+  name: Craig Anderson
+  twitter: _craiga
+
+twitter:
+  username: _craiga
+
+facebook:
+  publisher: https://facebook.com/craiga
 
 social:
   name: Craig Anderson

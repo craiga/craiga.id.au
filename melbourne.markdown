@@ -1,5 +1,6 @@
 ---
 title: So, you're visiting Melbourne?
+description: Craig's guide to his home town.
 ---
 
 Great!
