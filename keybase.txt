@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/craiganderson
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://craiga.id.au
+  * I am craiganderson (https://keybase.io/craiganderson) on keybase.
+  * I have a public key ASCljoBLIWtX2Zcprb_1tPtgqUxbYqHw1N_1s4qikt9JTAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a58e804b216b57d99729adbff5b4fb60a94c5b62a1f0d4dff5b38aa292df494c0a",
+      "host": "keybase.io",
+      "kid": "0120a58e804b216b57d99729adbff5b4fb60a94c5b62a1f0d4dff5b38aa292df494c0a",
+      "uid": "d412ff0f63640081fbf796aa7286af19",
+      "username": "craiganderson"
+    },
+    "merkle_root": {
+      "ctime": 1535452567,
+      "hash": "2063befc8ae33039d2c69813a15c43ebfb9ef9441d51d1620e33f76ff57643993489b6138b94760459256830aed8b199a981f65f622a1995605304a408fa984b",
+      "hash_meta": "665007990e012d42fa9f42aa449cbd8d67985333b80b0679037897a63d2ef841",
+      "seqno": 3525721
+    },
+    "service": {
+      "entropy": "r8Fh4yyBhChLQvC3hM/KR87f",
+      "hostname": "craiga.id.au",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.5.0"
+  },
+  "ctime": 1535452675,
+  "expire_in": 504576000,
+  "prev": "c9150df5850045dbe8806daf588a60b8a88d8756bc33acd76063a9ae1d5822c0",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgpY6ASyFrV9mXKa2/9bT7YKlMW2Kh8NTf9bOKopLfSUwKp3BheWxvYWTESpcCBMQgyRUN9YUARdvogG2vWIpguKiNh1a8M6zXYGOprh1YIsDEIOkf4/iRCDeU+tSAQq0z1W4n3TX4231zTAL+yw+VvNJSAgHCo3NpZ8RAYSxhziAcfVibGVOmOIaL4XwS3P3mh4qG0DVCVpAtBCZHC0IKTrJ8Lu2viFGlWcMFNB/a1muHGcswg1ryGrxUAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPmFo4A1PXLcNoHwuWIz6Q0hORswvmHUhygxhgkBsku4o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/craiganderson
+
+==================================================================
