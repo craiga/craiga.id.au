@@ -48,6 +48,7 @@ social:
     - https://www.kiva.org/lender/craiga
     - https://hub.docker.com/u/craiga/
     - https://vimeo.com/craiga
+    - https://keybase.io/craiganderson
 
 sidebar_links:
   - url: /
@@ -154,6 +155,9 @@ external_profiles:
   - url: https://vimeo.com/craiga
     name: Vimeo
     fontawesome-classes: fab fa-vimeo
+  - url: https://keybase.io/craiganderson
+    name: Keybase
+    fontawesome-classes: fab fa-keybase
 
 plugins:
   - jekyll-seo-tag
