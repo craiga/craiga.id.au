@@ -1,4 +1,6 @@
-# WeasyPrint Emoji Test
+---
+title: WeasyPrint Emoji Test
+---
 
 Here's a bunch of Emoji characters to illustrate [WeasyPrint issue 568](https://github.com/Kozea/WeasyPrint/issues/568): &#x1F984;&#x1F44D;&#x1F436;
 
