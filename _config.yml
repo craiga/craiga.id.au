@@ -165,3 +165,10 @@ plugins:
   - jekyll-coffeescript
 
 markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: '**/plugin/**'
+    values:
+      sitemap: false
