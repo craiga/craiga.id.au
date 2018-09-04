@@ -49,6 +49,7 @@ social:
     - https://hub.docker.com/u/craiga/
     - https://vimeo.com/craiga
     - https://keybase.io/craiganderson
+    - https://www.quora.com/profile/Craig-Anderson-2
 
 sidebar_links:
   - url: /
@@ -160,6 +161,9 @@ external_profiles:
     fontawesome-classes: fab fa-keybase
   - text: SW-0552-7913-6509
     fontawesome-classes: fab fa-nintendo-switch
+  - url: https://www.quora.com/profile/Craig-Anderson-2
+    text: Quora
+    fontawesome-classes: fab fa-quora
 
 plugins:
   - jekyll-seo-tag
