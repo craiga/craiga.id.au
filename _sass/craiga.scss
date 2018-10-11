@@ -23,6 +23,10 @@ $base1:   #93a1a1;
 $base2:   #eee8d5;
 $base3:   #fdf6e3;
 
+$white:   #ffffff;
+
+$body-color: $base02;
+$body-bg: $white;
 
 $font-family-sans-serif: 'Lato', sans-serif;
 $font-family-serif: 'Merriweather', serif;
@@ -69,6 +73,13 @@ h1, h2, h3, h4, h5, h6,
 }
 
 @media print {
+  *,
+  *::before,
+  *::after {
+    color: $black !important;
+    background: transparent !important;
+  }
+
   a {
     color: inherit;
     text-decoration: none !important;
