@@ -50,6 +50,7 @@ social:
     - https://vimeo.com/craiga
     - https://keybase.io/craiganderson
     - https://www.quora.com/profile/Craig-Anderson-2
+    - https://www.gog.com/u/craigeanderson
 
 sidebar_links:
   - url: /
@@ -141,6 +142,11 @@ external_profiles:
   - url: http://steamcommunity.com/id/craiga
     text: Steam
     fontawesome-classes: fab fa-steam
+  - text: SW-0552-7913-6509
+    fontawesome-classes: fab fa-nintendo-switch
+  - url: https://www.gog.com/u/craigeanderson
+    text: GOG
+    fontawesome-classes: fas fa-gamepad
   - url: http://blog.craiga.id.au/
     text: Tumblr
     fontawesome-classes: fab fa-tumblr
@@ -159,8 +165,6 @@ external_profiles:
   - url: https://keybase.io/craiganderson
     text: Keybase
     fontawesome-classes: fab fa-keybase
-  - text: SW-0552-7913-6509
-    fontawesome-classes: fab fa-nintendo-switch
   - url: https://www.quora.com/profile/Craig-Anderson-2
     text: Quora
     fontawesome-classes: fab fa-quora
