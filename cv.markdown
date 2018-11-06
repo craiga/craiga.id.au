@@ -53,11 +53,10 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 ### Prior Roles
 
-* Back End and API Custom Services Development Team Lead (Jul&nbsp;‘15–Dec&nbsp;‘15), Australian Broadcasting Corporation
-* Senior Web Developer (Sep&nbsp;‘11–Jun&nbsp;‘15), [Australian Broadcasting Corporation](https://www.abc.net.au)
+* Senior Web Developer (Sep&nbsp;‘11–Jun&nbsp;‘15) and Back End and API Custom Services Development Team Lead (Jul&nbsp;‘15–Dec&nbsp;‘15), [Australian Broadcasting Corporation](https://www.abc.net.au)
 * Technical Editor (Jun&nbsp;‘05–Dec&nbsp;‘06) and Senior Web Developer (Jan&nbsp;‘07–Sep&nbsp;‘11), [SitePoint](https://www.sitepoint.com)
 * Analyst Programmer (Jan&nbsp;2000–Jun&nbsp;‘05), [Infosys Australia](https://www.infosys.com/australia/)
-* Duty Programmer (July&nbsp;'99–Dec&nbsp;'99), [RMIT University](https://www.rmit.edu.au) Department of Computer Science
+* Duty Programmer (Jul&nbsp;‘99–Dec&nbsp;‘99), [RMIT University](https://www.rmit.edu.au) Department of Computer Science
 
 ## Personal Projects
 
