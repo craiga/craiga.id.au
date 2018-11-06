@@ -24,7 +24,7 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 [MyOptique Group](http://www.myoptiquegroup.com) are an online retailer of glasses and contact lenses with brands including Glasses Direct and Sunglasses Shop.
 
-* I joined their multi-brand fulfilment development team to help maintain and modernise microservices which take orders through their warehouse and lens manufacturing processes.
+* I joined their development team to help maintain and modernise web sites and microservices which take orders from the customer to their warehouse and lens manufacturing processes.
 
 
 ### Back End Developer (Permanent and Contract), Ten Group (Feb&nbsp;‘17–May&nbsp;‘18)
@@ -45,32 +45,16 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 [Squareweave](http://squareweave.com.au) is a full-service digital agency focused on non-profits and social enterprise clients.
 
-* I was technical lead on ehHAT, a survey system for headspace (the Australian national youth mental health foundation) implemented using Django  in a Docker-powered development environment. ehHAT is used by mental health clinicians to interview young people before their counselling session. In this project I:
+* I was technical lead on ehHAT, a survey system for headspace (the Australian national youth mental health foundation) implemented using Django in a Docker-powered development environment. ehHAT is used by mental health clinicians to interview young people before their counselling session. In this project I:
     * Led back end development;
     * Coordinated with project stakeholders; and
     * Participated in user experience testing sessions.
 * I was also part of the team developing and maintaining HAPI, a PHP-based system used by headspace to collect and analyse information from young people.
 
-### Australian Broadcasting Corporation (ABC)
-
-The [ABC](http://abc.net.au) is Australia's national broadcaster, similar to the BBC in Britain.
-
-#### Back End and API Custom Services Development Team Lead (Jul&nbsp;‘15–Dec&nbsp;‘15)
-
-* I managed a geographically diverse team of developers through an organisational restructure.
-* I ran an audit of systems across the ABC and worked with stakeholders to rationalise systems.
-
-#### Senior Web Developer (Sep&nbsp;‘11–Jun&nbsp;‘15)
-
-* I was technical lead on Club3, a social network for 8– to 12–year olds. Club3 was written in PHP using the Symfony framework, backed by MySQL and SQLite databases. As part of my work on Club3, I:
-    * Coordinated migration of Club3 onto Amazon Web Services for production and Vagrant for development;
-    * Led development of ABC3 RAWR, a user-generated video platform built on top of Club3 which was nominated for a Webby award. Video uploaded to this platform is now broadcast on ABC3[^abc3-rebrand]; and
-    * Developed the Club3 game scoring API, and coordinated with game developers to improve the game scoring API and its documentation.
-    * Developed a video transcoding microservice to manage interaction with Zencoder in Flask (a Python microframework) with a DynamoDB NoSQL database.
-* I provided technical leadership and advice to producers, managers and developers in the ABC Kids team.
-
 ### Prior Roles
 
+* Back End and API Custom Services Development Team Lead (Jul&nbsp;‘15–Dec&nbsp;‘15), Australian Broadcasting Corporation
+* Senior Web Developer (Sep&nbsp;‘11–Jun&nbsp;‘15), [Australian Broadcasting Corporation](https://www.abc.net.au)
 * Technical Editor (Jun&nbsp;‘05–Dec&nbsp;‘06) and Senior Web Developer (Jan&nbsp;‘07–Sep&nbsp;‘11), [SitePoint](https://www.sitepoint.com)
 * Analyst Programmer (Jan&nbsp;2000–Jun&nbsp;‘05), [Infosys Australia](https://www.infosys.com/australia/)
 * Duty Programmer (July&nbsp;'99–Dec&nbsp;'99), [RMIT University](https://www.rmit.edu.au) Department of Computer Science
@@ -86,7 +70,7 @@ The code for these projects is available on [GitHub](https://github.com/craiga/)
 
 ### Will of the Prophets
 
-[Will of the Prophets](https://will-of-the-prophets.herokuapp.com) is a board game played by the hosts of [The Greatest Generation](http://gagh.biz), "a Star Trek podcast by two guys who are a bit embarrassed to have a Star Trek podcast". I worked with the hosts and [designer Felipe Sobreiro](http://www.sobreiro.com) to take what was a difficult to maintain Google spreadsheet and convert it into a web app.
+[Will of the Prophets](http://gagh.biz/game) is a board game played by the hosts of [The Greatest Generation](http://gagh.biz), "a Star Trek podcast by two guys who are a bit embarrassed to have a Star Trek podcast". I worked with the hosts and [designer Felipe Sobreiro](http://www.sobreiro.com) to take what was a difficult to maintain Google spreadsheet and convert it into a web app.
 
 ## Education
 
@@ -97,9 +81,4 @@ Graduated with Distinction.
 
 ## Volunteering
 
-I'm a coach at [codebar](http://codebar.io), teaching people from underrepresented groups how to code, a mentor at [Meet a Mentor](http://meetamentor.co.uk), and am one of the organisers of the [London Django Meetup](https://www.djangolondon.com).
-
-
-[^abc3-rebrand]: The ABC have since re-branded ABC3 as ABC ME, and ABC3 RAWR as ABC ME Your Films.
-
-*[RMIT]: Royal Melbourne Institute of Technology
+I'm a coach at [codebar](http://codebar.io), teaching people from underrepresented groups how to code and a mentor at [Meet a Mentor](http://meetamentor.co.uk). I was formerly one of the organisers of the [London Django Meetup](https://www.djangolondon.com).
