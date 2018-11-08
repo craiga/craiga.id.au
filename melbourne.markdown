@@ -7,6 +7,9 @@ Great!
 
 The following is a list of places I'd recommend you go in each neighbourhood I'm familiar with. Some of these areas will almost certainly already be on your list, and some of them will probably be a little off the beaten track.
 
+* 
+{:toc}
+
 ## South of the Yarra
 
 I can't really help you here. There are two types of people in Melbourne—those north of the river (typically insufferable left-leaning voters), and those south of the river (typically insufferable right-leaning voters).
