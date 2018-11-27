@@ -3,7 +3,7 @@ title: Craig Anderson — CV
 description: Curriculum Vitae of Craig Anderson, a web developer specialising in Python and Django.
 ---
 
-I’m a web developer specialising in Python and Django with over 18 years of experience. I’m pursuing contract roles as it should, in time, give me more flexibility to move as my partner’s academic career demands. I’m motivated by work for social and environmental good.
+I’m a web developer specialising in Python and Django with over {{ "now" | date: "%Y" | minus: 2000 }} years of experience. I’m pursuing contract roles as it should, in time, give me more flexibility to move as my partner’s academic career demands. I’m motivated by work for social and environmental good.
 
 I'm a signatory to [the programmer's oath](https://github.com/Widdershin/programmers-oath/blob/2a7455c/README.md).
 
@@ -20,7 +20,7 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 ## Work History
 
-### Python Developer, MyOptique Group (Jul&nbsp;‘18–Nov&nbsp;‘18)
+### Python Developer, MyOptique Group (Jul&nbsp;‘18–Apr&nbsp;‘19)
 
 [MyOptique Group](http://www.myoptiquegroup.com) are an online retailer of glasses and contact lenses with brands including Glasses Direct and Sunglasses Shop.
 
@@ -43,7 +43,7 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 ### Senior Web Developer, Squareweave (Dec&nbsp;‘15–Oct&nbsp;‘16)
 
-[Squareweave](http://squareweave.com.au) is a full-service digital agency focused on non-profits and social enterprise clients.
+[Squareweave](http://squareweave.com.au) is an agency focused on non-profits and social enterprise clients.
 
 * I was technical lead on ehHAT, a survey system for headspace (the Australian national youth mental health foundation) implemented using Django in a Docker-powered development environment. ehHAT is used by mental health clinicians to interview young people before their counselling session. In this project I:
     * Led back end development;
