@@ -146,6 +146,9 @@ external_profiles:
     fontawesome-classes: fab fa-steam
   - text: SW-0552-7913-6509
     fontawesome-classes: fab fa-nintendo-switch
+  - url: https://account.xbox.com/en-us/profile?gamertag=craigea
+    text: Xbox
+    fontawesome-classes: fab fa-xbox
   - url: https://www.gog.com/u/craigeanderson
     text: GOG
     fontawesome-classes: fas fa-gamepad
