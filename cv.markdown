@@ -3,7 +3,7 @@ title: Craig Anderson — CV
 description: Curriculum Vitae of Craig Anderson, a web developer specialising in Python and Django.
 ---
 
-I’m a web developer specialising in Python and Django with over 18 years of experience. I’m pursuing contract roles as it should, in time, give me more flexibility to move as my partner’s academic career demands. I’m motivated by work for social and environmental good.
+I’m a web developer specialising in Python and Django with over {{ "now" | date: "%Y" | minus: 2000 }} years of experience. I’m pursuing contract roles as it should, in time, give me more flexibility to move as my partner’s academic career demands. I’m motivated by work for social and environmental good.
 
 I'm a signatory to [the programmer's oath](https://github.com/Widdershin/programmers-oath/blob/2a7455c/README.md).
 
