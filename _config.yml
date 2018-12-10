@@ -53,6 +53,7 @@ social:
     - https://keybase.io/craiganderson
     - https://www.quora.com/profile/Craig-Anderson-2
     - https://www.gog.com/u/craigeanderson
+    - https://angel.co/craiganderson
 
 sidebar_links:
   - url: /
@@ -120,6 +121,9 @@ external_profiles:
   - url: https://uk.yunojuno.com/p/craiga
     text: YunoJuno
     fontawesome-classes: fas fa-asterisk
+  - url: https://angel.co/craiganderson
+    text: AngelList
+    fontawesome-classes: fab fa-angellist
   - url: https://bitbucket.org/craiganderson/
     text: Bitbucket
     fontawesome-classes: fab fa-bitbucket
