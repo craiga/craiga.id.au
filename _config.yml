@@ -54,6 +54,7 @@ social:
     - https://www.quora.com/profile/Craig-Anderson-2
     - https://www.gog.com/u/craigeanderson
     - https://angel.co/craiganderson
+    - https://www.twitch.tv/craigea
 
 sidebar_links:
   - url: /
@@ -159,6 +160,9 @@ external_profiles:
   - url: https://vgcollect.com/craiga
     text: VGCollect
     fontawesome-classes: fas fa-gamepad
+  - url: https://www.twitch.tv/craigea
+    text: Twitch
+    fontawesome-classes: fab fa-twitch
   - url: http://blog.craiga.id.au/
     text: Tumblr
     fontawesome-classes: fab fa-tumblr
