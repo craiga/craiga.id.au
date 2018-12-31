@@ -135,10 +135,10 @@
         },
         "six": {
             "hashes": [
-                "sha256:70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9",
-                "sha256:832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb"
+                "sha256:3350809f0555b11f552448330d0b52d5f24c91a322ea4a15ef22629740f3761c",
+                "sha256:d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73"
             ],
-            "version": "==1.11.0"
+            "version": "==1.12.0"
         },
         "tinycss2": {
             "hashes": [
@@ -149,11 +149,11 @@
         },
         "weasyprint": {
             "hashes": [
-                "sha256:17ff4a87b33c010677418a758ffedfdead3c07560cae355e567b3c243d5039fa",
-                "sha256:a4be3f9ae003ea6601924f1a7abd02f0c07332597a6615bb0112cd6677b2d833"
+                "sha256:799bf4e7df80ec307051d21c59ef91e3198b4013cdecc6b47e9cb0c014ffab38",
+                "sha256:c7ec4cd12cf22aa5db6e8147d8b7da41953083c138c62fce02dda5faded5c170"
             ],
             "index": "pypi",
-            "version": "==43"
+            "version": "==44"
         },
         "webencodings": {
             "hashes": [
