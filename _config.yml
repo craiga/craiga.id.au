@@ -184,6 +184,9 @@ external_profiles:
   - url: https://www.quora.com/profile/Craig-Anderson-2
     text: Quora
     fontawesome-classes: fab fa-quora
+  - url: https://trello.com/craigea
+    text: Trello
+    fontawesome-classes: fab fa-trello
 
 plugins:
   - jekyll-seo-tag
