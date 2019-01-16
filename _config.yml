@@ -191,6 +191,8 @@ external_profiles:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
+
 
 markdown: kramdown
 
