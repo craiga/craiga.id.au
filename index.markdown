@@ -8,6 +8,6 @@ By night, you might find me exploring my adopted home city of London, [playing a
 
 I gave a talk called ["Craig goes to Scotland to learn about Python"](/talks/europython2018) at the London Django Meetup which was a brief recap of my experiences at EuroPython 2018.
 
-I also run [a little Unix Timestamp conversion site](https://www.unixtimesta.mp).
+I also run [a little Unix Timestamp conversion site](https://www.unixtimesta.mp) and [a board game for a podcast I'm a little embarrassed to be subscribed to](http://gagh.biz/game).
 
 There are plenty of other things I should be doing, but most of the time I'm dreaming about what I'll do when I grow up while watching bad Star Trek spin-offs.
