@@ -58,22 +58,31 @@ social:
 
 sidebar_links:
   - url: /
-    name: Home
+    text: Home
     fontawesome-classes: fas fa-home
   - url: /cv
-    name: CV
+    text: CV
     fontawesome-classes: fas fa-briefcase
   - url: https://www.linkedin.com/in/craigeanderson
-    name: LinkedIn
+    text: LinkedIn
     fontawesome-classes: fab fa-linkedin
   - url: https://github.com/craiga
-    name: GitHub
+    text: GitHub
     fontawesome-classes: fab fa-github
+  - url: https://facebook.com/craiga
+    text: Facebook
+    fontawesome-classes: fab fa-facebook
+  - url: https://www.instagram.com/_craiga/
+    text: Instagram
+    fontawesome-classes: fab fa-instagram
+  - url: https://twitter.com/_craiga
+    text: Twitter
+    fontawesome-classes: fab fa-twitter
   - url: mailto:craiga@craiga.id.au
-    name: Email
+    text: Email
     fontawesome-classes: fas fa-envelope
   - url: /elsewhere
-    name: Elsewhere
+    text: Elsewhere
     fontawesome-classes: fas fa-globe
 
 external_profiles:
@@ -131,6 +140,9 @@ external_profiles:
   - url: https://stackoverflow.com/users/1852024/craig-anderson
     text: Stack Overflow
     fontawesome-classes: fab fa-stack-overflow
+  - url: https://pypi.org/user/craiga/
+    text: PyPI
+    fontawesome-classes: fab fa-python
   - url: http://amzn.eu/5UobAlG
     text: Amazon
     fontawesome-classes: fab fa-amazon
