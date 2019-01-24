@@ -6,7 +6,8 @@
 <div class="row no-gutters pt-3">
     {% for link in site.sidebar_links %}
         <a class="col-xl-4 col-md-6 col-4 py-1 text-truncate text-sans-serif" href="{{ link.url }}">
-            <i class="{{ link.fontawesome-classes }} fa-fw " aria-hidden="true"></i>&nbsp; {{ link.text }}
+            <i class="{{ link.fontawesome-classes }} fa-fw " aria-hidden="true"></i>
+            <span class="d-inline-block pl-1">{{ link.text }}</span>
         </a>
     {% endfor %}
 </div>
