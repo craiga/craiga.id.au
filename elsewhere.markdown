@@ -4,7 +4,7 @@ title: Other places you can find me on the Internet
 
 I like to sign up for things.
 
-{% assign item_classes = 'col-xl-3 col-lg-4 col-sm-6 col-12 py-1 text-truncate text-sans-serif' %}
+{% assign item_classes = 'col-lg-4 col-sm-6 col-12 py-1 text-truncate text-sans-serif' %}
 <div class="row no-gutters pb-3">
     {% for profile in site.external_profiles %}
         {% if profile.url %}
@@ -13,7 +13,7 @@ I like to sign up for things.
           <span class="{{item_classes}}">
         {% endif %}
             <i class="{{ profile.fontawesome-classes }} fa-fw" aria-hidden="true"></i>
-            {{ profile.text }}
+            <span class="d-inline-block pl-1">{{ profile.text }}</span>
         {% if profile.url %}
           </a>
         {% else %}
