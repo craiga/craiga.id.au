@@ -33,7 +33,7 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 * As part of a team of senior developers, I helped establish a new platform to replace an existing prototype. The new platform is being implemented using Django, Django Rest Framework and Celery. It's also making extensive use of Docker and Docker Compose.
 * I was technical lead on the platform's back end travel component, an API which integrates with a number of third-party services to search for and book flights, hotels, and cars to hire.
-* I also led development of the platform's integration with Ten's internal CRM platform using SOAP and a custom XML API.
+* I also led development of the platform's integration with Ten's CRM platform using SOAP and a custom XML API.
 
 ### Tech Team Lead, Ubiquity Press (Oct&nbsp;‘16–Feb&nbsp;‘17)
 
@@ -64,20 +64,24 @@ The code for these projects is available on [GitHub](https://github.com/craiga/)
 
 ### unixtimesta.mp
 
-[unixtimesta.mp](https://www.unixtimesta.mp/) is a simple web site for converting Unix timestamps into human-readable dates. Originally written in PHP and hosted on AWS, the site now uses the Flask framework, and Travis CI and Heroku for constant deployment.
-
+[unixtimesta.mp](https://www.unixtimesta.mp/) is a simple web site for converting Unix timestamps into human-readable dates that I've been running since 2010. Originally written in PHP, the site now uses the Flask framework.
 
 ### Will of the Prophets
 
-[Will of the Prophets](http://gagh.biz/game) is a board game played by the hosts of [The Greatest Generation](http://gagh.biz), "a Star Trek podcast by two guys who are a bit embarrassed to have a Star Trek podcast". I worked with the hosts and [designer Felipe Sobreiro](http://www.sobreiro.com) to take what was a difficult to maintain Google spreadsheet and convert it into a web app.
+[Will of the Prophets](http://gagh.biz/game) is a board game played by the hosts of [The Greatest Generation](http://gagh.biz), "a Star Trek podcast by two guys who are a bit embarrassed to have a Star Trek podcast". I worked with the hosts to take what was a difficult-to-maintain Google spreadsheet and convert it into a web app. It was built using Django.
+
+### faker-microservice
+
+[faker-microservice](https://github.com/craiga/faker-microservice) adds fake microservice names to the popular [faker](https://faker.readthedocs.io/) package.
+
+## Volunteering and Open Source
+
+Outside of my open-source personal projects, I've also contributed a number of open source projects including [Django Rest Framework](https://github.com/encode/django-rest-framework) and [moto](https://github.com/spulec/moto).
+
+I'm a coach at [codebar](http://codebar.io), teaching people from underrepresented groups how to code, and a mentor at [Meet a Mentor](http://meetamentor.co.uk). I was formerly one of the organisers of the [London Django Meetup](https://www.djangolondon.com).
 
 ## Education
 
 ### Bachelor of Applied Science (Computer Science), RMIT University, Australia (1997–1999)
 
 Graduated with Distinction.
-
-
-## Volunteering
-
-I'm a coach at [codebar](http://codebar.io), teaching people from underrepresented groups how to code and a mentor at [Meet a Mentor](http://meetamentor.co.uk). I was formerly one of the organisers of the [London Django Meetup](https://www.djangolondon.com).
