@@ -178,6 +178,9 @@ external_profiles:
   - url: http://blog.craiga.id.au/
     text: Tumblr
     fontawesome-classes: fab fa-tumblr
+  - url: https://curiouscat.me/craiga
+    text: Curious Cat
+    fontawesome-classes: fas fa-cat
   - url: https://www.strava.com/athletes/craiganderson
     text: Strava
     fontawesome-classes: fab fa-strava
