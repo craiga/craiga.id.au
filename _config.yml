@@ -104,7 +104,7 @@ external_profiles:
   - url: https://www.last.fm/user/craiganderson
     text: Last.fm
     fontawesome-classes: fab fa-lastfm
-  - url: https://itunes.apple.com/profile/craigeanderson'
+  - url: https://itunes.apple.com/profile/craigeanderson
     text: Apple Music
     fontawesome-classes: fab fa-apple
   - url: https://bandcamp.com/craiga
