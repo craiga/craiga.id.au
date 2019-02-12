@@ -202,6 +202,9 @@ external_profiles:
   - url: https://trello.com/craigea
     text: Trello
     fontawesome-classes: fab fa-trello
+  - url: https://www.airbnb.co.uk/users/show/11121228
+    text: Airbnb
+    fontawesome-classes: fas fa-home
 
 plugins:
   - jekyll-seo-tag
