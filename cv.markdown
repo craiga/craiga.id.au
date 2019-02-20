@@ -60,11 +60,11 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 ## Personal Projects
 
-The code for these projects is available on [GitHub](https://github.com/craiga/).
+The code for these projects is available on [GitHub](https://github.com/craiga).
 
 ### unixtimesta.mp
 
-[unixtimesta.mp](https://www.unixtimesta.mp/) is a simple web site for converting Unix timestamps into human-readable dates that I've been running since 2010. Originally written in PHP, the site now uses the Flask framework.
+[unixtimesta.mp](https://www.unixtimesta.mp) is a simple web site for converting Unix timestamps into human-readable dates that I've been running since 2010. Originally written in PHP, the site now uses the Flask framework.
 
 ### Will of the Prophets
 
@@ -72,11 +72,11 @@ The code for these projects is available on [GitHub](https://github.com/craiga/)
 
 ### faker-microservice
 
-[faker-microservice](https://github.com/craiga/faker-microservice) adds fake microservice names to the popular [faker](https://faker.readthedocs.io/) package.
+[faker-microservice](https://github.com/craiga/faker-microservice) adds fake microservice names to the popular [faker](https://faker.readthedocs.io) package.
 
 ## Volunteering and Open Source
 
-Outside of my open-source personal projects, I've also contributed a number of open source projects including [Django Rest Framework](https://github.com/encode/django-rest-framework) and [moto](https://github.com/spulec/moto).
+Outside of my open-source personal projects, I've also contributed a number of open source projects including [Django Rest Framework](https://www.django-rest-framework.org) and [moto](http://getmoto.org).
 
 I'm a coach at [codebar](http://codebar.io), teaching people from underrepresented groups how to code, and a mentor at [Meet a Mentor](http://meetamentor.co.uk). I was formerly one of the organisers of the [London Django Meetup](https://www.djangolondon.com).
 
