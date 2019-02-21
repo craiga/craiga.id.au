@@ -158,6 +158,9 @@ external_profiles:
   - url: https://www.reddit.com/user/craiga/
     text: Reddit
     fontawesome-classes: fab fa-reddit
+  - url: https://www.producthunt.com/@craiga
+    text: Product Hunt
+    fontawesome-classes: fab fab-product-hunt
   - url: http://steamcommunity.com/id/craiga
     text: Steam
     fontawesome-classes: fab fa-steam
