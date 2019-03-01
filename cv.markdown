@@ -3,7 +3,7 @@ title: Craig Anderson — CV
 description: Curriculum Vitae of Craig Anderson, a web developer specialising in Python and Django.
 ---
 
-I’m a web developer specialising in Python and Django with over {{ "now" | date: "%Y" | minus: 2000 }} years of experience. I’m pursuing contract roles as it should, in time, give me more flexibility to move as my partner’s academic career demands. I’m motivated by work for social and environmental good.
+I’m a web developer specialising in Python and Django with over {{ "now" | date: "%Y" | minus: 2000 }} years of experience. I’m pursuing freelance roles as it should, in time, give me more flexibility to move as my partner’s academic career demands. I’m motivated by work for social and environmental good.
 
 I'm a signatory to [the programmer's oath](https://github.com/Widdershin/programmers-oath/blob/2a7455c/README.md).
 
@@ -25,6 +25,7 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 [MyOptique Group](http://www.myoptiquegroup.com) are an online retailer of glasses and contact lenses with brands including Glasses Direct and Sunglasses Shop.
 
 * I joined their development team to help maintain and modernise web sites and microservices which take orders from the customer to their warehouse and lens manufacturing processes.
+* Developed a dashboard which wrapped and supplemented 
 
 
 ### Back End Developer (Permanent and Contract), Ten Group (Feb&nbsp;‘17–May&nbsp;‘18)

@@ -27,34 +27,6 @@ social:
     - https://facebook.com/craiga
     - https://www.instagram.com/_craiga/
     - https://twitter.com/_craiga
-    - https://www.last.fm/user/craiganderson
-    - https://itunes.apple.com/profile/craigeanderson
-    - https://bandcamp.com/craiga
-    - https://soundcloud.com/craiga
-    - https://www.discogs.com/user/craiga
-    - https://www.songkick.com/users/craigeanderson
-    - https://untappd.com/user/craiganderson
-    - https://distiller.com/profile/craiga
-    - https://www.nextfree.co.uk/for/craig-anderson
-    - https://uk.yunojuno.com/p/craiga
-    - https://bitbucket.org/craiganderson/
-    - https://stackoverflow.com/users/1852024/craig-anderson
-    - http://amzn.eu/5UobAlG
-    - https://www.goodreads.com/craiga
-    - https://www.meetup.com/members/24626782/
-    - https://www.pinterest.co.uk/craiga/
-    - https://www.reddit.com/user/craiga/
-    - http://steamcommunity.com/id/craiga
-    - http://blog.craiga.id.au/
-    - https://www.strava.com/athletes/craiganderson
-    - https://www.kiva.org/lender/craiga
-    - https://hub.docker.com/u/craiga/
-    - https://vimeo.com/craiga
-    - https://keybase.io/craiganderson
-    - https://www.quora.com/profile/Craig-Anderson-2
-    - https://www.gog.com/u/craigeanderson
-    - https://angel.co/craiganderson
-    - https://www.twitch.tv/craigea
 
 sidebar_links:
   - url: /
@@ -213,7 +185,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
-
 
 markdown: kramdown
 
