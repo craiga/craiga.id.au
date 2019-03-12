@@ -62,7 +62,7 @@ Great vegan restaurant. I've got their cookbook and it's pretty great.
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=Smith and Deli, Fitzroy, Australia"></iframe>
 
-Take-away spinoff of Smith and Daughters.
+Take-away spin-off of Smith and Daughters.
 
 ### Wabi Sabi Salon &#x1F1EF;&#x1F1F5;&#x1F37D;
 
@@ -116,7 +116,7 @@ Fitzroy North is a very well-to-do area, populated primarily by champagne social
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=Edinburgh Gardens, Fitzroy North, Australia"></iframe>
 
-The biggest and most popular park in the inner north. On a sunny day on the weekend, the north side of the park will be overrun with 20- or 30-somethings with beer, cider, and picnic foods picked up from Piedemontes (the local supermarket) and Blackhearts and Sparrows.
+The biggest and most popular park in the inner north. On a sunny day on the weekend, the north side of the park will be overrun with 20- or 30-somethings with beer, cider, and picnic foods picked up from Piedemontes (the local supermarket) and Blackheart and Sparrows.
 
 ### Blackheart and Sparrows &#x1F37E;
 
@@ -155,7 +155,7 @@ Good for Indian. They had a buffet night on Sunday. And craft beer!
 
 After getting tired of the hipster inner north, I moved westward and rented a flat in Footscray with Zoe in the mid-2010s, where we lived until I left Australia.
 
-Footscray has a reputation of being rough, but it's not really warranted these days. There are some social issues in the area, and recently some media beat-ups about "african gangs", but nothing which should scare you away.
+Footscray has a reputation of being rough, but it's not really warranted these days. There are some social issues in the area, and recently some media beat-ups about "African gangs", but nothing which should scare you away.
 
 ### Pho Hung Vuong Saigon &#x1F1FB;&#x1F1F3;&#x1F35C;
 
@@ -238,7 +238,7 @@ Yet another craft beer bar. Either I or Melbourne has a bit of an obsession with
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=Whisky and Alement, Melbourne, Australia"></iframe>
 
-Small whiskey bar with friendly, knowledgeable staff; reasonable prices; and a very extensive list. Their boilermakers (a beer and whiskey pairing) are always a good place to get started.
+Small whisky bar with friendly, knowledgeable staff; reasonable prices; and a very extensive list. Their boilermakers (a beer and whisky pairing) are always a good place to get started.
 
 ### Hells Kitchen &#x1F37A;
 

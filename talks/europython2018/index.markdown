@@ -1,6 +1,6 @@
 ---
 title: Craig goes to Scotland to learn about Python
-description: Talk briefly summarising of Craig's experience at EuroPython 2018, given at the London Django Meetup Group on 14th August 2018.
+description: Talk briefly summarising of Craig's experience at EuroPython 2018, given at the London Django Meetup Group on August 14 2018.
 redirect_from: /talks/europython2018/slides
 ---
 

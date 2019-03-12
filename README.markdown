@@ -9,8 +9,8 @@ To run locally:
 
 The site will be available at http://localhost:4000.
 
-Requires [bundler](https://bundler.io).
+Requires [Bundler](https://bundler.io).
 
 # Generating PDFs
 
-Generate PDFs by running `make pdf`. Requires [bundler](https://bundler.io) and [pipenv](https://pipenv.readthedocs.io/en/latest/).
+Generate PDFs by running `make pdf`. Requires [Bundler](https://bundler.io) and [Pipenv](https://pipenv.readthedocs.io/en/latest/).

@@ -78,7 +78,7 @@ The code for these projects is available on [GitHub](https://github.com/craiga).
 
 Outside of my open-source personal projects, I've also contributed a number of open source projects including [Django Rest Framework](https://www.django-rest-framework.org) and [moto](http://getmoto.org).
 
-I'm a coach at [codebar](http://codebar.io), teaching people from underrepresented groups how to code, and a mentor at [Meet a Mentor](http://meetamentor.co.uk). I was formerly one of the organisers of the [London Django Meetup](https://www.djangolondon.com).
+I'm a coach at [Codebar](http://codebar.io), teaching people from underrepresented groups how to code, and a mentor at [Meet a Mentor](http://meetamentor.co.uk). I was formerly one of the organisers of the [London Django Meetup](https://www.djangolondon.com).
 
 ## Education
 

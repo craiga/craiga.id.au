@@ -1,7 +1,14 @@
 language: ruby
+addons:
+  apt:
+    packages:
+      - aspell
+      - aspell-en
 script:
   - bundle exec jekyll doctor
   - bundle exec jekyll build
+  - shellcheck *.sh
+  - ./spellcheck.sh
 notifications:
   email:
     on_success: change
