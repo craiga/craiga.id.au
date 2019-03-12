@@ -167,7 +167,7 @@ Pho is breakfast food in Vietnam, so this place is open early if you want someth
 
 For the price, the service is what you'd expect—not rude, but not exactly welcoming and friendly either.
 
-### To’s Bakery &#x1F1FB;&#x1F1F3;&#x1F956;
+### To's Bakery &#x1F1FB;&#x1F1F3;&#x1F956;
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=To%27s%20Bakery%2C%20Footscray%2C%20Australia"></iframe>
 
