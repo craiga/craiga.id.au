@@ -225,3 +225,5 @@ defaults:
       path: '**/plugin/**'
     values:
       sitemap: false
+
+permalink: /:categories/:year/:month/:day/:title
