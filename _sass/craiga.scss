@@ -42,8 +42,11 @@ $line-height-base: 1.8;
 @import "fontawesome-5.7.1/fontawesome";
 @import "fontawesome-5.7.1/solid";
 @import "fontawesome-5.7.1/brands";
+@import "rouge";
 
-.text-sans-serif { font-family: $font-family-sans-serif; }
+.text-sans-serif {
+   font-family: $font-family-sans-serif;
+}
 
 $headings-margin-top: $spacer * 1.5;
 h1, h2, h3, h4, h5, h6,
@@ -51,12 +54,26 @@ h1, h2, h3, h4, h5, h6,
   margin-top: $headings-margin-top;
 }
 
+blockquote {
+  font-family: $font-family-serif;
+  font-style: italic;
+  padding-left: $spacer;
+}
+
+img {
+   max-width: 100%;
+}
 
 .map {
   width: 100%;
   height: 400px;
   margin: 0 0 ($line-height-base / 2);
   border: none;
+}
+
+.highlighter-rouge pre {
+  padding: $spacer;
+  border: $border-width solid $gray-800;
 }
 
 .rotate {

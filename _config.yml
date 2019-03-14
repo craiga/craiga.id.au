@@ -63,6 +63,9 @@ sidebar_links:
   - url: /cv
     text: CV
     fontawesome-classes: fas fa-briefcase
+  - url: /blog
+    text: Blog
+    fontawesome-classes: fas fa-blog
   - url: https://www.linkedin.com/in/craigeanderson
     text: LinkedIn
     fontawesome-classes: fab fa-linkedin
@@ -72,9 +75,6 @@ sidebar_links:
   - url: https://facebook.com/craiga
     text: Facebook
     fontawesome-classes: fab fa-facebook
-  - url: https://www.instagram.com/_craiga/
-    text: Instagram
-    fontawesome-classes: fab fa-instagram
   - url: https://twitter.com/_craiga
     text: Twitter
     fontawesome-classes: fab fa-twitter
@@ -210,12 +210,14 @@ external_profiles:
     fontawesome-classes: fas fa-home
 
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
 
 
 markdown: kramdown
+highlighter: rouge
 
 defaults:
   -
