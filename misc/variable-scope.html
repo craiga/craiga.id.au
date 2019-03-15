@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" version="-//W3C//DTD XHTML 1.1//EN" xml:lang="en">
+<head>
+	<title>Variable Scope Test</title>
+</head>
+<body>
+
+	<h1>Variable Scope Test</h1>
+
+	<script type="text/javascript">
+ 		var declaredInBlockOne = "declared in block one";
+		setInBlockOne = "set in block one";
+	</script>
+	<script>
+		alert(declaredInBlockOne);
+		alert(setInBlockOne);
+	</script>
+
+
+</body>
+
+</html>
