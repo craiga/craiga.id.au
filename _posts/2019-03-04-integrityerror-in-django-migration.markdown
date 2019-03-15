@@ -54,7 +54,7 @@ I was now getting `TransactionManagementError`s.
 django.db.transaction.TransactionManagementError: An error occurred in the current transaction. You can't execute queries until the end of the 'atomic' block.
 ```
 
-After some digging, reading, and thinking, I realised that the cause of the `IntegrityError` isn't Python—it's Postgres. Handling the error in Python is suppressing an error about a failed transaction, but the transaction is still failed.
+After some digging, reading, and thinking, I realised that the cause of the `IntegrityError` ''t Python—it's Postgres. Handling the error in Python is suppressing an error about a failed transaction, but the transaction is still failed.
 
 [The Django docs give a clue about what's happening here](https://docs.djangoproject.com/en/2.1/topics/db/transactions/#handling-exceptions-within-postgresql-transactions):
 
