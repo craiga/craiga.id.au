@@ -1,5 +1,5 @@
 ---
-title: Hello, I’m Craig, a Freelance Web Developer
+title: Hi, I’m Craig, a Freelance Web Developer
 description: Freelance web developer specialising in Python and Django. Based in London.
 ---
 
