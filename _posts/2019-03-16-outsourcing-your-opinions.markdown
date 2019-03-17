@@ -1,10 +1,10 @@
 ---
 title: Outsourcing Your Opinions
 description: "or: how I learned to stop worrying and love other people"
-date: 2019-03-13 12:50:00 +0000
+date: 2019-03-16 12:00:00 +0000
 ---
 
-For years I've been checking [The Wirecutter](https://thewirecutter.com) for recommendations for just about every substantial purchase I make. It's like a trusted, nerdy friend who's done a ton of research into hundreds of product categories.
+For years I've been checking [The Wirecutter](https://thewirecutter.com) before making any substantial purchase. It's like a trusted, nerdy friend who's done a ton of research into hundreds of product categories.
 
 If you need a good hammer, [The Wirecutter's got you covered](https://thewirecutter.com/reviews/best-hammer/).
 
@@ -18,7 +18,7 @@ Software developers can be *extremely* opinionated and unwilling to let go of th
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SsoOG6ZeyUI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
-As Richard Hendricks felt unable to get over someone using tabs over spaces[^tabs-vs-spaces], I felt pretty uneasy when I first unleashed [Black](https://black.readthedocs.io/), a Python auto-formatter, on my code.
+As Richard is uneasy about Winnie using spaces over tabs[^tabs-vs-spaces], I felt uneasy when I first unleashed [Black](https://black.readthedocs.io/), a Python auto-formatter, on my code.
 
 Years of practice taught me that Python code should look like this:
 
@@ -53,7 +53,7 @@ But once I put those concerns aside and let Black do its job, I felt liberated.
 
 It's *wonderful!*
 
-I no longer need to worry about what happens when I have a class that inherits from multiple mixins with verbose names. I just write what I mean, and let Black decide how to format it.
+I no longer need to worry about formatting when I have a class that inherits from multiple mixins with verbose names. I just write what I mean, and let Black decide how to format it.
 
 ```python
 class MyCoolModel(
@@ -68,21 +68,18 @@ As The Wirecutter has an opinion on hammers, Black has an opinion on what my cla
 
 ---
 
-When the word "opinionated" is characterised [in the dictionary](https://en.oxforddictionaries.com/definition/opinionated), it sounds like a real jerk:
+When the word "opinionated" is characterised [in the dictionary](https://en.oxforddictionaries.com/definition/opinionated), it sounds like a jerk:
 
-> ‘an arrogant and opinionated man’
+> an arrogant and opinionated man
 
 But does it have to be?
-
-If we just take it mean somebody who had an opinion—effectively just removing "arrogant" from the above sentence—it becomes much more pleasant.
-
 
 
 ---
 
-A few days ago, I came across [Django: An Unofficial Opinionated FAQ](https://blog.doismellburning.co.uk/django-an-unofficial-opinionated-faq/). It draws on the collective knowledge of `#django` on Freenode to give simple answers to complex questions.
+Earlier this week, I came across [Django: An Unofficial Opinionated FAQ](https://blog.doismellburning.co.uk/django-an-unofficial-opinionated-faq/). It draws on the collective knowledge of `#django` on Freenode to give simple, opinionated answers to complex questions.
 
-Just as The Wirecutter has a confident opinion on the best hammer, and Black knows how your code should be wrapped and indented, this guide has excellent answers to questions most Django projects will need to consider at some time.
+Just as The Wirecutter and Black have opinions about hammers and code formatting, this guide has excellent answers to questions most Django projects will need to consider at some time.
 
 > **Should I use Gunicorn or uWSGI to run Django?**
 >
@@ -96,7 +93,14 @@ Just as The Wirecutter has a confident opinion on the best hammer, and Black kno
 > 
 > Don’t.
 
-This guide may feel a little arrogant, but stating a point of view confidently can feel that way.
+
+
+---
+
+Perhaps I like this guide because it's in line with the opinions I hold. But as I know people who will disagree with it, it makes me a feel a little uncomfortable to read those opinions stated so matter-of-factly 
+
+To me, this guide feels arrogant. But I know people who are  'm conflict-averse.
+
 
 ---
 
@@ -108,6 +112,6 @@ Once you've found those opinions, they can be as valuable as you'll let them be.
 
 ---
 
-[^tabs-vs-spaces]: Just to be clear, he's obviously wrong.
+[^tabs-vs-spaces]: Just to be clear, Richard's obviously wrong.
 
 [^exaggerated-effect]: I ran Black with a short line length to exaggerate it's effect.
