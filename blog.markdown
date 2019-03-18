@@ -2,6 +2,8 @@
 title: Some Things I Wrote
 ---
 
+Solutions to technical problems I've solved with occasional thoughts on random topics.
+
 <ul class="list-unstyled">
     {% for post in site.posts %}
         <li class="mb-5">
