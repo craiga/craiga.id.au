@@ -2,7 +2,7 @@
 title: Some Things I Wrote
 ---
 
-Solutions to technical problems I've solved with occasional thoughts on random topics.
+A collection of infrequent thoughts on random topics alongside solutions to *very* specific problems.
 
 <ul class="list-unstyled">
     {% for post in site.posts %}
