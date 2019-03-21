@@ -2,6 +2,8 @@
 title: Some Things I Wrote
 ---
 
+A collection of infrequent thoughts on random topics alongside solutions to *very* specific problems.
+
 <ul class="list-unstyled">
     {% for post in site.posts %}
         <li class="mb-5">
