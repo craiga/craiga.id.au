@@ -138,10 +138,10 @@
         },
         "tinycss2": {
             "hashes": [
-                "sha256:060f852771c197c0aecc22a0ab838e079bd5d007ac0c3c8c9b04e2969dbf5d6f",
-                "sha256:224bb0cc67a7432b8b87adc5ca4f2ad21e7312616ad96af4575aa8a40c596fac"
+                "sha256:6427d0e3faa0a5e0e8c9f6437e2de26148a7a197a8b0992789f23d9a802788cf",
+                "sha256:9fdacc0e22d344ddd2ca053837c133900fe820ae1222f63b79617490a498507a"
             ],
-            "version": "==1.0.1"
+            "version": "==1.0.2"
         },
         "weasyprint": {
             "hashes": [
