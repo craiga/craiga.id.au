@@ -5,7 +5,7 @@ description: Freelance web developer specialising in Python and Django. Based in
 
 I can help you with:
 
- * building web applications;
+ * building simple websites or complex web applications;
  * developing APIs to expose your data so it can be used in new and exciting ways; and
  * supplementing your team to inject new skills, experience and mentorship.
 
