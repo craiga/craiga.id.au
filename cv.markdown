@@ -5,15 +5,13 @@ description: Curriculum Vitae of Craig Anderson, a web developer specialising in
 
 I’m a web developer specialising in Python and Django with over {{ "now" | date: "%Y" | minus: 2000 }} years of experience. I’m pursuing freelance roles as it should, in time, give me more flexibility to move as my partner’s academic career demands. I’m motivated by work for social and environmental good.
 
-I'm a signatory to [the programmer's oath](https://github.com/Widdershin/programmers-oath/blob/2a7455c/README.md).
-
 ## Contact Details
 
 You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 ## Skills Summary
 
-* Python 3
+* Python
 * Django
 * Django Rest Framework
 
@@ -76,7 +74,7 @@ The code for these projects is available on [GitHub](https://github.com/craiga).
 
 ## Volunteering and Open Source
 
-Outside of my open-source personal projects, I've also contributed a number of open source projects including [Django Rest Framework](https://www.django-rest-framework.org) and [moto](http://getmoto.org).
+I've contributed to number of open source projects including [Django Rest Framework](https://www.django-rest-framework.org) and [moto](http://getmoto.org).
 
 I'm a coach at [Codebar](http://codebar.io), teaching people from underrepresented groups how to code, and a mentor at [Meet a Mentor](http://meetamentor.co.uk). I was formerly one of the organisers of the [London Django Meetup](https://www.djangolondon.com).
 

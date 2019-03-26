@@ -45,7 +45,7 @@ $line-height-base: 1.8;
 @import "rouge";
 
 .text-sans-serif {
-   font-family: $font-family-sans-serif;
+  font-family: $font-family-sans-serif;
 }
 
 $headings-margin-top: $spacer * 1.5;
@@ -125,7 +125,7 @@ img {
   a:after {
     content: " (" attr(href) ")";
   }
-  
+
   a.footnote:after, a.reversefootnote:after {
     content: "";
   }
