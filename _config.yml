@@ -135,6 +135,9 @@ external_profiles:
   - url: https://angel.co/craiganderson
     text: AngelList
     fontawesome-classes: fab fa-angellist
+  - url: https://use.worksome.co.uk/profile/28594
+    text: Worksome
+    fontawesome-classes: fas fa-briefcase
   - url: https://bitbucket.org/craiganderson/
     text: Bitbucket
     fontawesome-classes: fab fa-bitbucket
