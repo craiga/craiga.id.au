@@ -46,6 +46,13 @@ $border-radius-lg: 17%;
 @import "fontawesome-5.7.1/brands";
 @import "rouge";
 
+@media (prefers-color-scheme: dark) {
+  body {
+    color: $base2;
+    background-color: $black;
+  }
+}
+
 .text-sans-serif {
   font-family: $font-family-sans-serif;
 }
