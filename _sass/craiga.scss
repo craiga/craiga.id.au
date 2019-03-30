@@ -27,7 +27,7 @@ $white:   #ffffff;
 
 $body-color: $base02;
 $body-bg: $white;
-
+$border-color: $base0;
 $hr-border-color: $base0;
 
 $font-family-sans-serif: 'Lato', sans-serif;
@@ -39,8 +39,8 @@ $headings-font-family: $font-family-sans-serif;
 $headings-font-weight: 700;
 
 $line-height-base: 1.8;
-
 $border-radius-lg: 17%;
+
 
 @import "bootstrap-4.3.1/bootstrap";
 @import "fontawesome-5.7.1/fontawesome";
@@ -90,7 +90,7 @@ img {
 
 .highlighter-rouge pre {
   padding: $spacer;
-  border: $border-width solid $base0;
+  border: $border-width solid $border-color;
 }
 
 // .video-wrapper classes adapted from
