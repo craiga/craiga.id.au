@@ -138,6 +138,9 @@ external_profiles:
   - url: https://use.worksome.co.uk/profile/28594
     text: Worksome
     fontawesome-classes: fas fa-briefcase
+  - url: https://djangogigs.com/developers/craig-anderson2/
+    text: Djangogigs
+    fontawesome-classes: fas fa-handshake
   - url: https://bitbucket.org/craiganderson/
     text: Bitbucket
     fontawesome-classes: fab fa-bitbucket
