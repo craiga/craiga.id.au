@@ -28,6 +28,8 @@ $white:   #ffffff;
 $body-color: $base02;
 $body-bg: $white;
 
+$hr-border-color: $base0;
+
 $font-family-sans-serif: 'Lato', sans-serif;
 $font-family-serif: 'Merriweather', serif;
 
@@ -50,6 +52,12 @@ $border-radius-lg: 17%;
   body {
     color: $base2;
     background-color: $black;
+  }
+
+  a {
+    @include hover {
+      color: lighten($link-color, 15%);
+    }
   }
 }
 
@@ -82,7 +90,7 @@ img {
 
 .highlighter-rouge pre {
   padding: $spacer;
-  border: $border-width solid $gray-800;
+  border: $border-width solid $base0;
 }
 
 // .video-wrapper classes adapted from
