@@ -1,6 +1,10 @@
 ---
 title: So, you're visiting Melbourne?
 description: Craig's guide to his home town.
+redirect_from: /melbourne
+date: 2018-02-08
+date_updated: 2019-03-30T16:50
+original_url: https://www.craiga.id.au/melbourne
 ---
 
 Great!
