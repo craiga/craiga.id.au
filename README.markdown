@@ -28,4 +28,8 @@ To generate syntax highlighting CSS, run the following command:
 
 Images compressed with [Mozilla's JPEG Encoder](https://github.com/mozilla/mozjpeg):
 
-    cjpeg -outfile assets/craig-large.optimised.jpg assets/craig-large.jpg
+    cjpeg -outfile assets/craig-xs.optimised.jpg assets/craig-xs.jpg
+    cjpeg -outfile assets/craig-sm.optimised.jpg assets/craig-sm.jpg
+    cjpeg -outfile assets/craig-md.optimised.jpg assets/craig-md.jpg
+    cjpeg -outfile assets/craig-lg.optimised.jpg assets/craig-lg.jpg
+    cjpeg -outfile assets/craig-xl.optimised.jpg assets/craig-xl.jpg

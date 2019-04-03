@@ -79,6 +79,26 @@ html, body {
   animation-direction: alternate;
 }
 
+
+
+
+
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    .background-image {
+      background-image: url('/assets/craig-' + $breakpoint + '.optimised.jpg');
+    }
+  }
+}
+
+
+
+
+
+
+
+
 @keyframes slowscroll {
   from {
     background-position: top left;
