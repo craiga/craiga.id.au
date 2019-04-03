@@ -79,11 +79,6 @@ html, body {
   animation-direction: alternate;
 }
 
-
-
-
-
-
 @each $breakpoint in map-keys($grid-breakpoints) {
   @include media-breakpoint-up($breakpoint) {
     .background-image {
@@ -91,13 +86,6 @@ html, body {
     }
   }
 }
-
-
-
-
-
-
-
 
 @keyframes slowscroll {
   from {
@@ -125,8 +113,6 @@ html.layout-home {
     }
   }
 }
-
-
 
 .bg-black {
   background-color: rgba(0, 0, 0, 0.8);
