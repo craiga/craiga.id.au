@@ -74,15 +74,10 @@ html, body {
   background-size: cover;
   background-position: center;
   animation-name: slowscroll;
-  animation-duration: 120s;
+  animation-duration: 600s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
-
-
-
-
-
 
 @each $breakpoint in map-keys($grid-breakpoints) {
   @include media-breakpoint-up($breakpoint) {
@@ -92,19 +87,18 @@ html, body {
   }
 }
 
-
-
-
-
-
-
-
 @keyframes slowscroll {
-  from {
+  0% {
+    background-position: center;
+  }
+  25% {
     background-position: top left;
   }
-  to {
+  75% {
     background-position: bottom right;
+  }
+  100% {
+    background-position: center;
   }
 }
 
@@ -125,8 +119,6 @@ html.layout-home {
     }
   }
 }
-
-
 
 .bg-black {
   background-color: rgba(0, 0, 0, 0.8);
