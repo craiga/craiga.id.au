@@ -61,6 +61,57 @@ $border-radius-lg: 17%;
   }
 }
 
+
+html, body {
+  height: 100%;
+}
+
+.background-image {
+  min-height: 100%;
+  background-color: #29251F;
+  background-image: url('/assets/craig-large.optimised.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  animation-name: slowscroll;
+  animation-duration: 120s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slowscroll {
+  from {
+    background-position: top left;
+  }
+  to {
+    background-position: bottom right;
+  }
+}
+
+html.layout-home {
+  font-size: 20px;
+  
+  @media(max-width: map-get($grid-breakpoints, "md")) {
+    font-size: 16px;
+  }
+  
+  body {
+    color: $base2;
+
+    a {
+      @include hover {
+        color: lighten($link-color, 15%);
+      }
+    }
+  }
+}
+
+
+
+.bg-black {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 .text-sans-serif {
   font-family: $font-family-sans-serif;
 }
