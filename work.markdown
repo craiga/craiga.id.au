@@ -16,7 +16,7 @@ I'm a specialist in Python and Django, but I'm always up for trying something ne
 
 ## What's UHF 62?
 
-[UHF 62 Limited](http://uhf62.co.uk) is my limited company. It's named after the TV station "Weird Al" Yankovic's character takes over in the movie [UHF](https://www.imdb.com/title/tt0098546/). I love this movie.
+[UHF 62 Limited](http://uhf62.co.uk) is my limited company. It's named after the TV station "Weird Al" Yankovic's character takes over in the movie [UHF](https://www.imdb.com/title/tt0098546/). It's a great film.
 
 
 ## Charitable Giving
