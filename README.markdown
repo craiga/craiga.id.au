@@ -22,3 +22,10 @@ Generate PDFs by running `make pdf`. Requires [Bundler](https://bundler.io) and 
 To generate syntax highlighting CSS, run the following command:
 
     bundle exec rougify style base16.solarized > _sass/rouge.scss
+
+
+# Preparing Images
+
+Images compressed with [Mozilla's JPEG Encoder](https://github.com/mozilla/mozjpeg):
+
+    cjpeg -outfile assets/craig-large.optimised.jpg assets/craig-large.jpg
