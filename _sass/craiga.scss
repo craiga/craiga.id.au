@@ -74,7 +74,7 @@ html, body {
   background-size: cover;
   background-position: center;
   animation-name: slowscroll;
-  animation-duration: 120s;
+  animation-duration: 600s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
@@ -88,11 +88,17 @@ html, body {
 }
 
 @keyframes slowscroll {
-  from {
+  0% {
+    background-position: center;
+  }
+  25% {
     background-position: top left;
   }
-  to {
+  75% {
     background-position: bottom right;
+  }
+  100% {
+    background-position: center;
   }
 }
 
