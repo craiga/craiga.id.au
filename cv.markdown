@@ -13,7 +13,7 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 * Python
 * Django
-* Django Rest Framework
+* Django REST Framework
 
 
 ## Work History
@@ -74,7 +74,7 @@ The code for these projects is available on [GitHub](https://github.com/craiga).
 
 ## Volunteering and Open Source
 
-I've contributed to number of open source projects including [Django Rest Framework](https://www.django-rest-framework.org) and [moto](http://getmoto.org).
+I've contributed to number of open source projects including [Django](https://www.djangoproject.com), [Django REST Framework](https://www.django-rest-framework.org) and [moto](http://getmoto.org).
 
 I'm a coach at [Codebar](http://codebar.io), teaching people from underrepresented groups how to code, and a mentor at [Meet a Mentor](http://meetamentor.co.uk). I was formerly one of the organisers of the [London Django Meetup](https://www.djangolondon.com).
 
