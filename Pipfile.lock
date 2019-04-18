@@ -22,10 +22,10 @@
         },
         "cairosvg": {
             "hashes": [
-                "sha256:07190b3d473a33695cda4fafee085922141ae87836303013dd4dcdebcba886a9",
-                "sha256:66f333ef5dc79fdfbd3bbe98adc791b1f854e0461067d202fa7b15de66d517ec"
+                "sha256:b5b67bc598f73693490b1bed8bc6e0ae447cf3a6d986c285db309343b90786ee",
+                "sha256:c4fdf392a6730fd70edf6f9d3b7185150cf011b9d134839b3e98a2c8aba8d6d1"
             ],
-            "version": "==2.3.0"
+            "version": "==2.3.1"
         },
         "cffi": {
             "hashes": [
@@ -69,10 +69,10 @@
         },
         "defusedxml": {
             "hashes": [
-                "sha256:24d7f2f94f7f3cb6061acb215685e5125fbcdc40a857eff9de22518820b0a4f4",
-                "sha256:702a91ade2968a82beb0db1e0766a6a273f33d4616a6ce8cde475d8e09853b20"
+                "sha256:6687150770438374ab581bb7a1b327a847dd9c5749e396102de3fad4e8a3ef93",
+                "sha256:f684034d135af4c6cbb949b8a4d2ed61634515257a67299e5f940fbaa34377f5"
             ],
-            "version": "==0.5.0"
+            "version": "==0.6.0"
         },
         "html5lib": {
             "hashes": [
