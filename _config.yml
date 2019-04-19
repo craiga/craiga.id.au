@@ -20,6 +20,11 @@ twitter:
 facebook:
   publisher: https://facebook.com/craiga
 
+collections:
+  talks:
+    output: true
+    permalink: /:collection/:name
+
 social:
   name: Craig Anderson
   links:
@@ -221,7 +226,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
-
 
 markdown: kramdown
 highlighter: rouge
