@@ -1,0 +1,42 @@
+# Python CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-python/ for more details
+#
+version: 2
+jobs:
+  build:
+    working_directory: ~/craiga.id.au
+    docker:
+      - image: circleci/ruby:latest
+
+    steps:
+      - checkout
+
+      - run:
+          name: install dependencies
+          command: |
+            sudo apt-get -y install aspell aspell-en shellcheck
+            bundle install
+
+      - run:
+          name: jekyll doctor
+          command: bundle exec jekyll doctor
+
+      - run:
+          name: jekyll build
+          command: bundle exec jekyll build
+
+      - run:
+          name: shellcheck
+          command: shellcheck *.sh
+
+      - run:
+          name: spellcheck
+          command: ./spellcheck.sh
+
+      - store_test_results:
+          path: test-results
+
+      - store_artifacts:
+          path: test-results
+          destination: tr1
