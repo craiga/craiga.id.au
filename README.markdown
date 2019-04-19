@@ -1,4 +1,4 @@
-![CircleCI branch](https://img.shields.io/circleci/project/github/craiga/craiga.id.au/master.svg)
+[![CircleCI branch](https://img.shields.io/circleci/project/github/craiga/craiga.id.au/master.svg)](https://circleci.com/gh/craiga/craiga.id.au/tree/master)
 
 Built using [Jekyll](https://jekyllrb.com) and [Bootstrap](https://getbootstrap.com). Hosted right here on [GitHub Pages](https://pages.github.com).
 
