@@ -146,6 +146,9 @@ external_profiles:
   - url: https://djangogigs.com/developers/craig-anderson2/
     text: Djangogigs
     fontawesome-classes: fas fa-handshake
+  - url: https://snap.hr/u/33ba0389-fdfb-4fca-8f37-6ac81bc7630a/
+    text: Snap.hr
+    fontawesome-classes: fas fa-briefcase
   - url: https://bitbucket.org/craiganderson/
     text: Bitbucket
     fontawesome-classes: fab fa-bitbucket
