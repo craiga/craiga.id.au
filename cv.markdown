@@ -5,6 +5,8 @@ description: Curriculum Vitae of Craig Anderson, a web developer specialising in
 
 I’m a web developer specialising in Python and Django with over {{ "now" | date: "%Y" | minus: 2000 }} years of experience. I’m pursuing freelance roles as it should, in time, give me more flexibility to move as my partner’s academic career demands. I’m motivated by work for social and environmental good.
 
+I love pets, but unfortunately I'm unable to work in an office with them as I live with somebody with severe allergies.
+
 ## Contact Details
 
 You can contact me via [email](mailto:craig@uhf62.co.uk).
@@ -18,18 +20,23 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 ## Work History
 
+### Django Developer, Red Badger (Apr&nbsp;'19–Jul&nbsp;'19)
+
+[Red Badger](https://red-badger.com) are a digital agency.
+
+* I worked as the Django expert in Red Badger's cross-functional team to deliver a Django CMS project at one of their clients' offices.
+
 ### Python Developer, MyOptique Group (Jul&nbsp;‘18–Apr&nbsp;‘19)
 
 [MyOptique Group](http://www.myoptiquegroup.com) are an online retailer of glasses and contact lenses with brands including Glasses Direct and Sunglasses Shop.
 
-* I joined their development team to help maintain and modernise web sites and microservices which take orders from the customer to their warehouse and lens manufacturing processes.
-
+* I joined their development team to help maintain and modernise Django web sites and Python microservices which take orders from the customer to their warehouse and lens manufacturing processes.
 
 ### Back End Developer (Permanent and Contract), Ten Group (Feb&nbsp;‘17–May&nbsp;‘18)
 
 [Ten Group](http://tengroup.com) is a luxury lifestyle concierge service.
 
-* As part of a team of senior developers, I helped establish a new platform to replace an existing prototype. The new platform is being implemented using Django, Django Rest Framework and Celery. It's also making extensive use of Docker and Docker Compose.
+* As part of a team of senior developers, I helped establish a new platform to replace an existing prototype. The new platform was implemented using Django, Django Rest Framework and Celery.
 * I was technical lead on the platform's back end travel component, an API which integrates with a number of third-party services to search for and book flights, hotels, and cars to hire.
 * I also led development of the platform's integration with Ten's CRM platform using SOAP and a custom XML API.
 
@@ -39,18 +46,9 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 * I was responsible for setting the technical direction of the company whilst maintaining a suite of Django- and PHP-based legacy applications.
 
-### Senior Web Developer, Squareweave (Dec&nbsp;‘15–Oct&nbsp;‘16)
-
-[Squareweave](http://squareweave.com.au) is an agency focused on non-profits and social enterprise clients.
-
-* I was technical lead on ehHAT, a survey system for headspace (the Australian national youth mental health foundation) implemented using Django in a Docker-powered development environment. ehHAT is used by mental health clinicians to interview young people before their counselling session. In this project I:
-    * Led back end development;
-    * Coordinated with project stakeholders; and
-    * Participated in user experience testing sessions.
-* I was also part of the team developing and maintaining HAPI, a PHP-based system used by headspace to collect and analyse information from young people.
-
 ### Prior Roles
 
+* Senior Web Developer (Dec&nbsp;‘15–Oct&nbsp;‘16), [Squareweave](http://squareweave.com.au)
 * Senior Web Developer (Sep&nbsp;‘11–Jun&nbsp;‘15) and Back End and API Custom Services Development Team Lead (Jul&nbsp;‘15–Dec&nbsp;‘15), [Australian Broadcasting Corporation](https://www.abc.net.au)
 * Technical Editor (Jun&nbsp;‘05–Dec&nbsp;‘06) and Senior Web Developer (Jan&nbsp;‘07–Sep&nbsp;‘11), [SitePoint](https://www.sitepoint.com)
 * Analyst Programmer (Jan&nbsp;2000–Jun&nbsp;‘05), [Infosys Australia](https://www.infosys.com/australia/)
