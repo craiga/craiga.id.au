@@ -22,9 +22,9 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 ### Django Developer, Red Badger (Apr&nbsp;'19–Jul&nbsp;'19)
 
-[Red Badger](https://red-badger.com) are a digital agency.
+[Red Badger](https://red-badger.com) are an award-winning digital transformation agency.
 
-* I worked as the Django expert in Red Badger's cross-functional team to deliver a Django CMS project at one of their clients' offices.
+* I provided Django expertise to Red Badger's cross-functional team to deliver a Django CMS project at one of their clients' offices.
 
 ### Python Developer, MyOptique Group (Jul&nbsp;‘18–Apr&nbsp;‘19)
 
