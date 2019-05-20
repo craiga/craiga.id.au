@@ -22,10 +22,11 @@
         },
         "cairosvg": {
             "hashes": [
-                "sha256:b5b67bc598f73693490b1bed8bc6e0ae447cf3a6d986c285db309343b90786ee",
-                "sha256:c4fdf392a6730fd70edf6f9d3b7185150cf011b9d134839b3e98a2c8aba8d6d1"
+                "sha256:2ff102b86078c5cc2fe33240f8ca11e323f99c504ffc552e666648176d77ed32",
+                "sha256:d2600925a1f5bd2a119b9fb6e1d9f979f2ef71fc6055d8cb49c75b8e90f6d679"
             ],
-            "version": "==2.3.1"
+            "index": "pypi",
+            "version": "==2.4.0"
         },
         "cffi": {
             "hashes": [
