@@ -102,7 +102,7 @@ html, body {
   }
 }
 
-html.layout-home {
+html.layout-alt-home {
   font-size: 20px;
   
   @media(max-width: map-get($grid-breakpoints, "md")) {
