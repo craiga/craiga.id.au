@@ -1,5 +1,6 @@
 ---
 title: Hello, I'm Craig Anderson
+id: home
 ---
 
 By day, [I'm a freelance web developer specialising in Python and Django](/work). [I've given some talks about my work](/talks), and I hope to give more.
