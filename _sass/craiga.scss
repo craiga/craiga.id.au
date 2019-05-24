@@ -122,9 +122,15 @@ html.layout-alt-home {
 
 html#page-home #col-main {
   font-size: 1.3rem;
-
   @media(max-width: map-get($grid-breakpoints, "lg")) {
     font-size: 1rem;
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+    @media(max-width: map-get($grid-breakpoints, "lg")) {
+      margin-bottom: 0.5rem;
+    }
   }
 }
 
