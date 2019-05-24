@@ -102,13 +102,13 @@ html, body {
   }
 }
 
-html.layout-home {
+html.layout-alt-home {
   font-size: 20px;
-  
+
   @media(max-width: map-get($grid-breakpoints, "md")) {
     font-size: 16px;
   }
-  
+
   body {
     color: $base2;
 
@@ -117,6 +117,14 @@ html.layout-home {
         color: lighten($link-color, 15%);
       }
     }
+  }
+}
+
+html#page-home #col-main {
+  font-size: 1.3rem;
+
+  @media(max-width: map-get($grid-breakpoints, "lg")) {
+    font-size: 1rem;
   }
 }
 
