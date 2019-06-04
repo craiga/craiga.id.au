@@ -20,6 +20,10 @@ twitter:
 facebook:
   publisher: https://facebook.com/craiga
 
+seo:
+  type: Person
+  name: Craig Anderson
+
 collections:
   talks:
     output: true
