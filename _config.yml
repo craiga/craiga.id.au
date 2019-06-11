@@ -28,6 +28,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:name
+  lists:
+    output: true
+    permalink: /:collection/:name
 
 social:
   name: Craig Anderson
