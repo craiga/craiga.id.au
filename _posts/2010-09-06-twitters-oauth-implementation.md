@@ -2,7 +2,7 @@
 layout: post
 title: Twitter's OAuth Implementation
 date: '2010-09-06T03:10:29+01:00'
-date_updated: 2019-03-15T08:50
+date_updated: 2019-06-11T13:50
 original_url: http://blog.craiga.id.au/post/1072859377/twitters-oauth-implementation
 ---
 
@@ -14,7 +14,6 @@ original_url: http://blog.craiga.id.au/post/1072859377/twitters-oauth-implementa
 > 
 > This is especially frustrating in situations where authentication is failing because of a bug or defect in Twitter's implementation. For example, authentication will sometimes fail if the system clock on the end user's computer is running slightly fast. This issue has to do with the timestamp that is embedded in the requests, but it's not entirely obvious what causes it to occur.
 
-[The OAuth specification](http://oauth.net/) ''t particularly complicated, but I found writing code to authenticate against Twitter beyond me. In the end, [the OAuth PECL extension](http://pecl.php.net/package/oauth) [descended from heaven to save me](http://toys.lerdorf.com/archives/50-Using-pecloauth-to-post-to-Twitter.html), but I've still got no idea why it works where my own code didn't.
+[The OAuth specification](http://oauth.net/) isn't particularly complicated, but I found writing code to authenticate against Twitter beyond me. In the end, [the OAuth PECL extension](http://pecl.php.net/package/oauth) [descended from heaven to save me](http://toys.lerdorf.com/archives/50-Using-pecloauth-to-post-to-Twitter.html), but I've still got no idea why it works where my own code didn't.
 
 It's nice to know it wasn't just me.
-
