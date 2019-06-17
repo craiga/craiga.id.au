@@ -227,6 +227,9 @@ external_profiles:
   - url: https://www.patreon.com/craiga
     text: Patreon
     fontawesome-classes: fab fa-patreon
+  - url: https://www.paypal.me/craigeanderson
+    text: PayPal
+    fontawesome-classes: fab fa-paypal
 
 plugins:
   - jekyll-feed
