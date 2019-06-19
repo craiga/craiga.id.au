@@ -83,6 +83,7 @@ html#page-home {
 
   @include media-breakpoint-down("xs") {
     body {
+      background-color: #29251F;
       background-image: url('/assets/craig-xs.optimised.jpg');
       background-repeat: no-repeat;
       background-size: cover;
