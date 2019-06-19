@@ -52,7 +52,7 @@ social:
     - https://uk.yunojuno.com/p/craiga
     - https://bitbucket.org/craiganderson/
     - https://stackoverflow.com/users/1852024/craig-anderson
-    - http://amzn.eu/5UobAlG
+    - https://www.amazon.co.uk/gp/profile/amzn1.account.AGZM2LSRQUXGVNRQS4Y34TEUAHYQ
     - https://www.goodreads.com/craiga
     - https://www.meetup.com/members/24626782/
     - https://www.pinterest.co.uk/craiga/
@@ -165,7 +165,7 @@ external_profiles:
   - url: https://pypi.org/user/craiga/
     text: PyPI
     fontawesome-classes: fab fa-python
-  - url: http://amzn.eu/5UobAlG
+  - url: https://www.amazon.co.uk/gp/profile/amzn1.account.AGZM2LSRQUXGVNRQS4Y34TEUAHYQ
     text: Amazon
     fontawesome-classes: fab fa-amazon
   - url: https://www.goodreads.com/craiga
@@ -230,6 +230,9 @@ external_profiles:
   - url: https://www.patreon.com/craiga
     text: Patreon
     fontawesome-classes: fab fa-patreon
+  - url: https://www.paypal.me/craigeanderson
+    text: PayPal
+    fontawesome-classes: fab fa-paypal
 
 plugins:
   - jekyll-feed
