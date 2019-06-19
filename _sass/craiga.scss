@@ -104,6 +104,10 @@ html#page-home {
           color: lighten($link-color, 15%);
         }
       }
+
+      img[src*="gravatar.com/avatar"] {
+        display: none;
+      }
     }
   }
 }
