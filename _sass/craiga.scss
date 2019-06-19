@@ -66,23 +66,44 @@ html, body {
   height: 100%;
 }
 
-.background-image {
-  min-height: 100%;
-  background-color: #29251F;
-  background-image: url('/assets/craig-large.optimised.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  animation-name: slowscroll;
-  animation-duration: 600s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
+html#page-home {
+  #col-main {
+    font-size: 1.3rem;
+    @include media-breakpoint-down("lg") {
+      font-size: 1rem;
+    }
+  
+    h1 {
+      margin-bottom: 1rem;
+      @include media-breakpoint-down("lg") {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
 
-@each $breakpoint in map-keys($grid-breakpoints) {
-  @include media-breakpoint-up($breakpoint) {
-    .background-image {
-      background-image: url('/assets/craig-' + $breakpoint + '.optimised.jpg');
+  @include media-breakpoint-down("xs") {
+    body {
+      background-image: url('/assets/craig-xs.optimised.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      animation-name: slowscroll;
+      animation-duration: 600s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      padding: 1em;
+
+      .container {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: $base2;
+      }
+
+      a {
+        @include hover {
+          color: lighten($link-color, 15%);
+        }
+      }
     }
   }
 }
@@ -100,42 +121,6 @@ html, body {
   100% {
     background-position: center;
   }
-}
-
-html.layout-alt-home {
-  font-size: 20px;
-
-  @media(max-width: map-get($grid-breakpoints, "md")) {
-    font-size: 16px;
-  }
-
-  body {
-    color: $base2;
-
-    a {
-      @include hover {
-        color: lighten($link-color, 15%);
-      }
-    }
-  }
-}
-
-html#page-home #col-main {
-  font-size: 1.3rem;
-  @media(max-width: map-get($grid-breakpoints, "lg")) {
-    font-size: 1rem;
-  }
-  
-  h1 {
-    margin-bottom: 1rem;
-    @media(max-width: map-get($grid-breakpoints, "lg")) {
-      margin-bottom: 0.5rem;
-    }
-  }
-}
-
-.bg-black {
-  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .text-sans-serif {
