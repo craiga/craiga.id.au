@@ -31,6 +31,9 @@ collections:
   lists:
     output: true
     permalink: /:collection/:name
+  colours:
+    output: true
+    permalink: /:collection/:name
 
 social:
   name: Craig Anderson
