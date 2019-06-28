@@ -141,6 +141,9 @@ external_profiles:
   - url: https://distiller.com/profile/craiga
     text: Distiller
     fontawesome-classes: fas fa-wine-glass-alt
+  - url: https://www.yelp.co.uk/user_details?userid=G8okUI5tFGKMC-0gNwMsdw
+    text: Yelp
+    fontawesome-classes: fab fa-yelp
   - url: https://www.nextfree.co.uk/for/craig-anderson
     text: Nextfree
     fontawesome-classes: fas fa-calendar
