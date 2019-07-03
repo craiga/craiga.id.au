@@ -171,6 +171,9 @@ external_profiles:
   - url: https://pypi.org/user/craiga/
     text: PyPI
     fontawesome-classes: fab fa-python
+  - url: https://www.etsy.com/uk/people/craiganderson
+    text: Etsy
+    fontawesome-classes: fab fa-etsy
   - url: https://www.amazon.co.uk/gp/profile/amzn1.account.AGZM2LSRQUXGVNRQS4Y34TEUAHYQ
     text: Amazon
     fontawesome-classes: fab fa-amazon
