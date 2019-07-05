@@ -30,15 +30,14 @@ $body-bg: $white;
 $border-color: $base0;
 $hr-border-color: $base0;
 
-$font-family-sans-serif: 'Lato', sans-serif;
-$font-family-serif: 'Merriweather', serif;
+$font-family-sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-serif: Georgia, serif;
 
 $font-family-base: $font-family-serif;
 
 $headings-font-family: $font-family-sans-serif;
 $headings-font-weight: 700;
 
-$line-height-base: 1.8;
 $border-radius-lg: 17%;
 
 
@@ -47,6 +46,16 @@ $border-radius-lg: 17%;
 @import "fontawesome-5.7.1/solid";
 @import "fontawesome-5.7.1/brands";
 @import "rouge";
+
+html, body {
+  height: 100%;
+  font-size: 18px;
+}
+
+h1, h2 {
+  font-family: Futura, $headings-font-family;
+  letter-spacing: -1px;
+}
 
 @media (prefers-color-scheme: dark) {
   body {
@@ -61,21 +70,16 @@ $border-radius-lg: 17%;
   }
 }
 
-
-html, body {
-  height: 100%;
-}
-
 html#page-home {
   #col-main {
     font-size: 1.3rem;
-    @include media-breakpoint-down("lg") {
+    @include media-breakpoint-down("sm") {
       font-size: 1rem;
     }
   
     h1 {
       margin-bottom: 1rem;
-      @include media-breakpoint-down("lg") {
+      @include media-breakpoint-down("sm") {
         margin-bottom: 0.5rem;
       }
     }
@@ -97,6 +101,10 @@ html#page-home {
 
       .container {
         background-color: rgba(0, 0, 0, 0.8);
+        color: $base2;
+      }
+
+      h1 {
         color: $base2;
       }
 
