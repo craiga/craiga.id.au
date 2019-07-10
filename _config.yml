@@ -76,15 +76,15 @@ sidebar_links:
   - url: /
     text: Home
     fontawesome-classes: fas fa-home
+  - url: /work
+    text: Work
+    fontawesome-classes: fas fa-laptop-code
   - url: /cv
     text: CV
     fontawesome-classes: fas fa-briefcase
   - url: /blog
     text: Blog
     fontawesome-classes: fas fa-blog
-  - url: https://www.linkedin.com/in/craigeanderson
-    text: LinkedIn
-    fontawesome-classes: fab fa-linkedin
   - url: https://github.com/craiga
     text: GitHub
     fontawesome-classes: fab fa-github
