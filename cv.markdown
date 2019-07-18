@@ -20,7 +20,7 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 ## Work History
 
-### Django Developer, Red Badger (Apr&nbsp;'19–Jul&nbsp;'19)
+### Django Developer, Red Badger (Apr&nbsp;'19–Sep&nbsp;'19)
 
 [Red Badger](https://red-badger.com) are an award-winning digital transformation agency.
 
