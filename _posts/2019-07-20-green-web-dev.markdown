@@ -1,14 +1,14 @@
 ---
 title: Becoming a Greener Web Developer
-description: Thoughts about the climate impact of my job, and what I can do about that impact.
+description: Thoughts about the climate impact of my work, and what I can do about that impact.
 date: 2019-07-20 12:00:00 +0100
 ---
 
-[In 2015, data centres were responsible for about 2% of greenhouse gas emissions, contributing to global warning about as much as the aviation industry.](https://www.theguardian.com/environment/2015/sep/25/server-data-centre-emissions-air-travel-web-google-facebook-greenhouse-gas)
+[In 2015, data centres were responsible for about 2% of greenhouse gas emissions, contributing to global warming about as much as the aviation industry.](https://www.theguardian.com/environment/2015/sep/25/server-data-centre-emissions-air-travel-web-google-facebook-greenhouse-gas)
 
 [Consumer devices and network transmission are both projected to use massive amounts of energy in the coming years, possibly increasing that number to 21% by 2030.](https://www.nature.com/articles/d41586-018-06610-y)
 
-As a web developer who knows global warming is the biggest issue facing humanity, this makes for some uncomfortable reading. So I've started looking into what I can do about it.
+As a web developer who knows climate change is the biggest issue facing humanity, this makes for some uncomfortable reading. So I've started looking into what I can do about it.
 
 [The article cited by Nature above](https://www.mdpi.com/2078-1547/6/1/117/htm) identifies four ways a web site might use energy:
 
