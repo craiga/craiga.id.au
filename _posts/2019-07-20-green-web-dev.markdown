@@ -16,7 +16,7 @@ As a web developer who knows climate change is the biggest issue facing humanity
 {:toc}
 
 
-I'm planning on using these four ways of using energy to guide changes to the sites I'm responsible for to reduce their carbon footprint.
+I'm planning on focusing on these four ways of using energy to guide changes to the sites I'm responsible for to reduce their carbon footprint.
 
 Here are some of my initial thoughts on how I might do that, and how you might do the same.
 
@@ -29,14 +29,14 @@ Consumer device energy use can be measured with tools like Activity Monitor on M
 
 In my opinion, there's a huge impact which could be made here. Small changes to instructions executed on devices could save a small amount of energy on hundreds, thousands, or millions of devices. A small change multiplied by all of those devices could be massive.
 
-If you've ever used an ad blocker, you've probably observed the extra load advertising and tracking scripts add to many web sites. I encourage people to install ad-blockers only to reduce the huge load imposed by those irresponsible scripts[^dont-block-everything]. Anyone with any kind of influence should work to remove such scripts from their sites. Developers should ensure their code is as efficient as it can be.
+If you've ever used an ad blocker, you've probably observed the extra load advertising and tracking scripts add to many web sites. I encourage people to install ad-blockers to reduce the huge load imposed by those irresponsible scripts[^dont-block-everything]. Anyone with any kind of influence should work to remove such scripts from their sites. Developers should ensure their code is as efficient as it can be.
 
-In my experiments, it seems like CSS animations can be a big, somewhat hidden contributor to consumer device energy use. In the past I've tried adding some subtle animation to this site, but found that it caused unusually high CPU usage in Firefox doesn't seem to be as optimised to offload those animations to the GPU as some other browsers. 
+In my experiments, it seems like CSS animations can be a big, somewhat hidden contributor to consumer device energy use. In the past I've tried adding some subtle animation to this site, but found that it caused unusually high CPU usage in Firefox, which doesn't seem to be as optimised to offload those animations to the GPU as some other browsers. 
 
 
 # Network Energy Use
 
-This is the use of energy used delivering a data to consumer devices, and is projected to increase massively over the next few years.
+This is the energy used delivering data to consumer devices, and is projected to increase massively over the next few years.
 
 Network use can be observed in most browsers' development tools.
 
@@ -75,7 +75,7 @@ From here, I'm going to start implementing changes to sites I'm responsible for 
  * [unixtimesta.mp](https://www.unixtimesta.mp); and
  * [Rough Trade Calendars](https://rough-trade-calendar.herokuapp.com).
 
-I hope to write further posts about this process in the hope it will inspire others to make similar changes to their sites.
+I will write further posts about this process in the hope it will inspire others to make similar changes to their sites.
 
 
 [^dont-block-everything]: I also encourage people to keep the "allow some non-intrusive ads" option enabled. Not all ads are terrible, and responsible publishers should be supported.
