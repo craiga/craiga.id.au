@@ -11,4 +11,4 @@ This is a talk I gave at the [London Django Meetup](https://www.djangolondon.com
 
 [Watch at Skills Matter](https://skillsmatter.com/skillscasts/12646-craig-goes-to-scotland-to-learn-about-python)
 
-[Download Slides](./slides.pdf)
+[Download Slides](/talks/europython2018/slides.pdf)
