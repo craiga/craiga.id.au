@@ -1,14 +1,12 @@
 <div class="row no-gutters">
     <div class="col-4 offset-4 col-md-12 offset-md-0">
-        <a href="/">
-            <img src="https://gravatar.com/avatar/{{ site.gravatar_hash }}.jpeg?size=700" alt="" class="img-fluid rounded rounded-lg shadow konami-rotate">
-        </a>
+        <a href="/" class="avatar rounded rounded-lg shadow"></a>
     </div>
 </div>
 <div class="row no-gutters pt-3">
     {% for link in site.sidebar_links %}
-        <a class="col-xl-4 col-md-6 col-4 py-1 text-truncate text-sans-serif" href="{{ link.url }}">
-            <i class="{{ link.fontawesome-classes }} fa-fw " aria-hidden="true"></i><span class="pl-1">{{ link.text }}</span>
+        <a class="col-xl-4 col-lg-6 col-md-12 col-sm-4 col-6 py-1 text-truncate text-sans-serif" href="{{ link.url }}">
+            <img src="/fontawesome-5.9.0/{{ link.fontawesome-file }}.svg" class="fa-svg">{{ link.text }}
         </a>
     {% endfor %}
 </div>

@@ -13,7 +13,7 @@ I like to sign up for things.
           <span class="{{item_classes}}">
         {% endif %}
             <span class="pseudo-link-underline">
-                <i class="{{ profile.fontawesome-classes }} fa-fw" aria-hidden="true"></i><span class="pl-1">{{ profile.text }}</span>
+                <img src="/fontawesome-5.9.0/{{ profile.fontawesome-file }}.svg" class="fa-svg">{{ profile.text }}
             </span>
         {% if profile.url %}
           </a>

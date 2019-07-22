@@ -30,23 +30,43 @@ $body-bg: $white;
 $border-color: $base0;
 $hr-border-color: $base0;
 
-$font-family-sans-serif: 'Lato', sans-serif;
-$font-family-serif: 'Merriweather', serif;
+$font-family-sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-serif: Georgia, serif;
 
 $font-family-base: $font-family-serif;
 
 $headings-font-family: $font-family-sans-serif;
 $headings-font-weight: 700;
 
-$line-height-base: 1.8;
 $border-radius-lg: 17%;
 
+@import "bootstrap-4.3.1/functions";
+@import "bootstrap-4.3.1/variables";
+@import "bootstrap-4.3.1/mixins";
+@import "bootstrap-4.3.1/root";
+@import "bootstrap-4.3.1/reboot";
+@import "bootstrap-4.3.1/type";
+@import "bootstrap-4.3.1/code";
+@import "bootstrap-4.3.1/grid";
+@import "bootstrap-4.3.1/tables";
+@import "bootstrap-4.3.1/utilities";
+@import "bootstrap-4.3.1/print";
 
-@import "bootstrap-4.3.1/bootstrap";
-@import "fontawesome-5.7.1/fontawesome";
-@import "fontawesome-5.7.1/solid";
-@import "fontawesome-5.7.1/brands";
 @import "rouge";
+
+html, body {
+  height: 100%;
+  font-size: 18px;
+}
+
+h1, h2 {
+  font-family: Futura, $headings-font-family;
+  letter-spacing: -1px;
+}
+
+.h3, .h4, .h5, .h6 {
+  letter-spacing: inherit;
+}
 
 @media (prefers-color-scheme: dark) {
   body {
@@ -61,21 +81,16 @@ $border-radius-lg: 17%;
   }
 }
 
-
-html, body {
-  height: 100%;
-}
-
 html#page-home {
   #col-main {
     font-size: 1.3rem;
-    @include media-breakpoint-down("lg") {
+    @include media-breakpoint-down("sm") {
       font-size: 1rem;
     }
   
     h1 {
       margin-bottom: 1rem;
-      @include media-breakpoint-down("lg") {
+      @include media-breakpoint-down("sm") {
         margin-bottom: 0.5rem;
       }
     }
@@ -97,6 +112,10 @@ html#page-home {
 
       .container {
         background-color: rgba(0, 0, 0, 0.8);
+        color: $base2;
+      }
+
+      h1 {
         color: $base2;
       }
 
@@ -185,16 +204,35 @@ img {
   height: 100%;
 }
 
-.rotate {
-  animation: rotation 1.33s infinite linear;
+.fa-svg {
+  height: 1em;
+  width: 1em;
+  margin-right: 0.5em;
 }
 
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
+// Following filters taken from https://codepen.io/sosuke/pen/Pjoqqp
+// found via https://stackoverflow.com/a/53336754
+a .fa-svg {
+  filter: invert(36%) sepia(97%) saturate(603%) hue-rotate(168deg) brightness(106%) contrast(86%);
+}
+a:hover .fa-svg {
+  filter: invert(28%) sepia(52%) saturate(1253%) hue-rotate(172deg) brightness(94%) contrast(87%);
+}
+
+.avatar {
+  display: block;
+  width: 100%;
+  padding-top: 100%;
+  background-size: contain;
+  background-image: url("https://gravatar.com/avatar/b593bb966ccde8a4a4fbdc32d2aafb6f.jpeg?size=340");
+  @include media-breakpoint-up("md") {
+    background-image: url("https://gravatar.com/avatar/b593bb966ccde8a4a4fbdc32d2aafb6f.jpeg?size=420");
   }
-  to {
-    transform: rotate(359deg);
+  @include media-breakpoint-up("lg") {
+    background-image: url("https://gravatar.com/avatar/b593bb966ccde8a4a4fbdc32d2aafb6f.jpeg?size=580");
+  }
+  @include media-breakpoint-up("xl") {
+    background-image: url("https://gravatar.com/avatar/b593bb966ccde8a4a4fbdc32d2aafb6f.jpeg?size=700");
   }
 }
 
