@@ -196,7 +196,7 @@ external_profiles:
     text: Steam
     fontawesome-file: brands/steam
   - text: SW-0552-7913-6509
-    fontawesome-file: brands/nintendo-switch
+    fontawesome-file: solid/gamepad
   - url: https://account.xbox.com/en-us/profile?gamertag=craigea
     text: Xbox
     fontawesome-file: brands/xbox
