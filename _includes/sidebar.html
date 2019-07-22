@@ -1,17 +1,12 @@
 <div class="row no-gutters">
     <div class="col-4 offset-4 col-md-12 offset-md-0">
-        <a href="/">
-            <img src="https://gravatar.com/avatar/{{ site.gravatar_hash }}.jpeg?size=700" alt="" class="d-none d-xl-inline img-fluid rounded rounded-lg shadow konami-rotate">
-            <img src="https://gravatar.com/avatar/{{ site.gravatar_hash }}.jpeg?size=580" alt="" class="d-none d-lg-inline d-xl-none img-fluid rounded rounded-lg shadow konami-rotate">
-            <img src="https://gravatar.com/avatar/{{ site.gravatar_hash }}.jpeg?size=420" alt="" class="d-none d-md-inline d-lg-none img-fluid rounded rounded-lg shadow konami-rotate">
-            <img src="https://gravatar.com/avatar/{{ site.gravatar_hash }}.jpeg?size=340" alt="" class="d-inline d-md-none img-fluid rounded rounded-lg shadow konami-rotate">
-        </a>
+        <a href="/" class="avatar rounded rounded-lg shadow"></a>
     </div>
 </div>
 <div class="row no-gutters pt-3">
     {% for link in site.sidebar_links %}
         <a class="col-xl-4 col-lg-6 col-md-12 col-sm-4 col-6 py-1 text-truncate text-sans-serif" href="{{ link.url }}">
-            <i class="{{ link.fontawesome-classes }} fa-fw " aria-hidden="true"></i><span class="pl-1">{{ link.text }}</span>
+            <img src="/fontawesome-5.9.0/{{ link.fontawesome-file }}.svg" class="fa-svg">{{ link.text }}
         </a>
     {% endfor %}
 </div>
