@@ -174,6 +174,9 @@ external_profiles:
   - url: https://www.etsy.com/uk/people/craiganderson
     text: Etsy
     fontawesome-file: brands/etsy
+  - url: https://www.kickstarter.com/profile/craiga
+    text: Kickstarter
+    fontawesome-file: brands/kickstarter
   - url: https://www.amazon.co.uk/gp/profile/amzn1.account.AGZM2LSRQUXGVNRQS4Y34TEUAHYQ
     text: Amazon
     fontawesome-file: brands/amazon
