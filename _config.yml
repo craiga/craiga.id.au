@@ -7,8 +7,7 @@ description:
 email: craiga@craiga.id.au
 url: https://www.craiga.id.au
 lang: en_AU
-gravatar_hash: b593bb966ccde8a4a4fbdc32d2aafb6f
-logo: https://gravatar.com/avatar/b593bb966ccde8a4a4fbdc32d2aafb6f.jpeg?size=400
+logo: /assets/avatar-400
 
 author:
   name: Craig Anderson
