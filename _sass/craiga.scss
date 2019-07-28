@@ -125,7 +125,7 @@ html#page-home {
         }
       }
 
-      img[src*="gravatar.com/avatar"] {
+      .avatar {
         display: none;
       }
     }
@@ -224,15 +224,15 @@ a:hover .fa-svg {
   width: 100%;
   padding-top: 100%;
   background-size: contain;
-  background-image: url("https://gravatar.com/avatar/b593bb966ccde8a4a4fbdc32d2aafb6f.jpeg?size=340");
+  background-image: url("/assets/avatar-340.optimised.jpg");
   @include media-breakpoint-up("md") {
-    background-image: url("https://gravatar.com/avatar/b593bb966ccde8a4a4fbdc32d2aafb6f.jpeg?size=420");
+    background-image: url("/assets/avatar-420.optimised.jpg");
   }
   @include media-breakpoint-up("lg") {
-    background-image: url("https://gravatar.com/avatar/b593bb966ccde8a4a4fbdc32d2aafb6f.jpeg?size=580");
+    background-image: url("/assets/avatar-580.optimised.jpg");
   }
   @include media-breakpoint-up("xl") {
-    background-image: url("https://gravatar.com/avatar/b593bb966ccde8a4a4fbdc32d2aafb6f.jpeg?size=700");
+    background-image: url("/assets/avatar-700.optimised.jpg");
   }
 }
 

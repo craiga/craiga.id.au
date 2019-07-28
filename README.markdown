@@ -5,7 +5,7 @@ Built using [Jekyll](https://jekyllrb.com) and [Bootstrap](https://getbootstrap.
 To run locally:
 
     bundle install
-    bundle exec jekyll serve --incremental --livereload
+    bundle exec jekyll serve --incremental --drafts --livereload
 
 The site will be available at http://localhost:4000.
 
@@ -33,3 +33,10 @@ Images compressed with [Mozilla's JPEG Encoder](https://github.com/mozilla/mozjp
     cjpeg -outfile assets/craig-md.optimised.jpg assets/craig-md.jpg
     cjpeg -outfile assets/craig-lg.optimised.jpg assets/craig-lg.jpg
     cjpeg -outfile assets/craig-xl.optimised.jpg assets/craig-xl.jpg
+
+    sizes=(16 32 64 128 180 192 256 340 400 420 580 700 )
+    for size in "${sizes[@]}"
+    do
+        sips --resampleHeightWidth $size $size assets/avatar.jpg --out assets/avatar-$size.jpg
+        cjpeg -outfile assets/avatar-$size.optimised.jpg assets/avatar-$size.jpg
+    done
