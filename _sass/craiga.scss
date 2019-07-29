@@ -96,10 +96,9 @@ html#page-home {
     }
   }
 
-  @include media-breakpoint-down("xs") {
+  @media (orientation: portrait) {
     body {
       background-color: #29251F;
-      background-image: url('/assets/craig-xs.optimised.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -110,9 +109,33 @@ html#page-home {
       animation-direction: alternate;
       padding: 1em;
 
+      background-image: url('/assets/craig-xs.optimised.jpg');
+      @include media-breakpoint-up("sm") {
+        background-image: url('/assets/craig-sm.optimised.jpg');
+      }
+      @include media-breakpoint-up("md") {
+        background-image: url('/assets/craig-md.optimised.jpg');
+      }
+      @include media-breakpoint-up("lg") {
+        background-image: url('/assets/craig-lg.optimised.jpg');
+      }
+      @include media-breakpoint-up("xl") {
+        background-image: url('/assets/craig-xl.optimised.jpg');
+      }
+
       .container {
         background-color: rgba(0, 0, 0, 0.8);
         color: $base2;
+        @include media-breakpoint-up("lg") {
+          padding-top: 4rem !important;
+          padding-bottom: 4rem !important;
+        }
+      }
+
+      @include media-breakpoint-up("sm") {
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
       h1 {
