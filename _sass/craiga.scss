@@ -79,6 +79,13 @@ h1, h2 {
       color: lighten($link-color, 15%);
     }
   }
+
+  .table {
+    color: $base2;
+    th, td {
+      border-color: $base2;
+    }
+  }
 }
 
 html#page-home {
