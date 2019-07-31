@@ -153,7 +153,7 @@ Given this, I've switched CircleCI off for this site.
 
 The majority of this work was done over a few hours across two Sundays while enjoying a few beers. I feel like even this small amount of effort has made a big change to amount of energy used by this site.
 
-A nice side-effect of this work has been making this site feel super fast.
+A nice side effect of this work has been making this site feel super fast.
 
 There's opportunity to take this even further by switching to a lighter CSS framework (or ditching CSS frameworks all together), but that would involve quite a bit of work.
 
