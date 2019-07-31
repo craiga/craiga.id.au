@@ -92,7 +92,7 @@ Here are the steps I went through to slim this page down:
 
  * The Google fonts I was using weren't spectacular. Merriweather is *very* similar to Georgia, and I am just as happy using a collection of widely installed fonts for my headings. So I removed the Google Fonts.
 
- * As I was no longer making use of any client-side script, Raven is no longer required.
+ * As I'm no longer using any client-side script, Raven is no longer required.
 
 After this, the network tab in Developer Tools was looking much better. But there was one more asset I could look at shrinking—the picture of my face.
 
