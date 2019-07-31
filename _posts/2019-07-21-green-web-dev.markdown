@@ -2,6 +2,7 @@
 title: Becoming a Greener Web Developer
 description: Thoughts about the climate impact of my work, and what I can do about that impact.
 date: 2019-07-21 12:00:00 +0100
+date_updated: 2019-07-31 12:00:00 +0100
 redirect_from: /2019/07/20/green-web-dev
 ---
 
@@ -71,7 +72,7 @@ Also, you should look after the devices you have and only replace them when you 
 
 From here, I'm going to start implementing changes to sites I'm responsible for to reduce their energy use. These sites include:
 
- * this site;
+ * this site ([some of the changes I made are explained in this blog post]({% post_url 2019-07-30-craiga-id-au-carbon-footprint %}));
  * [Game of Buttholes: Will of the Prophets](http://gagh.biz/game);
  * [unixtimesta.mp](https://www.unixtimesta.mp); and
  * [Rough Trade Calendars](https://rough-trade-calendar.herokuapp.com).
