@@ -47,7 +47,7 @@ My spirits were pretty high after seeing how well my site did with consumer devi
 
 Looking into how bloated this site has become brought them crashing down to earth.
 
-Take a look at how large the front page of this site is:
+The network tab of Safari's developer tools show how unneccesarily large the front page was:
 
 ![Network tab of Safari developer tools before optimisation](/assets/craiga-id-au-carbon-footprint/network-before.png)
 
