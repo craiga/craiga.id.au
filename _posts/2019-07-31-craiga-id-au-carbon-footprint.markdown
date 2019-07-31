@@ -1,6 +1,6 @@
 ---
 title: Reducing craiga.id.au's Carbon Footprint
-date: 2019-07-30 19:00:00 +0100
+date: 2019-07-31 12:00:00 +0100
 ---
 
 As [promised previously]({% post_url 2019-07-21-green-web-dev %}), I've made some changes to this site to reduce it's carbon footprint.
@@ -152,6 +152,8 @@ Given this, I've switched CircleCI off for this site.
 ## Summary
 
 The majority of this work was done over a few hours across two Sundays while enjoying a few beers. I feel like even this small amount of effort has made a big change to amount of energy used by this site.
+
+A nice side-effect of this work has been making this site feel super fast.
 
 There's opportunity to take this even further by switching to a lighter CSS framework (or ditching CSS frameworks all together), but that would involve quite a bit of work.
 

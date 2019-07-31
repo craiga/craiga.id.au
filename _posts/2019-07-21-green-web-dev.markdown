@@ -2,7 +2,7 @@
 title: Becoming a Greener Web Developer
 description: Thoughts about the climate impact of my work, and what I can do about that impact.
 date: 2019-07-21 12:00:00 +0100
-date_updated: 2019-07-30 19:00:00 +0100
+date_updated: 2019-07-31 12:00:00 +0100
 redirect_from: /2019/07/20/green-web-dev
 ---
 
