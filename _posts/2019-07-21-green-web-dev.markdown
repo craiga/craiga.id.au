@@ -72,7 +72,7 @@ Also, you should look after the devices you have and only replace them when you 
 
 From here, I'm going to start implementing changes to sites I'm responsible for to reduce their energy use. These sites include:
 
- * this site ([some of the changes I made are explained in this blog post]({% post_url 2019-07-30-craiga-id-au-carbon-footprint %}));
+ * this site ([some of the changes I made are explained in this blog post]({% post_url 2019-07-31-craiga-id-au-carbon-footprint %}));
  * [Game of Buttholes: Will of the Prophets](http://gagh.biz/game);
  * [unixtimesta.mp](https://www.unixtimesta.mp); and
  * [Rough Trade Calendars](https://rough-trade-calendar.herokuapp.com).
