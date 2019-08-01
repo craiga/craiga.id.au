@@ -1,7 +1,7 @@
 ---
 title: Rough Trade Calendar
 description: A thing I built to stay up-to-date on events at Rough Trade.
-date: 2019-08-01 19:00:00 +0100
+date: 2019-08-01 20:50:00 +0100
 ---
 
 I'm a huge fan of the gigs Rough Trade put on in their East London shop, and I've been lucky enough to see some pretty amazing shows there:

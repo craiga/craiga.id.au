@@ -58,15 +58,11 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 The code for these projects is available on [GitHub](https://github.com/craiga).
 
-### unixtimesta.mp
-
 [unixtimesta.mp](https://www.unixtimesta.mp) is a simple web site for converting Unix timestamps into human-readable dates that I've been running since 2010. Originally written in PHP, the site now uses the Flask framework.
-
-### Will of the Prophets
 
 [Will of the Prophets](http://gagh.biz/game) is a board game played by the hosts of [The Greatest Generation](http://gagh.biz), "a Star Trek podcast by two guys who are a bit embarrassed to have a Star Trek podcast". I worked with the hosts to take what was a difficult-to-maintain Google spreadsheet and convert it into a web app. It was built using Django.
 
-### faker-microservice
+[Rough Trade Calendar](https://rough-trade-calendar.herokuapp.com) scrapes roughtrade.com for upcoming events and puts them into iCalendar and RSS feeds. It was built using Django and Scrapy.
 
 [faker-microservice](https://github.com/craiga/faker-microservice) adds fake microservice names to the popular [faker](https://faker.readthedocs.io) package.
 
