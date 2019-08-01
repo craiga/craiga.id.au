@@ -3,7 +3,7 @@ Built using [Jekyll](https://jekyllrb.com) and [Bootstrap](https://getbootstrap.
 To run locally:
 
     bundle install
-    bundle exec jekyll serve --incremental --drafts --livereload
+    bundle exec jekyll serve --incremental --livereload --drafts --future
 
 The site will be available at http://localhost:4000.
 
