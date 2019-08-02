@@ -1,6 +1,6 @@
 ---
 title: Rough Trade Calendar
-description: A thing I built to stay up-to-date on events at Rough Trade.
+description: A thing I built to stay up-to-date with events at Rough Trade.
 date: 2019-08-01 20:50:00 +0100
 ---
 
@@ -10,7 +10,7 @@ I'm a huge fan of the gigs Rough Trade put on in their East London shop, and I'v
 * [Rough Trade Presents in January](https://www.roughtrade.com/gb/events/rough-trade-east-rough-trade-recommends-penelope-isles-dr-danny-squirrel-flower) introduced me to Penelope Isles, one of my new favourite bands; and
 * [Part Chimp in April 2017](https://www.roughtrade.com/gb/events/part-chimp-live-signing) was brutal and wonderful.
 
-I decided to build a service which keeps me up-to-date on their upcoming events—introducing [Rough Trade Calendar](https://rough-trade-calendar.herokuapp.com).
+I decided to build a service which keeps me up-to-date with their upcoming events—introducing [Rough Trade Calendar](https://rough-trade-calendar.herokuapp.com).
 
 The site offers three ways of viewing upcoming events:
 
