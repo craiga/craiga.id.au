@@ -4,4 +4,5 @@ pdf:
 	pipenv install
 	pipenv run weasyprint http\://localhost\:8765/cv cv.pdf
 	pipenv run weasyprint http\://localhost\:8765/emoji emoji.pdf
+	pipenv run weasyprint http\://localhost\:8765/weasyprint-border weasyprint-border.pdf
 	pkill -f jekyll
