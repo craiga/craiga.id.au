@@ -179,6 +179,9 @@ external_profiles:
   - url: https://www.kickstarter.com/profile/craiga
     text: Kickstarter
     fontawesome-file: brands/kickstarter
+  - url: https://ko-fi.com/craiga
+    text: Ko-fi
+    fontawesome-file: solid/mug-hot
   - url: https://www.amazon.co.uk/gp/profile/amzn1.account.AGZM2LSRQUXGVNRQS4Y34TEUAHYQ
     text: Amazon
     fontawesome-file: brands/amazon
