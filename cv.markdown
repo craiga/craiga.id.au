@@ -20,6 +20,12 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 ## Work History
 
+### Django Developer, Kainos (Oct&nbsp;'19–Mar&nbsp;'20)
+
+[Kainos](https://www.kainos.com) are a digital agency working with clients in the public, health and financial services sectors.
+
+* I joined Kainos's development team to help replace an expensive legacy system at a government client with a new open-source platform.
+
 ### Django Developer, Red Badger (Apr&nbsp;'19–Sep&nbsp;'19)
 
 [Red Badger](https://red-badger.com) are an award-winning digital transformation agency.
