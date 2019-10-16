@@ -1,0 +1,33 @@
+---
+title: Dark Mode in CSS
+description: How to add dark mode to your web site.
+date: 2019-10-16 17:15:00 +0100
+---
+
+Since updating to iOS 13 a few weeks back, I've finally made the switch to dark mode[^late-to-the-party]. I love that my phone no longer lights up a dark room, but switching to apps and sites which don't support dark mode is jarring.
+
+I'm quite suprised how few web sites have implemented dark mode. For a simple site, it's suprisingly easy and [has decent browser support](https://caniuse.com/#search=prefers-color-scheme).
+
+You just need need to override your site's colours inside `@media (prefers-color-scheme: dark)` blocks. For this site, it's as simple as this:
+
+```css
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee8d5;
+    background-color: #000;
+  }
+  a:hover {
+    color: #62ade3;
+  }
+  .table {
+    color: #eee8d5;
+  }
+  .table th, .table td {
+    border-color: #eee8d5;
+  }
+}
+```
+
+![Animation switching between light and dark modes](/assets/dark-mode/dark-mode.gif)
+
+[^late-to-the-party]: Yes, I'm super-late to the dark mode party, and still use light mode on my laptop.
