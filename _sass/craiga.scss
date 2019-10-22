@@ -40,6 +40,9 @@ $headings-font-weight: 700;
 
 $border-radius-lg: 17%;
 
+$card-bg: $base2;
+$card-spacer-x: 0.75rem;
+
 @import "bootstrap-4.3.1/functions";
 @import "bootstrap-4.3.1/variables";
 @import "bootstrap-4.3.1/mixins";
@@ -48,6 +51,7 @@ $border-radius-lg: 17%;
 @import "bootstrap-4.3.1/type";
 @import "bootstrap-4.3.1/code";
 @import "bootstrap-4.3.1/grid";
+@import "bootstrap-4.3.1/card";
 @import "bootstrap-4.3.1/tables";
 @import "bootstrap-4.3.1/utilities";
 @import "bootstrap-4.3.1/print";
@@ -94,7 +98,7 @@ html#page-home {
     @include media-breakpoint-down("sm") {
       font-size: 1rem;
     }
-  
+
     h1 {
       margin-bottom: 1rem;
       @include media-breakpoint-down("sm") {
@@ -175,6 +179,10 @@ html#page-home {
   100% {
     background-position: center;
   }
+}
+
+#home-blog-posts {
+  font-size: 18px;
 }
 
 .text-sans-serif {

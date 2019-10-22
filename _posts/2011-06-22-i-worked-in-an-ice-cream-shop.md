@@ -5,6 +5,7 @@ description: Back in the '90s, I was making waffle cones.
 date: '2011-06-22T14:52:00+01:00'
 date_updated: '2019-03-14T23:00:00+00:00'
 original_url: http://blog.craiga.id.au/post/6789756044/from-the-correspondence-about-the-previous-post
+image: /tumblr_files/tumblr_ln72jeHheS1qz5pmso1_1280.jpg
 ---
 ![](/tumblr_files/tumblr_ln72jeHheS1qz5pmso1_1280.jpg)  
 
