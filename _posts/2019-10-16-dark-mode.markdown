@@ -6,7 +6,7 @@ date: 2019-10-16 17:15:00 +0100
 
 Since updating to iOS 13 a few weeks back, I've finally made the switch to dark mode[^late-to-the-party]. I love that my phone no longer lights up a dark room, but switching to apps and sites which don't support dark mode is jarring.
 
-I'm quite suprised how few web sites have implemented dark mode. For a simple site, it's suprisingly easy and [has decent browser support](https://caniuse.com/#search=prefers-color-scheme).
+I'm quite surprised how few web sites have implemented dark mode. For a simple site, it's surprisingly easy and [has decent browser support](https://caniuse.com/#search=prefers-color-scheme).
 
 You just need need to override your site's colours inside `@media (prefers-color-scheme: dark)` blocks. For this site, it's as simple as this:
 
