@@ -20,7 +20,7 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 ## Work History
 
-### Django Developer, Kainos (Oct&nbsp;'19–Mar&nbsp;'20)
+### Django Developer, Kainos (Sep&nbsp;'19–Nov&nbsp;'19)
 
 [Kainos](https://www.kainos.com) are a digital agency working with clients in the public, health and financial services sectors.
 
