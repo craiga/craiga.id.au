@@ -170,6 +170,9 @@ external_profiles:
   - url: https://bitbucket.org/craiganderson/
     text: Bitbucket
     fontawesome-file: brands/bitbucket
+  - url: https://gitlab.com/craiganderson
+    text: GitLab
+    fontawesome-file: brands/gitlab
   - url: https://pypi.org/user/craiga/
     text: PyPI
     fontawesome-file: brands/python
