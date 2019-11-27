@@ -200,6 +200,9 @@ external_profiles:
   - url: https://www.goodreads.com/craiga
     text: Goodreads
     fontawesome-file: brands/goodreads
+  - url: https://medium.com/@_craiga
+    text: Medium
+    fontawesome-file: brands/medium
   - url: https://www.meetup.com/members/24626782/
     text: Meetup
     fontawesome-file: brands/meetup
