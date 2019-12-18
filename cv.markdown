@@ -20,6 +20,12 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 ## Work History
 
+### Senior Developer, Red Badger (Nov&nbsp;'19–March&nbsp;'20)
+
+[Red Badger](https://red-badger.com) are an award-winning digital transformation agency.
+
+* I joined Red Badger's cross-functional team at one of their clients' offices using a variety of technologies, including React, TypeScript, Rust, and Python.
+
 ### Django Developer, Kainos (Sep&nbsp;'19–Nov&nbsp;'19)
 
 [Kainos](https://www.kainos.com) are a digital agency working with clients in the public, health and financial services sectors.
@@ -28,9 +34,7 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 ### Django Developer, Red Badger (Apr&nbsp;'19–Sep&nbsp;'19)
 
-[Red Badger](https://red-badger.com) are an award-winning digital transformation agency.
-
-* I provided Django expertise to Red Badger's cross-functional team to deliver a Django CMS project at one of their clients' offices.
+* I provided Django expertise to Red Badger's team to deliver a Django CMS project.
 
 ### Python Developer, MyOptique Group (Jul&nbsp;‘18–Apr&nbsp;‘19)
 
@@ -38,7 +42,7 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 * I joined their development team to help maintain and modernise Django web sites and Python microservices which take orders from the customer to their warehouse and lens manufacturing processes.
 
-### Back End Developer (Permanent and Contract), Ten Group (Feb&nbsp;‘17–May&nbsp;‘18)
+### Back End Developer, Ten Group (Feb&nbsp;‘17–May&nbsp;‘18)
 
 [Ten Group](http://tengroup.com) is a luxury lifestyle concierge service.
 
@@ -46,14 +50,10 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 * I was technical lead on the platform's back end travel component, an API which integrates with a number of third-party services to search for and book flights, hotels, and cars to hire.
 * I also led development of the platform's integration with Ten's CRM platform using SOAP and a custom XML API.
 
-### Tech Team Lead, Ubiquity Press (Oct&nbsp;‘16–Feb&nbsp;‘17)
-
-[Ubiquity Press](http://ubiquitypress.com) is a publisher of open-access academic books and journals.
-
-* I was responsible for setting the technical direction of the company whilst maintaining a suite of Django- and PHP-based legacy applications.
 
 ### Prior Roles
 
+* Tech Team Lead (Oct&nbsp;‘16–Feb&nbsp;‘17), [Ubiquity Press](http://ubiquitypress.com)
 * Senior Web Developer (Dec&nbsp;‘15–Oct&nbsp;‘16), [Squareweave](http://squareweave.com.au)
 * Senior Web Developer (Sep&nbsp;‘11–Jun&nbsp;‘15) and Back End and API Custom Services Development Team Lead (Jul&nbsp;‘15–Dec&nbsp;‘15), [Australian Broadcasting Corporation](https://www.abc.net.au)
 * Technical Editor (Jun&nbsp;‘05–Dec&nbsp;‘06) and Senior Web Developer (Jan&nbsp;‘07–Sep&nbsp;‘11), [SitePoint](https://www.sitepoint.com)
