@@ -143,11 +143,11 @@
         },
         "weasyprint": {
             "hashes": [
-                "sha256:9c2d185ad87b38cde0aa97a70d4a783865cbb21445d259203799d5fd4dd2db46",
-                "sha256:a98deb2449499a9349ac3bf73be09b72502fa5063ee6b2fd16e3e6eda96e0505"
+                "sha256:469974f6e74b1eef71dc56a9b80cc17621f319234d2a4ab656ddd0fd9e66c27f",
+                "sha256:b3e971973a4f03c1430e6b838b75b5b57630415fcae8666d2be1347630ff6d6a"
             ],
             "index": "pypi",
-            "version": "==50"
+            "version": "==51"
         },
         "webencodings": {
             "hashes": [
