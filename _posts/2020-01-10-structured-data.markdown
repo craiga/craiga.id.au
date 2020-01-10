@@ -63,7 +63,7 @@ Here's [an example of Microdata from Schema.org](https://schema.org/Recipe#eg-13
 </div>
 ```
 
-Here's [the same example, but this time in RDFa]((https://schema.org/Recipe#eg-13)):
+Here's [the same example, but this time in RDFa](https://schema.org/Recipe#eg-13):
 
 ```html
 <div vocab="http://schema.org/" typeof="Recipe">
