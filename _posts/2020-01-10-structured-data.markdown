@@ -1,16 +1,14 @@
 ---
-title: Structured Metadata in 2020
-date: 2020-01-10 14:30:00 +0000
+title: Structured Data in 2020
+date: 2020-01-10 16:40:00 +0000
 ---
 
-Structured metadata is a way to describe the content of a web page so it's easier for a computer to read it. Normally, this is so search engines are able to rich data about your page.
+Structured data is a way to describe a web page so it's easier for a computer to read it. Normally, this is so search engines are able to show rich data about your page.
 
 ![Google search result showing rich data about Banana Bread recipes](/assets/structured-data/google.png)
 
 
-The last time I thought about embedding structured metadata in a web page, [Microformats](http://microformats.org) were a new, exciting idea.
-
-Recently I was horrified to discover that was almost fifteen years ago. The web has changed pretty fundamentally since then, so I had a lot to re-learn about this topic.
+The last time I thought about embedding structured data in a web page, [Microformats](http://microformats.org) were a new, exciting idea. I was horrified to discover that was almost fifteen years ago! The web has changed a lot since then, so I had lots to re-learn about this topic.
 
 The most confusing thing to me was understanding the separation of **vocabularies** (the schema for data) and **encodings** (the structure of the data).
 
@@ -62,7 +60,6 @@ Here's [an example of Microdata from Schema.org](https://schema.org/Recipe#eg-13
   Preheat the oven to 350 degrees. Mix in the ingredients in a bowl. Add
   the flour last. Pour the mixture into a loaf pan and bake for one hour.
   </span>
-  …
 </div>
 ```
 
@@ -97,12 +94,10 @@ Here's [the same example, but this time in RDFa]((https://schema.org/Recipe#eg-1
   Preheat the oven to 350 degrees. Mix in the ingredients in a bowl. Add
   the flour last. Pour the mixture into a loaf pan and bake for one hour.
   </span>
-  …
 </div>
-
 ```
 
-These are nice, simple approaches. However, embedding structured metadata into the body of an HTML document could quickly become unwieldy.
+These are nice, simple approaches. However, embedding structured data into the body of an HTML document can quickly become unwieldy.
 
 
 ## JSON- LD
@@ -142,4 +137,4 @@ This has the downside of duplicating some information, but it far more flexible 
 
 # Testing
 
-Google provides a very useful [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/u/0/) which makes it simple to show how structured metadata is being parsed.
+Google provides a very useful [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/u/0/) which makes it simple to show how structured data is being parsed.
