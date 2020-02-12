@@ -68,7 +68,7 @@ The code for these projects is available on [GitHub](https://github.com/craiga).
 
 [Will of the Prophets](http://gagh.biz/game) is a board game played by the hosts of [The Greatest Generation](http://gagh.biz), "a Star Trek podcast by two guys who are a bit embarrassed to have a Star Trek podcast". I worked with the hosts to take what was a difficult-to-maintain Google spreadsheet and convert it into a web app. It was built using Django.
 
-[Rough Trade Calendar](https://rough-trade-calendar.herokuapp.com) scrapes roughtrade.com for upcoming events and puts them into iCalendar and RSS feeds. It was built using Django and Scrapy.
+[Rough Trade Calendar](https://rough-trade-calendars.craiga.id.au) scrapes roughtrade.com for upcoming events and puts them into iCalendar and RSS feeds. It was built using Django and Scrapy.
 
 [faker-microservice](https://github.com/craiga/faker-microservice) adds fake microservice names to the popular [faker](https://faker.readthedocs.io) package.
 
