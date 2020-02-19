@@ -13,7 +13,7 @@ It's been a steep learning curve, but one I was enjoying until I started getting
 
     thread '…' panicked at 'resolve() must be implemented by non-object output types', …/juniper/src/types/async_await.rs:44:13
 
-Googling found barely any mention of this error message outside of [Juniper's source code](https://docs.rs/juniper/0.14.2/src/juniper/types/base.rs.html#305).
+Googling found barely any mention of this error message outside of [Juniper's source code](https://docs.rs/juniper/0.14.2/src/juniper/types/base.rs.html#341).
 
 It took quite a bit of pairing and rubber-duck debugging to figure out what this message meant, but it turns out that it was because my GraphQL query was badly formatted; instead of this:
 
