@@ -1,7 +1,10 @@
     </body>
 <!-- Fathom - simple website analytics - https://usefathom.com -->
 <script>
-if(window.location.hostname==="www.craiga.id.au") {
+if(window.location.href.indexOf("no_fathom_tracking") !== -1) {
+document.cookie = "no_fathom_tracking=true; expires=Tue, 31 Dec 2030 23:59:59 UTC";
+}
+if(window.location.hostname==="www.craiga.id.au" && document.cookie.indexOf("no_fathom_tracking") === -1) {
 (function(f, a, t, h, o, m){
 a[h]=a[h]||function(){
 (a[h].q=a[h].q||[]).push(arguments)
