@@ -74,197 +74,201 @@ social:
 sidebar_links:
   - url: /
     text: Home
-    fontawesome-file: solid/home
+    fontawesome_file: solid/home
   - url: /work
     text: Work
-    fontawesome-file: solid/laptop-code
+    fontawesome_file: solid/laptop-code
   - url: /cv
     text: CV
-    fontawesome-file: solid/briefcase
+    fontawesome_file: solid/briefcase
   - url: /blog
     text: Blog
-    fontawesome-file: solid/blog
+    fontawesome_file: solid/blog
   - url: https://github.com/craiga
     text: GitHub
-    fontawesome-file: brands/github
+    fontawesome_file: brands/github
+    fathom_goal_id: NUVSRQS9
   - url: https://facebook.com/craiga
     text: Facebook
-    fontawesome-file: brands/facebook
+    fontawesome_file: brands/facebook
+    fathom_goal_id: SNBP7KII
   - url: https://twitter.com/_craiga
     text: Twitter
-    fontawesome-file: brands/twitter
+    fontawesome_file: brands/twitter
+    fathom_goal_id: PNERSROJ
   - url: mailto:craiga@craiga.id.au
     text: Email
-    fontawesome-file: solid/envelope
+    fontawesome_file: solid/envelope
+    fathom_goal_id: WBOAPRVM
   - url: /elsewhere
     text: Elsewhere
-    fontawesome-file: solid/globe
+    fontawesome_file: solid/globe
 
 external_profiles:
   - url: https://www.linkedin.com/in/craigeanderson
     text: LinkedIn
-    fontawesome-file: brands/linkedin
+    fontawesome_file: brands/linkedin
   - url: https://github.com/craiga
     text: GitHub
-    fontawesome-file: brands/github
+    fontawesome_file: brands/github
   - url: https://facebook.com/craiga
     text: Facebook
-    fontawesome-file: brands/facebook
+    fontawesome_file: brands/facebook
   - url: https://www.instagram.com/_craiga/
     text: Instagram
-    fontawesome-file: brands/instagram
+    fontawesome_file: brands/instagram
   - url: https://twitter.com/_craiga
     text: Twitter
-    fontawesome-file: brands/twitter
+    fontawesome_file: brands/twitter
   - url: https://www.last.fm/user/craiganderson
     text: Last.fm
-    fontawesome-file: brands/lastfm
+    fontawesome_file: brands/lastfm
   - url: https://itunes.apple.com/profile/craigeanderson
     text: Apple Music
-    fontawesome-file: brands/apple
+    fontawesome_file: brands/apple
   - url: https://bandcamp.com/craiga
     text: Bandcamp
-    fontawesome-file: brands/bandcamp
+    fontawesome_file: brands/bandcamp
   - url: https://soundcloud.com/craiga
     text: SoundCloud
-    fontawesome-file: brands/soundcloud
+    fontawesome_file: brands/soundcloud
   - url: https://open.spotify.com/user/1231146638
     text: Spotify
-    fontawesome-file: brands/spotify
+    fontawesome_file: brands/spotify
   - url: https://www.discogs.com/user/craiga
     text: Discogs
-    fontawesome-file: solid/compact-disc
+    fontawesome_file: solid/compact-disc
   - url: https://www.songkick.com/users/craigeanderson
     text: Songkick
-    fontawesome-file: solid/volume-up
+    fontawesome_file: solid/volume-up
   - url: https://untappd.com/user/craiganderson
     text: Untappd
-    fontawesome-file: brands/untappd
+    fontawesome_file: brands/untappd
   - url: https://distiller.com/profile/craiga
     text: Distiller
-    fontawesome-file: solid/wine-glass-alt
+    fontawesome_file: solid/wine-glass-alt
   - url: https://craiganderson.yelp.co.uk
     text: Yelp
-    fontawesome-file: brands/yelp
+    fontawesome_file: brands/yelp
   - url: https://www.nextfree.co.uk/for/craig-anderson
     text: Nextfree
-    fontawesome-file: solid/calendar
+    fontawesome_file: solid/calendar
   - url: https://uk.yunojuno.com/p/craiga
     text: YunoJuno
-    fontawesome-file: solid/asterisk
+    fontawesome_file: solid/asterisk
   - url: https://angel.co/craiganderson
     text: AngelList
-    fontawesome-file: brands/angellist
+    fontawesome_file: brands/angellist
   - url: https://use.worksome.co.uk/profile/28594
     text: Worksome
-    fontawesome-file: solid/briefcase
+    fontawesome_file: solid/briefcase
   - url: https://djangogigs.com/developers/craig-anderson2/
     text: Djangogigs
-    fontawesome-file: solid/handshake
+    fontawesome_file: solid/handshake
   - url: https://snap.hr/u/33ba0389-fdfb-4fca-8f37-6ac81bc7630a/
     text: Snap.hr
-    fontawesome-file: solid/briefcase
+    fontawesome_file: solid/briefcase
   - url: https://github.com/craiga
     text: GitHub
-    fontawesome-file: brands/github
+    fontawesome_file: brands/github
   - url: https://bitbucket.org/craiganderson/
     text: Bitbucket
-    fontawesome-file: brands/bitbucket
+    fontawesome_file: brands/bitbucket
   - url: https://gitlab.com/craiganderson
     text: GitLab
-    fontawesome-file: brands/gitlab
+    fontawesome_file: brands/gitlab
   - url: https://pypi.org/user/craiga/
     text: PyPI
-    fontawesome-file: brands/python
+    fontawesome_file: brands/python
   - url: https://stackoverflow.com/users/1852024/craig-anderson
     text: Stack Overflow
-    fontawesome-file: brands/stack-overflow
+    fontawesome_file: brands/stack-overflow
   - url: https://www.codewars.com/users/craiga
     text: Codewars
-    fontawesome-file: solid/terminal
+    fontawesome_file: solid/terminal
   - url: https://www.udemy.com/user/craig-anderson-27/
     text: Udemy
-    fontawesome-file: solid/graduation-cap
+    fontawesome_file: solid/graduation-cap
   - url: https://www.etsy.com/uk/people/craiganderson
     text: Etsy
-    fontawesome-file: brands/etsy
+    fontawesome_file: brands/etsy
   - url: https://www.kickstarter.com/profile/craiga
     text: Kickstarter
-    fontawesome-file: brands/kickstarter
+    fontawesome_file: brands/kickstarter
   - url: https://ko-fi.com/craiga
     text: Ko-fi
-    fontawesome-file: solid/mug-hot
+    fontawesome_file: solid/mug-hot
   - url: https://www.amazon.co.uk/gp/profile/amzn1.account.AGZM2LSRQUXGVNRQS4Y34TEUAHYQ
     text: Amazon
-    fontawesome-file: brands/amazon
+    fontawesome_file: brands/amazon
   - url: https://www.goodreads.com/craiga
     text: Goodreads
-    fontawesome-file: brands/goodreads
+    fontawesome_file: brands/goodreads
   - url: https://medium.com/@_craiga
     text: Medium
-    fontawesome-file: brands/medium
+    fontawesome_file: brands/medium
   - url: https://www.meetup.com/members/24626782/
     text: Meetup
-    fontawesome-file: brands/meetup
+    fontawesome_file: brands/meetup
   - url: https://www.pinterest.co.uk/craiga/
     text: Pinterest
-    fontawesome-file: brands/pinterest
+    fontawesome_file: brands/pinterest
   - url: https://www.reddit.com/user/craiga/
     text: Reddit
-    fontawesome-file: brands/reddit
+    fontawesome_file: brands/reddit
   - url: https://www.producthunt.com/@craiga
     text: Product Hunt
-    fontawesome-file: brands/product-hunt
+    fontawesome_file: brands/product-hunt
   - url: http://steamcommunity.com/id/craiga
     text: Steam
-    fontawesome-file: brands/steam
+    fontawesome_file: brands/steam
   - text: SW-0552-7913-6509
-    fontawesome-file: brands/nintendo-switch
+    fontawesome_file: brands/nintendo-switch
   - url: https://account.xbox.com/en-us/profile?gamertag=craigea
     text: Xbox
-    fontawesome-file: brands/xbox
+    fontawesome_file: brands/xbox
   - url: https://www.gog.com/u/craigeanderson
     text: GOG
-    fontawesome-file: solid/gamepad
+    fontawesome_file: solid/gamepad
   - url: https://vgcollect.com/craiga
     text: VGCollect
-    fontawesome-file: solid/gamepad
+    fontawesome_file: solid/gamepad
   - url: https://www.twitch.tv/craigea
     text: Twitch
-    fontawesome-file: brands/twitch
+    fontawesome_file: brands/twitch
   - url: http://blog.craiga.id.au/
     text: Tumblr
-    fontawesome-file: brands/tumblr
+    fontawesome_file: brands/tumblr
   - url: https://curiouscat.me/craiga
     text: Curious Cat
-    fontawesome-file: solid/cat
+    fontawesome_file: solid/cat
   - url: https://www.strava.com/athletes/craiganderson
     text: Strava
-    fontawesome-file: brands/strava
+    fontawesome_file: brands/strava
   - url: https://www.kiva.org/lender/craiga
     text: Kiva
-    fontawesome-file: solid/leaf
+    fontawesome_file: solid/leaf
   - url: https://hub.docker.com/u/craiga/
     text: Docker Hub
-    fontawesome-file: brands/docker
+    fontawesome_file: brands/docker
   - url: https://vimeo.com/craiga
     text: Vimeo
-    fontawesome-file: brands/vimeo
+    fontawesome_file: brands/vimeo
   - url: https://keybase.io/craiganderson
     text: Keybase
-    fontawesome-file: brands/keybase
+    fontawesome_file: brands/keybase
   - url: https://www.quora.com/profile/Craig-Anderson-2
     text: Quora
-    fontawesome-file: brands/quora
+    fontawesome_file: brands/quora
   - url: https://trello.com/craigea
     text: Trello
-    fontawesome-file: brands/trello
+    fontawesome_file: brands/trello
   - url: https://www.patreon.com/craiga
     text: Patreon
-    fontawesome-file: brands/patreon
+    fontawesome_file: brands/patreon
   - url: https://www.paypal.me/craigeanderson
     text: PayPal
-    fontawesome-file: brands/paypal
+    fontawesome_file: brands/paypal
 
 plugins:
   - jekyll-feed
