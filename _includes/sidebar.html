@@ -5,8 +5,8 @@
 </div>
 <div class="row no-gutters pt-3">
     {% for link in site.sidebar_links %}
-        <a class="col-xl-4 col-lg-6 col-md-12 col-sm-4 col-6 py-1 text-truncate text-sans-serif" href="{{ link.url }}">
-            <img src="/fontawesome/{{ link.fontawesome-file }}.svg" class="fa-svg">{{ link.text }}
+        <a class="col-xl-4 col-lg-6 col-md-12 col-sm-4 col-6 py-1 text-truncate text-sans-serif" href="{{ link.url }}"{% if link.fathom_goal_id %} data-fathom-goal-id="{{ link.fathom_goal_id }}"{% endif %}>
+            <img src="/fontawesome/{{ link.fontawesome_file }}.svg" class="fa-svg">{{ link.text }}
         </a>
     {% endfor %}
 </div>
