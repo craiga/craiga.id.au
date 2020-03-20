@@ -1,6 +1,12 @@
     </body>
+<script
+  src="https://browser.sentry-cdn.com/5.13.0/bundle.min.js"
+  integrity="sha384-ePH2Cp6F+/PJbfhDWeQuXujAbpil3zowccx6grtsxOals4qYqJzCjeIa7W2UqunJ"
+  crossorigin="anonymous"></script>
+<script>
+  Sentry.init({ dsn: 'https://87a4caa0fd8c4333929598cdd2e4b19b@sentry.io/255252' });
+</script>
 <script src="{{ "/assets/main.js" | relative_url }}"></script>
-<!-- Fathom - simple website analytics - https://usefathom.com -->
 <script>
 if(window.location.hostname==="www.craiga.id.au" && document.cookie.indexOf("no_fathom_tracking") === -1) {
 (function(f, a, t, h, o, m){
@@ -16,5 +22,4 @@ fathom('set', 'siteId', 'NGWZHJXT');
 fathom('trackPageview');
 }
 </script>
-<!-- / Fathom -->
 </html>
