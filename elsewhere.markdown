@@ -8,7 +8,7 @@ I like to sign up for things.
 <div class="row no-gutters pb-3">
     {% for profile in site.external_profiles %}
         {% if profile.url %}
-          <a class="{{item_classes}}" href="{{ profile.url }}">
+          <a class="{{item_classes}}" href="{{ profile.url }}"{% if profile.fathom_goal_id %} data-fathom-goal-id="{{ profile.fathom_goal_id }}"{% endif %}>
         {% else %}
           <span class="{{item_classes}}">
         {% endif %}

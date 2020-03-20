@@ -108,6 +108,7 @@ external_profiles:
   - url: https://www.linkedin.com/in/craigeanderson
     text: LinkedIn
     fontawesome_file: brands/linkedin
+    fathom_goal_id: RZMNTD4P
   - url: https://github.com/craiga
     text: GitHub
     fontawesome_file: brands/github
