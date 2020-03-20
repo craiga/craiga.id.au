@@ -109,81 +109,102 @@ external_profiles:
     text: LinkedIn
     fontawesome_file: brands/linkedin
     fathom_goal_id: RZMNTD4P
-  - url: https://github.com/craiga
-    text: GitHub
-    fontawesome_file: brands/github
   - url: https://facebook.com/craiga
     text: Facebook
     fontawesome_file: brands/facebook
+    fathom_goal_id: IENTKMNL
   - url: https://www.instagram.com/_craiga/
     text: Instagram
     fontawesome_file: brands/instagram
+    fathom_goal_id: FADRO2KF
   - url: https://twitter.com/_craiga
     text: Twitter
     fontawesome_file: brands/twitter
+    fathom_goal_id: SH5PXDAV
   - url: https://www.last.fm/user/craiganderson
     text: Last.fm
     fontawesome_file: brands/lastfm
+    fathom_goal_id: JSDRLIAD
   - url: https://itunes.apple.com/profile/craigeanderson
     text: Apple Music
     fontawesome_file: brands/apple
+    fathom_goal_id: GDKIUVHW
   - url: https://bandcamp.com/craiga
     text: Bandcamp
     fontawesome_file: brands/bandcamp
+    fathom_goal_id: X2FQORRC
   - url: https://soundcloud.com/craiga
     text: SoundCloud
     fontawesome_file: brands/soundcloud
+    fathom_goal_id: GAT1FT3V
   - url: https://open.spotify.com/user/1231146638
     text: Spotify
     fontawesome_file: brands/spotify
+    fathom_goal_id: XAPKNYOE
   - url: https://www.discogs.com/user/craiga
     text: Discogs
     fontawesome_file: solid/compact-disc
+    fathom_goal_id: AJYZCT9Z
   - url: https://www.songkick.com/users/craigeanderson
     text: Songkick
     fontawesome_file: solid/volume-up
+    fathom_goal_id: QM7TMDQA
   - url: https://untappd.com/user/craiganderson
     text: Untappd
     fontawesome_file: brands/untappd
+    fathom_goal_id: B1NAWT7K
   - url: https://distiller.com/profile/craiga
     text: Distiller
     fontawesome_file: solid/wine-glass-alt
+    fathom_goal_id: D8FODB5S
   - url: https://craiganderson.yelp.co.uk
     text: Yelp
     fontawesome_file: brands/yelp
+    fathom_goal_id: M9ZSRPRO
   - url: https://www.nextfree.co.uk/for/craig-anderson
     text: Nextfree
     fontawesome_file: solid/calendar
+    fathom_goal_id: XWPBRFFL
   - url: https://uk.yunojuno.com/p/craiga
     text: YunoJuno
     fontawesome_file: solid/asterisk
+    fathom_goal_id: HBWA4CQY
   - url: https://angel.co/craiganderson
     text: AngelList
     fontawesome_file: brands/angellist
+    fathom_goal_id: XIJAFZI7
   - url: https://use.worksome.co.uk/profile/28594
     text: Worksome
     fontawesome_file: solid/briefcase
+    fathom_goal_id: EQ2E9DOK
   - url: https://djangogigs.com/developers/craig-anderson2/
     text: Djangogigs
     fontawesome_file: solid/handshake
+    fathom_goal_id: JWKJFKGH
   - url: https://snap.hr/u/33ba0389-fdfb-4fca-8f37-6ac81bc7630a/
     text: Snap.hr
     fontawesome_file: solid/briefcase
+    fathom_goal_id: AFQMRRD3
   - url: https://github.com/craiga
     text: GitHub
     fontawesome_file: brands/github
+    fathom_goal_id: LYIBX1EV
   - url: https://bitbucket.org/craiganderson/
     text: Bitbucket
     fontawesome_file: brands/bitbucket
+    fathom_goal_id: UYEMOYIC
   - url: https://gitlab.com/craiganderson
     text: GitLab
     fontawesome_file: brands/gitlab
+    fathom_goal_id: QYDMXJMS
   - url: https://pypi.org/user/craiga/
     text: PyPI
     fontawesome_file: brands/python
+    fathom_goal_id: WCMSPHM9
   - url: https://stackoverflow.com/users/1852024/craig-anderson
     text: Stack Overflow
     fontawesome_file: brands/stack-overflow
+    fathom_goal_id: FLGYEF4N
   - url: https://www.codewars.com/users/craiga
     text: Codewars
     fontawesome_file: solid/terminal
