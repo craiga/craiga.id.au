@@ -208,27 +208,35 @@ external_profiles:
   - url: https://www.codewars.com/users/craiga
     text: Codewars
     fontawesome_file: solid/terminal
+    fathom_goal_id: ZFK3YUQ0
   - url: https://www.udemy.com/user/craig-anderson-27/
     text: Udemy
     fontawesome_file: solid/graduation-cap
+    fathom_goal_id: UY5IIV82
   - url: https://www.etsy.com/uk/people/craiganderson
     text: Etsy
     fontawesome_file: brands/etsy
+    fathom_goal_id: ES6DHNTV
   - url: https://www.kickstarter.com/profile/craiga
     text: Kickstarter
     fontawesome_file: brands/kickstarter
+    fathom_goal_id: N5BAEWDF
   - url: https://ko-fi.com/craiga
     text: Ko-fi
     fontawesome_file: solid/mug-hot
+    fathom_goal_id: NUDR58H5
   - url: https://www.amazon.co.uk/gp/profile/amzn1.account.AGZM2LSRQUXGVNRQS4Y34TEUAHYQ
     text: Amazon
     fontawesome_file: brands/amazon
+    fathom_goal_id: Y7JWVIS1
   - url: https://www.goodreads.com/craiga
     text: Goodreads
     fontawesome_file: brands/goodreads
+    fathom_goal_id: C1SDU3CZ
   - url: https://medium.com/@_craiga
     text: Medium
     fontawesome_file: brands/medium
+    fathom_goal_id: IHRZ9B6X
   - url: https://www.meetup.com/members/24626782/
     text: Meetup
     fontawesome_file: brands/meetup
