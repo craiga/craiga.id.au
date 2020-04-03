@@ -20,11 +20,11 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 ## Work History
 
-### Senior Developer, Red Badger (Nov&nbsp;'19–March&nbsp;'20)
+### Senior Developer, Red Badger (Nov&nbsp;'19–April&nbsp;'20)
 
 [Red Badger](https://red-badger.com) are an award-winning digital transformation agency.
 
-* I joined Red Badger's cross-functional team at one of their clients' offices using a variety of technologies, including React, TypeScript, Rust, and Python.
+* I joined Red Badger's cross-functional team using a variety of technologies, including Rust, React, TypeScript, and Python.
 
 ### Django Developer, Kainos (Sep&nbsp;'19–Nov&nbsp;'19)
 
