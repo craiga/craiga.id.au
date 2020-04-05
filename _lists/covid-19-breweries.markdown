@@ -26,4 +26,6 @@ I'll try to keep this list up-to-date, but please feel free to [email contributi
 ## Elsewhere in the UK
 
 * [DEYA](https://shop.deyabrewing.com)
+* [Cloudwater](https://shop.cloudwaterbrew.co)
+* [Lost and Grounded](https://www.lostandgroundedstore.co.uk)
 * [BrewDog](https://www.brewdog.com/uk/shop)
