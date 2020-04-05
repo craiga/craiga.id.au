@@ -3,7 +3,7 @@ title: Breweries delivering to the public during COVID-19
 description: A list of breweries with online shops which will deliver beer to me, a member of the public in East London.
 layout: post
 date: 2020-04-03T17:40:00+01:00
-date_updated: 2020-04-05T11:20:00+01:00
+date_updated: 2020-04-05T12:30:00+01:00
 ---
 
 A list of breweries with online shops which will deliver beer to me, a member of the public in East London.
