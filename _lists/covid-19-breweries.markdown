@@ -19,6 +19,7 @@ I'll try to keep this list up-to-date, but please feel free to [email contributi
 ## Elswhere in London
 
 * [The Kernel](https://store.thekernelbrewery.com)
+* [Gipsy Hill](https://gipsyhillbrew.com)
 * [Clarkshaws](https://www.clarkshaws.co.uk/shop.html) (I've not tried them, but it was recommended to me by a friend who's local to this brewery)
 
 [Kicking Horse](https://kicking-horse-craft-beer-merchants.myshopify.com) should also be mentioned here. They normally supply beer to restaurants, but have begun a home delivery service.
