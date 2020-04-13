@@ -7,9 +7,9 @@ id: work
 I can help:
 
  * **research** your users' wants and needs;
- * **design** a product to delight those users;
+ * **design** a product to satisfy those users;
  * **build** that product;
- * **test** that the product is satisfying its users; and
+ * **test** that the product does what was planned; and
  * **iterate** over this process to continuously improve your product.
 
 [Read more about me and my experience in my CV](/cv) (available as a [PDF](/cv.pdf) if required).
