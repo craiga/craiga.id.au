@@ -1,17 +1,22 @@
 ---
-title: Hi, I’m Craig, a Freelance Web Developer
-description: Freelance web developer specialising in Python and Django. Based in London.
+title: Hi, I’m Craig, a Freelance Product Developer
+description: Freelance product developer specialising in Python and Django. Based in London.
+id: work
 ---
 
-I can help you with:
+I can help:
 
- * building simple websites or complex web applications;
- * developing APIs to expose your data so it can be used in new and exciting ways; and
- * supplementing your team to inject new skills, experience and mentorship.
-
-I'm a specialist in Python and Django, but I'm always up for trying something new.
+ * **research** your users' wants and needs;
+ * **design** a product to delight those users;
+ * **build** that product;
+ * **test** that the product is satisfying its users; and
+ * **iterate** over this process to continuously improve your product.
 
 [Read more about me and my experience in my CV](/cv) (available as a [PDF](/cv.pdf) if required).
+
+## Tech
+
+I'm a specialist in Python and Django, have experience with a broad range of technologies including React and Rust, and am always willing to use the right tool for the job.
 
 
 ## What's UHF 62?

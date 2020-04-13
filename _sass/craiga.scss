@@ -266,6 +266,29 @@ a:hover .fa-svg {
   }
 }
 
+#page-work #col-main ul {
+  list-style: none;
+  li::before {
+    position: absolute;
+    left: 1em;
+  }
+  li:nth-child(1)::before {
+    content: "🔬";
+  }
+  li:nth-child(2)::before {
+    content: "📐";
+  }
+  li:nth-child(3)::before {
+    content: "🏗";
+  }
+  li:nth-child(4)::before {
+    content: "📋";
+  }
+  li:nth-child(5)::before {
+    content: "♻️";
+  }
+}
+
 @media print {
   *,
   *::before,

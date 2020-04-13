@@ -16,7 +16,7 @@ I'll try to keep this list up-to-date, but please feel free to [email contributi
 * [Howling Hops](https://www.howlinghops.co.uk/shop/)
 * [Signature Brew](https://www.signaturebrew.co.uk/collections/live)
 
-## Elswhere in London
+## Elsewhere in London
 
 * [The Kernel](https://store.thekernelbrewery.com)
 * [Gipsy Hill](https://gipsyhillbrew.com)

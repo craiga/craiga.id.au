@@ -3,7 +3,7 @@ title: Hello, I'm Craig Anderson
 id: home
 ---
 
-By day, [I'm a freelance web developer specialising in Python and Django](/work). [I've given some talks about my work](/talks), and I hope to give more.
+By day, [I'm a freelance product developer specialising in Python and Django](/work). [I've given some talks about my work](/talks), and I hope to give more.
 
 By night, you might find me exploring my adopted home city of London [🎶 seeing live music](https://www.songkick.com/users/craigeanderson){:data-fathom-goal-id="XESRNZMT"}, [🍻 enjoying craft beer](https://untappd.com/user/craiganderson){:data-fathom-goal-id="RI7RSBCK"}, or [🥦 playing around in the kitchen](https://www.pinterest.co.uk/craiga/things-i-cooked-that-were-great/){:data-fathom-goal-id="CPBM8UL5"}. When back in [🌏 my home town of Melbourne](/melbourne), I might occasionally play bass guitar in [🎸 Look Who's Toxic](http://lookwhostoxic.com){:data-fathom-goal-id="JUQR3XLO"}.
 
