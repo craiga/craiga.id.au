@@ -25,6 +25,9 @@ for element in document.querySelectorAll("a[data-fathom-goal-id]")
       fathom('trackGoal', this.getAttribute("data-fathom-goal-id"), 0)
 
 roomForMoreInSidebar = () ->
+  if window.innerWidth < 768
+    return false
+
   mainContent = document.getElementById("col-main")
   sidebar = document.getElementById("col-side")
   mainContentHeight = Array.from(mainContent.children)
