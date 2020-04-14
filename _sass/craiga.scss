@@ -215,18 +215,22 @@ img {
 .video-wrapper {
   position: relative;
   height: 0;
+
+  iframe, video {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+  }
 }
 
 .video-wrapper-16-9 {
   padding-bottom: 56.25%;
 }
 
-.video-wrapper iframe {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
+.video-wrapper-3-4 {
+  padding-bottom: 133.33%;
 }
 
 .colour {

@@ -40,6 +40,7 @@ roomForMoreInSidebar = () ->
       child.offsetHeight
     .reduce (a, b) ->
       a + b
+
   return mainContentHeight > (sidebarHeight + 300)
 
 sidebar = document.getElementById("col-side")
