@@ -40,11 +40,12 @@ roomForMoreInSidebar = () ->
       child.offsetHeight
     .reduce (a, b) ->
       a + b
+
   return mainContentHeight > (sidebarHeight + 300)
 
 sidebar = document.getElementById("col-side")
 
-if roomForMoreInSidebar()
+if roomForMoreInSidebar() and window.location.pathname not in ["/blog", "/cv"]
   # Add recent blog posts to sidebar
   fetch('/feed.xml')
     .then (response) -> response.text()
