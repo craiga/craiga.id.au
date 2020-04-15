@@ -8,4 +8,4 @@ pdf:
 	pkill -f jekyll
 
 lockdown-video:
-	ffmpeg -i video.mov -an -vcodec h264 -vf -b:v 400k lockdown.mp4
+	ffmpeg -i video.mov -an -vcodec h264 -b:v 400k lockdown.mp4
