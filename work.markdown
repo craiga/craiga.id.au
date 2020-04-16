@@ -18,8 +18,9 @@ I can help:
 
 I'm a specialist in Python and Django, have experience with a broad range of technologies including React and Rust, and am always willing to use the right tool for the job.
 
+![UHF 62 Logo](https://www.uhf62.co.uk/assets/logo.svg){:class="float-right pl-4 pt-2"}{:style="width: 33.3%"}
 
-## What's UHF 62?
+## What's UHF&nbsp;62?
 
 [UHF 62 Limited](http://uhf62.co.uk) is my limited company. It's named after the TV station "Weird Al" Yankovic's character takes over in the movie [UHF](https://www.imdb.com/title/tt0098546/). It's a great film.
 
