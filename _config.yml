@@ -241,6 +241,9 @@ external_profiles:
   - url: https://www.producthunt.com/@craiga
     text: Product Hunt
     fontawesome_file: brands/product-hunt
+  - url: https://unsplash.com/@craiganderson
+    text: Unsplash
+    fontawesome_file: solid/camera
   - url: http://steamcommunity.com/id/craiga
     text: Steam
     fontawesome_file: brands/steam
