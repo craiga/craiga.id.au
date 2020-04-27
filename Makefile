@@ -10,7 +10,7 @@ cv-pdf:  ## Create CV PDF.
 	pkill -f jekyll
 
 lockdown: ## Create assets for lockdown page from assets exported from Everyday.
-	ffmpeg -i video.mov -an -vcodec h264 -b:v 2M -filter:v scale=360:-1 -y lockdown.mp4
+	ffmpeg -i video.mov -an -vcodec h264 -b:v 0.5M -filter:v scale=360:-1 -y lockdown.mp4
 	cjpeg -outfile lockdown.jpg "PNG image.png"
 	sed -i "" -e "s/<span id=\"lastUpdated\">.*<\/span>/<span id=\"lastUpdated\">`date +"%A %d %B"`<\/span>/g" lockdown.markdown
 	git add lockdown.*
