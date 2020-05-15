@@ -1,4 +1,6 @@
 $baseSize: 16px;
+$smallSize: $baseSize * 0.8;
+$opacity: 0.9;
 
 #sidebar {
   background-color: $darkGrey;
@@ -44,14 +46,17 @@ $baseSize: 16px;
     background-size: cover;
     background-position: center;
     
-    p {
+    p, h1 {
       max-width: $baseSize * 30;
       margin: auto;
     }
   }
 
+  footer {
+    font-size: $smallSize;
+  }
+
   $sections: "work", "social-media", "blog", "music", "beer", "melbourne";
-  $opacity: 0.9;
   @each $section in $sections {
     #sidebar-#{$section} {
       background-image:
@@ -66,7 +71,19 @@ $baseSize: 16px;
       url("/lockdown.jpg");
   }
 
-  footer {
-    font-size: $baseSize * 0.8;
+  #sidebar-index {
+    padding: 0;
+    article, header, footer {
+      padding: $baseSize * 1.5 $baseSize * 2;
+    }
+    article {
+      p {
+        font-size: $smallSize;
+        margin-top: $smallSize;
+      }
+    }
+    footer {
+      font-size: $baseSize;
+    }
   }
 }
