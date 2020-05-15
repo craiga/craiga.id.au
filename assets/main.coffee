@@ -28,8 +28,8 @@ roomForMoreInSidebar = () ->
   if window.innerWidth < 768
     return false
 
-  mainContent = document.getElementById("col-main")
-  sidebar = document.getElementById("col-side")
+  mainContent = document.getElementsByTagName("main")[0];
+  sidebar = document.getElementById("sidebar")
   mainContentHeight = Array.from(mainContent.children)
     .map (child) ->
       child.offsetHeight
@@ -43,9 +43,9 @@ roomForMoreInSidebar = () ->
 
   return mainContentHeight > (sidebarHeight + 300)
 
-sidebar = document.getElementById("col-side")
+sidebar = document.getElementById("sidebar")
 
-if roomForMoreInSidebar() and window.location.pathname not in ["/blog", "/cv"]
+if roomForMoreInSidebar() and window.location.pathname not in ["/blog", "/"]
   # Add recent blog posts to sidebar
   fetch('/feed.xml')
     .then (response) -> response.text()
@@ -54,28 +54,36 @@ if roomForMoreInSidebar() and window.location.pathname not in ["/blog", "/cv"]
       return parser.parseFromString(responseText, "text/xml")
     .then (responseDom) ->
 
-      heading = document.createElement("h2")
-      heading.setAttribute("class", "h5")
+      blogPostSection = document.createElement("section")
+      blogPostSection.setAttribute("id", "sidebar-index")
+      header = document.createElement("header")
+      heading = document.createElement("h1")
       heading.innerText = "Recent Blog Posts"
-      sidebar.appendChild(heading)
+      header.appendChild(heading)
+      blogPostSection.appendChild(header)
+      sidebar.appendChild(blogPostSection)
+
       dateFormat = Intl.DateTimeFormat("en-AU", {day: "numeric", month: "long", year: "numeric"})
 
       for entry in responseDom.getElementsByTagName("entry")
+        article = document.createElement("article")
+
         link  = document.createElement("a")
         link.setAttribute("href", entry.getElementsByTagName("link")[0].getAttribute("href"))
         link.innerText = entry.getElementsByTagName("title")[0].textContent
 
-        subheading = document.createElement("h3")
-        subheading.setAttribute("class", "h6")
-        subheading.appendChild(link)
-        sidebar.appendChild(subheading)
+        heading = document.createElement("h1")
+        heading.appendChild(link)
+        article.appendChild(heading)
 
         publishedDate = new Date()
         publishedDate.setTime(Date.parse(entry.getElementsByTagName("published")[0].textContent))
         dateline = document.createElement("p")
         dateline.setAttribute("class", "small")
         dateline.innerText = "Published " + dateFormat.format(publishedDate) + "."
-        sidebar.appendChild(dateline)
+        article.appendChild(dateline)
+
+        blogPostSection.appendChild(article)
 
         if !roomForMoreInSidebar()
           break
@@ -84,6 +92,8 @@ if roomForMoreInSidebar() and window.location.pathname not in ["/blog", "/cv"]
       link.setAttribute("href", "/blog")
       link.innerText = "More…"
       paragraph = document.createElement("p")
-      paragraph.setAttribute("class", "text-sans-serif")
       paragraph.appendChild(link)
-      sidebar.appendChild(paragraph)
+      footer = document.createElement("footer")
+      footer.appendChild(paragraph)
+      blogPostSection.appendChild(footer)
+
