@@ -1,0 +1,7 @@
+{
+  "ignoredFiles": [
+    "*.original.*"
+  ],
+  "aggressiveCompression": true,
+  "minKBReduced": null
+}
