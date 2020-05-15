@@ -97,3 +97,35 @@ if roomForMoreInSidebar() and window.location.pathname not in ["/blog", "/"]
       footer.appendChild(paragraph)
       blogPostSection.appendChild(footer)
 
+
+fetch("http://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=craiganderson&period=7day&api_key=ad34f34858f38de2ed2a097d31a882eb&format=json")
+  .then (response) -> response.json()
+  .then (responseData) ->
+    artists = responseData.topartists.artist
+    if artists.length > 3
+      console.log(artists)
+      lastFmPlaceholder = document.getElementById("lastfm-placeholder")
+      fathomGoalId = lastFmPlaceholder.getElementsByTagName("a")[0].getAttribute("data-fathom-goal-id")
+
+      lastFmPlaceholder.innerText = ""
+
+      link = document.createElement("a")
+      link.setAttribute("href", "https://www.last.fm/user/craiganderson")
+      link.setAttribute("data-fathom-goal-id", fathomGoalId)
+      link.innerText = "Lately I've been listening to"
+      lastFmPlaceholder.appendChild(link)
+
+      linkForArtist = (artist, fathomGoalId) ->
+        link = document.createElement("a")
+        link.setAttribute("href", artist.url)
+        link.setAttribute("data-fathom-goal-id", fathomGoalId)
+        link.innerText = artist.name
+        return link
+
+      lastFmPlaceholder.appendChild(document.createTextNode(" "))
+      lastFmPlaceholder.appendChild(linkForArtist(artists[0], fathomGoalId))
+      lastFmPlaceholder.appendChild(document.createTextNode(", "))
+      lastFmPlaceholder.appendChild(linkForArtist(artists[1], fathomGoalId))
+      lastFmPlaceholder.appendChild(document.createTextNode(", and "))
+      lastFmPlaceholder.appendChild(linkForArtist(artists[2], fathomGoalId))
+      lastFmPlaceholder.appendChild(document.createTextNode("."))
