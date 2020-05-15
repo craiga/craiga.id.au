@@ -1,11 +1,12 @@
 ---
 title: Structured Data in 2020
 date: 2020-01-10 16:40:00 +0000
+date_updated: 2020-05-15 14:50:00 +0100
+image: /assets/structured-data/google.jpg
+image-description: Google search result showing rich data about Banana Bread recipes
 ---
 
 Structured data is a way to describe a web page so it's easier for a computer to read it. Normally, this is so search engines are able to show rich data about your page.
-
-![Google search result showing rich data about Banana Bread recipes](/assets/structured-data/google.png)
 
 
 The last time I thought about embedding structured data in a web page, [Microformats](http://microformats.org) were a new, exciting idea. I was horrified to discover that was almost fifteen years ago! The web has changed a lot since then, so I had lots to re-learn about this topic.

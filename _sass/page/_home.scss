@@ -1,0 +1,22 @@
+$rotation: -2deg;
+$perspective: 38.2vw * .618;
+
+#page-home {
+  article.thing-i-built {
+    img {
+      filter: drop-shadow($baseSize * -0.5 $baseSize * 0.5 $baseSize * 0.5 rgba($darkGrey, 0.5));
+      transform: perspective($perspective) rotateY($rotation);
+    }
+    
+  }
+  article.thing-i-built:nth-of-type(2n-1) {
+    figure {
+      order: -1;
+      padding-left: 0;
+      padding-right: 1em;
+      img {
+        transform: perspective($perspective) rotateY($rotation * -1);
+      }
+    }
+  }
+}

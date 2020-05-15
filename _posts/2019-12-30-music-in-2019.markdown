@@ -2,6 +2,8 @@
 title: Music in 2019
 description: My favourite music of 2019.
 date: 2019-12-30 12:00:00 +0000
+image: /assets/music-2019/eotr.jpg
+image-description: Kate Tempest at End of the Road 2019
 ---
 
 2019 was the year I was reminded how important it is to do things which make you happy. It's such a simple idea, but one that I'd managed to forget. Music—especially live music—makes me happy, and getting to spend so much of 2019 attending gigs and listening to new albums made it one of the best years I've had in a long time.

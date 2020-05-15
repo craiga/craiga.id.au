@@ -1,10 +1,47 @@
 ---
-title: Hello, I'm Craig Anderson
+title: Here are some things I built
 id: home
+layout: index
 ---
 
-By day, [I'm a freelance product developer specialising in Python and Django](/work). [I've given some talks about my work](/talks), and I hope to give more.
 
-By night, [🏠 you'll find me at home](/lockdown) [🍻 enjoying craft beer](https://untappd.com/user/craiganderson){:data-fathom-goal-id="RI7RSBCK"} and [🥦 playing around in the kitchen](https://www.pinterest.co.uk/craiga/things-i-cooked-that-were-great/){:data-fathom-goal-id="CPBM8UL5"}. One day I hope to get back to exploring my adopted home of London and [🎶 seeing live music](https://www.songkick.com/users/craigeanderson){:data-fathom-goal-id="XESRNZMT"}. When back in [🌏 my home town of Melbourne](/melbourne), I might occasionally play bass guitar in [🎸 Look Who's Toxic](http://lookwhostoxic.com){:data-fathom-goal-id="JUQR3XLO"}.
+<article class="thing-i-built">
+  <figure><img src="/assets/screenshots/unixtimestamp.jpg"></figure>
+  <div>
+    <h1><a href="http://unixtimesta.mp">unixtimesta.mp</a></h1>
+    <p>Since 2011 I've been running this site which converts Unix Time to and from human-readable time.</p>
+  </div>
+</article>
+<article class="thing-i-built">
+  <figure><img src="/assets/screenshots/rough-trade.jpg"></figure>
+  <div>
+    <h1><a href="https://rough-trade-calendars.craiga.id.au">Rough Trade Calendars</a></h1>
+    <p>This sites scrapes roughtrade.com for upcoming events, and then serves iCalendar feeds of those events.</p>
+  </div>
+</article>
+<article class="thing-i-built">
+  <figure><img src="/assets/screenshots/will-of-the-prophets.jpg"></figure>
+  <div>
+    <h1><a href="http://gagh.biz/game">Game of Buttholes: Will of the Prophets</a></h1>
+    <p>A site I'm a little bit embarassed to have built for the hosts of one of my favourite podcasts.</p>
+  </div>
+</article>
 
-I also run [⏱ a Unix Timestamp conversion site](https://www.unixtimesta.mp){:data-fathom-goal-id="RIVS7KEW"}, [🎲 a board game for a podcast I'm a little embarrassed to be subscribed to](http://gagh.biz/game){:data-fathom-goal-id="CDWN0BWW"}, and [🗓 a site tracking upcoming events at Rough Trade stores](https://rough-trade-calendars.craiga.id.au){:data-fathom-goal-id="FN3V3C8A"}.
+<header>
+  <h1>Here are some things I wrote</h1>
+</header>
+
+{% for post in site.posts %}
+<article>
+  {% if post.image %}
+    <figure><img src="{{ post.image }}" alt="{{ post.image_description }}"></figure>
+  {% endif %}
+  <div>
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <p class="small">Published {{ post.date | date: "%e %B, %Y" }}.</p>
+    {% if post.description %}
+        <p>{{ post.description }}</p>
+    {% endif %}
+  </div>
+</article>
+{% endfor %}

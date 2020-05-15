@@ -71,38 +71,6 @@ social:
     - https://angel.co/craiganderson
     - https://www.twitch.tv/craigea
 
-sidebar_links:
-  - url: /
-    text: Home
-    fontawesome_file: solid/home
-  - url: /work
-    text: Work
-    fontawesome_file: solid/laptop-code
-  - url: /cv
-    text: CV
-    fontawesome_file: solid/briefcase
-  - url: /blog
-    text: Blog
-    fontawesome_file: solid/blog
-  - url: https://github.com/craiga
-    text: GitHub
-    fontawesome_file: brands/github
-    fathom_goal_id: NUVSRQS9
-  - url: https://facebook.com/craiga
-    text: Facebook
-    fontawesome_file: brands/facebook
-    fathom_goal_id: SNBP7KII
-  - url: https://twitter.com/_craiga
-    text: Twitter
-    fontawesome_file: brands/twitter
-    fathom_goal_id: PNERSROJ
-  - url: mailto:craiga@craiga.id.au
-    text: Email
-    fontawesome_file: solid/envelope
-    fathom_goal_id: WBOAPRVM
-  - url: /elsewhere
-    text: Elsewhere
-    fontawesome_file: solid/globe
 
 external_profiles:
   - url: https://www.linkedin.com/in/craigeanderson

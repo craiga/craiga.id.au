@@ -1,6 +1,7 @@
 default:  ## Build and serve the web site.
 	bundle install
-	bundle exec jekyll serve --incremental --livereload --drafts --future
+	bundle exec rougify style base16.solarized > _sass/rouge.scss
+	bundle exec jekyll serve --incremental --livereload
 
 cv-pdf:  ## Create CV PDF.
 	bundle install
@@ -15,6 +16,12 @@ lockdown: ## Create assets for lockdown page from assets exported from Everyday.
 	sed -i "" -e "s/<span id=\"lastUpdated\">.*<\/span>/<span id=\"lastUpdated\">`date +"%A %d %B"`<\/span>/g" lockdown.markdown
 	git add lockdown.*
 	git commit --message "Lockdown `date +"%A %d %B"`" --no-verify
+
+images: ## Create resized and compressed images.
+	./images.sh
+
+spellcheck: ## Check spelling.
+	./spellcheck.sh
 
 help: ## Display this help screen.
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'

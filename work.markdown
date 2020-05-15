@@ -18,7 +18,7 @@ I can help:
 
 I'm a specialist in Python and Django, have experience with a broad range of technologies including React and Rust, and am always willing to use the right tool for the job.
 
-![UHF 62 Logo](https://www.uhf62.co.uk/assets/logo.svg){:class="float-right pl-4 pt-2"}{:style="width: 25%; min-width: 160px;"}
+![UHF 62 Logo](https://www.uhf62.co.uk/assets/logo.svg)
 
 ## What's UHF&nbsp;62?
 

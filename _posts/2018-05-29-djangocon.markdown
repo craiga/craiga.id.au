@@ -3,6 +3,8 @@ title: Reflecting on DjangoCon Europe 2018
 description: Personal highlights from my first open-source conference.
 date: 2018-05-29 13:55:00 +0100
 date_updated: 2019-03-14T17:00
+image: /assets/djangocon-2018/me.jpg
+image-description: Me in Heidelberg
 ---
 
 I'm back from [DjangoCon Europe 2018](https://2018.djangocon.eu), my first open-source developers' conference. It was really exciting to be surrounded by so many clever people sharing great ideas. I learned a lot, but perhaps the most important thing I learned was [*how* to attend an open-source conference]({% post_url 2018-06-18-open-source-conference-advice %}).
