@@ -1,0 +1,70 @@
+$baseSize: 18px;
+
+#index {
+  font-size: $baseSize;
+  color: $offWhite;
+  font-family: $serif;
+  line-height: 1.4;
+
+  header, article {
+    padding: $baseSize * 2.5 $baseSize * 2;
+  }
+  
+  article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: stretch;
+    
+    figure {
+      order: 2;
+      margin: 0;
+      flex-basis: 38.2%;
+      padding-left: $baseSize;
+      img {
+        width: 100%;
+      }
+    }
+    
+    figure + * {
+      flex-basis: 61.8%;
+    }
+
+    .small {
+      font-size: $baseSize * 0.75;
+    }
+
+    @media (max-width: 1000px) {
+      h1 {
+        font-size: $baseSize * 1.5;
+      }
+    }
+    @media (max-width: 510px) {
+      flex-direction: column;
+      align-items: stretch;
+      align-content: flex-start;
+      figure {
+        padding: 0;
+      }
+    }
+  }
+
+  @for $offset from 0 through 100 {
+    @for $i from 1 through length($rainbow) {
+      $colour: nth($rainbow, $i);
+      header:nth-child(#{$i + $offset * length($rainbow)}), article:nth-child(#{$i + $offset * length($rainbow)}) {
+        background: $colour;
+      }
+    }
+  }
+
+  h1 {
+    font-size: $baseSize * 2.5;
+    margin: $baseSize 0 $baseSize 0;
+    a {
+      color: inherit;
+      border-color: $offWhite;
+      border-width: 2px;
+    }
+  }
+}

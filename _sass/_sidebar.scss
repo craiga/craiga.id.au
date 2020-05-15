@@ -1,0 +1,72 @@
+$baseSize: 16px;
+
+#sidebar {
+  background-color: $darkGrey;
+  color: $offWhite;
+  font-family: $sansSerif;
+  font-size: $baseSize;
+  line-height: 1.5;
+
+  a {
+    color: inherit;
+    border-color: $base1;
+    &:hover {
+      border-color: $offWhite;
+    }
+  }
+
+  #sidebar-my-face {
+    display: block;
+    height: 61.8vh;
+    min-height: $baseSize * 8 * 100 / 38.2;
+    overflow: hidden;
+    text-align: center;
+    border-bottom-width: 0;
+    img {
+      display: inline-block;
+      height: calc(61.8% - #{$baseSize * 2});
+      margin-top: $baseSize * 2;
+    }
+    h1 {
+      height: 38.2%;
+      font-size: $baseSize * 2;
+      margin: 0;
+      padding: $baseSize;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  section, footer {
+    padding: $baseSize * 1.5 $baseSize * 2;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    
+    p {
+      max-width: $baseSize * 30;
+      margin: auto;
+    }
+  }
+
+  $sections: "work", "social-media", "blog", "music", "beer", "melbourne";
+  $opacity: 0.9;
+  @each $section in $sections {
+    #sidebar-#{$section} {
+      background-image:
+        linear-gradient(rgba($darkGrey, $opacity), rgba($darkGrey, $opacity)),
+        url("/assets/sidebar-bg/#{$section}.jpg");
+    }
+  }
+
+  #sidebar-lockdown {
+    background-image:
+      linear-gradient(rgba($darkGrey, $opacity), rgba($darkGrey, $opacity)),
+      url("/lockdown.jpg");
+  }
+
+  footer {
+    font-size: $baseSize * 0.8;
+  }
+}
