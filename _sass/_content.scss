@@ -55,6 +55,9 @@ $headerHeight: $baseSize * 18;
       margin-left: $baseSize;
       position: relative;
       top: $baseSize * -2;
+      @media (max-height: $headerHeight * 1.75) {
+        top: -16px;
+      }
     }
   }
 

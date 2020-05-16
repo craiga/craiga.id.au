@@ -34,11 +34,15 @@ $baseSize: 18px;
       font-size: $baseSize * 0.75;
     }
 
-    @media (max-width: 1000px) {
-      h1 {
+    h1 {
+      a {
+        line-height: 135%;
+      }
+      @media (max-width: 1000px) {
         font-size: $baseSize * 1.5;
       }
     }
+
     @media (max-width: 510px) {
       flex-direction: column;
       align-items: stretch;

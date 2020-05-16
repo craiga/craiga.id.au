@@ -49,11 +49,13 @@ body {
 h1, h2 {
   font-family: $heading;
   letter-spacing: -1px;
+  line-height: 110%;
 }
 
 h3, h4, h5, h6 {
   font-family: $sansSerif;
   letter-spacing: -1px;
+  line-height: 110%;
 }
 
 a {
