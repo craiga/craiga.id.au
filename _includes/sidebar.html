@@ -18,7 +18,15 @@
 
   <section id="sidebar-lockdown"><p><a href="/lockdown">I'm staying at home during the COVID-19 crisis.</a></p></section>
 
-  <section id="sidebar-blog"><p>I <a href="/blog">sometimes blog about things</a>.</p></section>
+  <section id="sidebar-blog"><p>I <a href="/blog">sometimes blog about things</a>.
+    {% assign post = site.posts.first %}
+    Most recently, I wrote <a href="{{ post.url }}">{{post.title}}</a>.
+  </p></section>
+
+  <section id="sidebar-lists"><p>I'm a bit of a nerd for <a href="/lists">making lists</a>.
+    {% assign list = site.lists.first %}
+    <a href="{{ list.url }}">{{ list.title }}</a> was my most recently updated list.
+  </p></section>
 
   <section id="sidebar-music"><p><a href="https://www.songkick.com/users/craigeanderson" data-fathom-goal-id="MFY8YDCU">Watching live music</a>
       is one of my favourite things to do.
@@ -36,6 +44,7 @@
               <a href="https://unsplash.com/photos/ieic5Tq8YMk">Chris Reid</a>,
               <a href="https://unsplash.com/photos/0VGG7cqTwCo">Rodion Kutsaev</a>,
               <a href="https://unsplash.com/photos/3ym6i13Y9LU">Mike Tinnion</a>,
+              <a href="https://unsplash.com/photos/RLw-UC03Gwc">Glenn Carstens-Peters</a>,
               <a href="https://twitter.com/idlesband/status/1204361215864123399/photo/1">IDLES</a>,
               <a href="https://unsplash.com/photos/08tX2fsuSLg">Christin Hume</a>, and
               <a href="https://unsplash.com/photos/iFdPrhOPI_E">Weyne Yew</a>.

@@ -3,8 +3,8 @@ title: I'm a nerd for making lists
 layout: index
 ---
 
-{% assign sorted_lists = site.lists | sort: "date" | reverse %}
-{% for list in sorted_lists %}
+{% assign lists = site.lists | sort: "date-updated" | reverse %}
+{% for list in lists %}
 <article>
   <div>
     <h1><a href="{{ list.url }}">{{ list.title }}</a></h1>
