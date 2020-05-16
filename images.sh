@@ -5,7 +5,7 @@ set -ex
 find assets -iname "*.original.jpg" -o -iname "*.original.png"|while read -r infile; do
   outfile=${infile/.original/}
   outfile=${outfile/.png/.jpg}
-  magick "$infile" -quality 85% "$outfile"
+  magick "$infile" -resize 500 -quality 85% "$outfile"
 done
 
 find assets/sidebar-bg -iname "*.original.jpg" -o -iname "*.original.png"|while read -r infile; do

@@ -2,6 +2,9 @@
 title: Dark Mode in CSS
 description: How to add dark mode to your web site.
 date: 2019-10-16 17:15:00 +0100
+image: /assets/dark-mode/dark-scene.jpg
+image-credit-name: Teymur Nasirli
+image-credit-url: https://unsplash.com/photos/RBhRxm-PjRE
 ---
 
 Since updating to iOS 13 a few weeks back, I've finally made the switch to dark mode[^late-to-the-party]. I love that my phone no longer lights up a dark room, but switching to apps and sites which don't support dark mode is jarring.
