@@ -3,7 +3,7 @@ title: Getting Craft Beer in London during COVID-19
 description: A list of breweries with online shops which will deliver beer to me, a member of the public in East London.
 layout: post
 date: 2020-04-03T17:40:00+01:00
-date-updated: 2020-04-06T23:00:00+01:00
+date-updated: 2020-05-16T19:10:00+01:00
 ---
 
 A list of breweries with online shops which will deliver beer to me, a member of the public in East London.
@@ -21,6 +21,9 @@ I'll try to keep this list up-to-date, but please feel free to [email contributi
 * [The Kernel](https://store.thekernelbrewery.com)
 * [Gipsy Hill](https://gipsyhillbrew.com)
 * [Clarkshaws](https://www.clarkshaws.co.uk/shop.html) (I've not tried them, but it was recommended to me by a friend who's local to this brewery)
+* [Brew By Numbers](https://www.brewbynumbers.com)
+* [Brick Brewery](https://www.brickbrewery.co.uk)
+* [Anspach & Hobday](https://www.anspachandhobday.com)
 
 [Kicking Horse](https://kicking-horse-craft-beer-merchants.myshopify.com) should also be mentioned here. They normally supply beer to restaurants, but have begun a home delivery service.
 
