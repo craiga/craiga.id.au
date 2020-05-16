@@ -98,12 +98,11 @@ if roomForMoreInSidebar() and window.location.pathname not in ["/blog", "/"]
       blogPostSection.appendChild(footer)
 
 
-fetch("http://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=craiganderson&period=7day&api_key=ad34f34858f38de2ed2a097d31a882eb&format=json")
+fetch("//ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=craiganderson&period=7day&api_key=ad34f34858f38de2ed2a097d31a882eb&format=json")
   .then (response) -> response.json()
   .then (responseData) ->
     artists = responseData.topartists.artist
     if artists.length > 3
-      console.log(artists)
       lastFmPlaceholder = document.getElementById("lastfm-placeholder")
       fathomGoalId = lastFmPlaceholder.getElementsByTagName("a")[0].getAttribute("data-fathom-goal-id")
 
