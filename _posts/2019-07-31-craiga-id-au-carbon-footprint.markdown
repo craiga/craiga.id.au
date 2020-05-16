@@ -1,6 +1,7 @@
 ---
 title: Reducing craiga.id.au's Carbon Footprint
 date: 2019-07-31 12:00:00 +0100
+date-updated: 2020-05-16T23:45:00 +0100
 ---
 
 As [promised previously]({% post_url 2019-07-21-green-web-dev %}), I've made some changes to this site to reduce it's carbon footprint.
@@ -49,7 +50,7 @@ Looking into how bloated this site has become brought them crashing down to eart
 
 The network tab of Safari's developer tools show how unnecessarily large the front page was:
 
-![Network tab of Safari developer tools before optimisation](/assets/craiga-id-au-carbon-footprint/network-before.png)
+![Network tab of Safari developer tools before optimisation](/assets/craiga-id-au-carbon-footprint/network-before.jpg)
 
 Grouping these resources, we see some very hefty assets are being downloaded for what is a very simple page:
 
@@ -107,7 +108,7 @@ I had always served this image from Gravatar, a site which serves user avatars t
 
 Switching to a version of the image optimised using MozJPEG saved a further 37 KB.
 
-![Network tab of Safari developer tools after optimisation](/assets/craiga-id-au-carbon-footprint/network-after.png)
+![Network tab of Safari developer tools after optimisation](/assets/craiga-id-au-carbon-footprint/network-after.jpg)
 
 | Resource type             | Size           | %&nbsp;of&nbsp;content | %&nbsp;of&nbsp;content + my&nbsp;face |
 | ------------------------- | -------------: | ---------------------: | ------------------------------------: |
