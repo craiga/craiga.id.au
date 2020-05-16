@@ -3,7 +3,7 @@ layout: post
 title: Luminance
 description: How to determine if text displayed on top of a colour should be black or white.
 date: '2008-10-27T12:22:00+00:00'
-date_updated: 2019-03-19T14:45
+date-updated: 2019-03-19T14:45
 original_url: http://blog.craiga.id.au/post/56560319/converting-a-color-to-grayscale
 ---
 

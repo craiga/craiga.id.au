@@ -8,7 +8,7 @@ layout: index
 <article>
   <div>
     <h1><a href="{{ list.url }}">{{ list.title }}</a></h1>
-    <p class="small">Last updated {{ list.date | date: "%e %B, %Y" }}.</p>
+    <p class="small">Last updated {{ list.date-updated | date: "%e %B, %Y" }}.</p>
     {% if list.description %}
         <p>{{ list.description }}</p>
     {% endif %}

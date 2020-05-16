@@ -2,7 +2,7 @@
 layout: post
 title: Twitter's OAuth Implementation
 date: '2010-09-06T03:10:29+01:00'
-date_updated: 2019-06-11T13:50
+date-updated: 2019-06-11T13:50
 original_url: http://blog.craiga.id.au/post/1072859377/twitters-oauth-implementation
 ---
 

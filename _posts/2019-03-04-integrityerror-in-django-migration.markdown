@@ -2,7 +2,7 @@
 title: Handling Integrity Errors in Django Migrations
 description: "Short answer: don't 😉"
 date: 2019-03-04 12:50:00 +0000
-date_updated: 2019-05-02 17:00:00 +0100
+date-updated: 2019-05-02 17:00:00 +0100
 ---
 
 As part of a project I'm working on, I'm refactoring two nearly identical models (`create.Event` and `delete.Event`) into one (`generic.Event`).

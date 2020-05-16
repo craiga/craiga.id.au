@@ -2,7 +2,7 @@
 layout: post
 title: Weight Loss
 date: '2011-01-24T10:56:31+00:00'
-date_updated: 2019-03-14T23:00
+date-updated: 2019-03-14T23:00
 original_url: http://blog.craiga.id.au/post/2907905041/weight-loss
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: unixtimesta.mp
 description: Announcing my new project!
 date: '2010-08-04T06:14:00+01:00'
-date_updated: 2019-03-14T23:00
+date-updated: 2019-03-14T23:00
 original_url: http://blog.craiga.id.au/post/901518220/unixtimestamp
 ---
 

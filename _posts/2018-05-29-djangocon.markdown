@@ -2,7 +2,7 @@
 title: Reflecting on DjangoCon Europe 2018
 description: Personal highlights from my first open-source conference.
 date: 2018-05-29 13:55:00 +0100
-date_updated: 2019-03-14T17:00
+date-updated: 2019-03-14T17:00
 image: /assets/djangocon-2018/me.jpg
 image-description: Me in Heidelberg
 ---

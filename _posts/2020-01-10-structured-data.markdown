@@ -1,7 +1,7 @@
 ---
 title: Structured Data in 2020
 date: 2020-01-10 16:40:00 +0000
-date_updated: 2020-05-15 14:50:00 +0100
+date-updated: 2020-05-15 14:50:00 +0100
 image: /assets/structured-data/google.jpg
 image-description: Google search result showing rich data about Banana Bread recipes
 ---
