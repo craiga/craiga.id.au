@@ -56,7 +56,7 @@ $opacity: 0.9;
     font-size: $smallSize;
   }
 
-  $sections: "work", "social-media", "blog", "music", "beer", "melbourne", "lists";
+  $sections: "work", "social-media", "blog", "beer", "melbourne", "lists";
   @each $section in $sections {
     #sidebar-#{$section} {
       background-image:
@@ -69,6 +69,13 @@ $opacity: 0.9;
     background-image:
       linear-gradient(rgba($darkGrey, $opacity), rgba($darkGrey, $opacity)),
       url("/lockdown.jpg");
+  }
+
+  #sidebar-music {
+    background-position: top center;
+    background-image:
+      linear-gradient(rgba($darkGrey, $opacity), rgba($darkGrey, $opacity)),
+      url("https://www.tapmusic.net/collage.php?user=craiganderson&type=7day&size=3x3");
   }
 
   #sidebar-index {
