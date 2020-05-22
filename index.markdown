@@ -2,24 +2,25 @@
 title: Here are some things I built
 id: home
 layout: index
+disable-sidebar-indexes: true
 ---
 
 
-<article class="thing-i-built">
+<article class="thing-i-built preview">
   <figure><img src="/assets/screenshots/unixtimestamp.jpg"></figure>
   <div>
     <h1><a href="http://unixtimesta.mp" data-fathom-goal-id="RIVS7KEW">unixtimesta.mp</a></h1>
     <p>Since 2011 I've been running this site which converts Unix Time to and from human-readable time.</p>
   </div>
 </article>
-<article class="thing-i-built">
+<article class="thing-i-built preview">
   <figure><img src="/assets/screenshots/rough-trade.jpg"></figure>
   <div>
     <h1><a href="https://rough-trade-calendars.craiga.id.au" data-fathom-goal-id="FN3V3C8A">Rough Trade Calendars</a></h1>
     <p>This sites scrapes roughtrade.com for upcoming events, and then serves iCalendar feeds of those events.</p>
   </div>
 </article>
-<article class="thing-i-built">
+<article class="thing-i-built preview">
   <figure><img src="/assets/screenshots/will-of-the-prophets.jpg"></figure>
   <div>
     <h1><a href="http://gagh.biz/game" data-fathom-goal-id="CDWN0BWW">Game of Buttholes: Will of the Prophets</a></h1>
@@ -32,7 +33,7 @@ layout: index
 </header>
 
 {% for post in site.posts %}
-<article>
+<article class="preview">
   {% if post.image %}
     <figure><img src="{{ post.image }}" alt="{{ post.image_description }}"></figure>
   {% endif %}

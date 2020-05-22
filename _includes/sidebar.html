@@ -1,5 +1,5 @@
 <aside id="sidebar">
-  <a href="/" id="sidebar-my-face">
+  <a href="/" id="sidebar-my-face" role="heading">
     <img src="/assets/craig.jpg" alt="Craig Anderson">
     <h1>Hi, I'm Craig Anderson</h1>
   </a>
@@ -52,4 +52,58 @@
             Ethical, cookie-free analytics by <a href="https://usefathom.com/ref/UIMQVW">Fathom</a>.
             <span id="tracking-message"></span></p>
   </footer>
+
+  {% if page.disable-sidebar-indexes %}
+  {% else %}
+  <section id="sidebar-blog-posts" class="sidebar-index">
+    <header>
+      <h1>Some things I wrote</h1>
+    </header>
+    {% for post in site.posts %}
+    <article>
+      <div class="preview">
+          {% if post.image %}
+            <figure><img src="{{ post.image }}" alt="{{ post.image_description }}"></figure>
+          {% endif %}
+          <div>
+            <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+            <p class="small">Published {{ post.date | date: "%e %B, %Y" }}.</p>
+            {% if post.description %}
+                <p>{{ post.description }}</p>
+            {% endif %}
+          </div>
+      </div>
+    </article>
+    {% endfor %}
+    <footer>
+      <p><a href="/blog">More…</a></p>
+    </footer>
+  </section>
+
+  <section id="sidebar-list-posts" class="sidebar-index">
+    <header>
+      <h1>Some lists I made</h1>
+    </header>
+    {% for list in site.lists %}
+    <article>
+      <div class="preview">
+        {% if list.image %}
+          <figure><img src="{{ list.image }}" alt="{{ list.image_description }}"></figure>
+        {% endif %}
+        <div>
+          <h1><a href="{{ list.url }}">{{ list.title }}</a></h1>
+          <p class="small">Published {{ list.date | date: "%e %B, %Y" }}.</p>
+          {% if list.description %}
+              <p>{{ list.description }}</p>
+          {% endif %}
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+    <footer>
+      <p><a href="/lists">More…</a></p>
+    </footer>
+  </section>
+  {% endif %}
+
 </aside>

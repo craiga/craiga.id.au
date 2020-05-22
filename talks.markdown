@@ -2,9 +2,9 @@
 title: Some Talks I've Given
 layout: index
 ---
-{% assign sorted_talks = site.talks | sort: "date" | reverse %}
-{% for talk in sorted_talks %}
-<article>
+{% assign talks = site.talks | sort: "date" | reverse %}
+{% for talk in talks %}
+<article class="preview">
   <div>
     <h1><a href="{{ talk.url }}">{{ talk.title }}</a></h1>
     <p class="small">Published {{ talk.date | date: "%e %B, %Y" }}.</p>

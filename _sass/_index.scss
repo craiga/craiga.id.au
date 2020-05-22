@@ -11,23 +11,11 @@ $baseSize: 18px;
   }
   
   article {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: stretch;
-    
     figure {
-      order: 2;
-      margin: 0;
-      flex-basis: 38.2%;
       padding-left: $baseSize;
-      img {
-        width: 100%;
+      @media (max-width: 510px) {
+        padding: 0;
       }
-    }
-    
-    figure + * {
-      flex-basis: 61.8%;
     }
 
     .small {
@@ -40,15 +28,6 @@ $baseSize: 18px;
       }
       @media (max-width: 1000px) {
         font-size: $baseSize * 1.5;
-      }
-    }
-
-    @media (max-width: 510px) {
-      flex-direction: column;
-      align-items: stretch;
-      align-content: flex-start;
-      figure {
-        padding: 0;
       }
     }
   }

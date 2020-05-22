@@ -35,4 +35,3 @@ Yes, I'm a big enough nerd to listen to three Star Trek podcasts. But they're al
 # Development
 
  * [Django Chat](https://djangochat.com)
-
