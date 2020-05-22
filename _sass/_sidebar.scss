@@ -56,7 +56,7 @@ $opacity: 0.9;
     font-size: $smallSize;
   }
 
-  $sections: "work", "social-media", "blog", "music", "beer", "melbourne", "lists";
+  $sections: "work", "social-media", "blog", "beer", "melbourne", "lists";
   @each $section in $sections {
     #sidebar-#{$section} {
       background-image:

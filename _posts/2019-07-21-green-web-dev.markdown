@@ -4,6 +4,9 @@ description: Thoughts about the climate impact of my work, and what I can do abo
 date: 2019-07-21 12:00:00 +0100
 date-updated: 2019-07-31 12:00:00 +0100
 redirect_from: /2019/07/20/green-web-dev
+image: /assets/green-web-dev/rooftops.jpg
+image-credit-name: Sergei Akulich
+image-credit-url: https://unsplash.com/photos/hFBFC5YmIck
 ---
 
 [In 2015, data centres were responsible for about 2% of greenhouse gas emissions, contributing to global warming about as much as the aviation industry.](https://www.theguardian.com/environment/2015/sep/25/server-data-centre-emissions-air-travel-web-google-facebook-greenhouse-gas)

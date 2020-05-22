@@ -2,6 +2,8 @@
 title: Rough Trade Calendar
 description: A thing I built to stay up-to-date with events at Rough Trade.
 date: 2019-08-01 20:50:00 +0100
+date-updated: 2020-05-16 23:00:00 +0100
+image: /assets/rough-trade-calendars/rough-trade-calendars.jpg
 ---
 
 I'm a huge fan of the gigs Rough Trade put on in their East London shop, and I've been lucky enough to see some pretty amazing shows there:
@@ -16,16 +18,16 @@ The site offers three ways of viewing upcoming events:
 
 * a web page;
 
-    ![list of events on the Rough Trade Calendars web site](/assets/rough-trade-calendars/web.png)
+    ![list of events on the Rough Trade Calendars web site](/assets/rough-trade-calendars/web.jpg)
 
 * an iCalendar feed you can subscribe to in your calendar app; and
 
-    ![iCalendar feed in Apple's Calendar app](/assets/rough-trade-calendars/icalendar.png)
+    ![iCalendar feed in Apple's Calendar app](/assets/rough-trade-calendars/icalendar.jpg)
 
 * an RSS feed you can use to get notified when new events are listed.
 
 I've been using [IFTTT](https://ifttt.com) to email me whenever a new event is added to this feed.
  
-![IFTTT notification email](/assets/rough-trade-calendars/ifttt.png)
+![IFTTT notification email](/assets/rough-trade-calendars/ifttt.jpg)
 
 I'd love to hear if you find this useful! [Please get in touch to let me know](mailto:craiga@craiga.id.au?subject=Rough%20Trade%20Calendar).
