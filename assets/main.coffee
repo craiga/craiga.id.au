@@ -127,6 +127,14 @@ fetch("//ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=craiganderson
   .then (response) -> response.json()
   .then (responseData) ->
     artists = responseData.topartists.artist
+
+    linkForArtist = (artist, fathomGoalId) ->
+      link = document.createElement("a")
+      link.setAttribute("href", artist.url)
+      link.setAttribute("data-fathom-goal-id", fathomGoalId)
+      link.innerText = artist.name
+      return link
+
     if artists.length > 3
       lastFmPlaceholder = document.getElementById("lastfm-placeholder")
       fathomGoalId = lastFmPlaceholder.getElementsByTagName("a")[0].getAttribute("data-fathom-goal-id")
@@ -138,14 +146,6 @@ fetch("//ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=craiganderson
       link.setAttribute("data-fathom-goal-id", fathomGoalId)
       link.innerText = "Lately I've been listening to"
       lastFmPlaceholder.appendChild(link)
-
-      linkForArtist = (artist, fathomGoalId) ->
-        link = document.createElement("a")
-        link.setAttribute("href", artist.url)
-        link.setAttribute("data-fathom-goal-id", fathomGoalId)
-        link.innerText = artist.name
-        return link
-
       lastFmPlaceholder.appendChild(document.createTextNode(" "))
       lastFmPlaceholder.appendChild(linkForArtist(artists[0], fathomGoalId))
       lastFmPlaceholder.appendChild(document.createTextNode(", "))
@@ -153,3 +153,47 @@ fetch("//ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=craiganderson
       lastFmPlaceholder.appendChild(document.createTextNode(", and "))
       lastFmPlaceholder.appendChild(linkForArtist(artists[2], fathomGoalId))
       lastFmPlaceholder.appendChild(document.createTextNode("."))
+
+
+fetch("https://api.untappd.com/v4/user/checkins/craiganderson?client_id=DF32364366DD7CE975FAFF52336891109955F940&client_secret=FD1AE98E636B1F6609FB5C45E9EABC39C1D7CB42&compact=true")
+  .then (response) -> response.json()
+  .then (responseData) ->
+    checkin = responseData.response.checkins.items[0]
+    section = document.getElementById("sidebar-beer")
+    fathomGoalId = section.getElementsByTagName("a")[0].getAttribute("data-fathom-goal-id")
+
+    untappdPlaceholder = document.getElementById("untappd-placeholder")
+    untappdPlaceholder.innerText = ""
+    untappdPlaceholder.appendChild(document.createTextNode("Recently I tried "))
+
+    link = document.createElement("a")
+    link.setAttribute("href", "https://untappd.com/b/#{ checkin.beer.beer_slug }/#{ checkin.beer.bid }")
+    link.setAttribute("data-fathom-goal-id", fathomGoalId)
+    link.innerText = checkin.beer.beer_name
+    untappdPlaceholder.appendChild(link)
+
+    untappdPlaceholder.appendChild(document.createTextNode(" from "))
+
+    link = document.createElement("a")
+    link.setAttribute("href", checkin.brewery.contact.url)
+    link.setAttribute("data-fathom-goal-id", fathomGoalId)
+    link.innerText = checkin.brewery.brewery_name
+    untappdPlaceholder.appendChild(link)
+
+    untappdPlaceholder.appendChild(document.createTextNode(". "))
+
+    link = document.createElement("a")
+    link.setAttribute("href", "https://untappd.com/user/craiganderson/checkin/#{ checkin.checkin_id }")
+    link.setAttribute("data-fathom-goal-id", fathomGoalId)
+    link.innerText = "I gave it #{ checkin.rating_score } out of 5"
+    untappdPlaceholder.appendChild(link)
+
+    untappdPlaceholder.appendChild(document.createTextNode("."))
+
+    for checkin in responseData.response.checkins.items
+      if checkin.media.count > 0
+        newBackground = checkin.media.items[0].photo.photo_img_lg
+        backgroundImageCss = getComputedStyle(section).getPropertyValue("background-image")
+        backgroundImageCss = backgroundImageCss.replace(/url\([^\)]*\)/, "url('#{ newBackground }')")
+        section.style.backgroundImage = backgroundImageCss
+        break
