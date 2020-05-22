@@ -14,7 +14,8 @@ for element in document.querySelectorAll("a[data-fathom-goal-id]")
     if fathom?
       fathom('trackGoal', this.getAttribute("data-fathom-goal-id"), 0)
 
-roomForMoreInSidebar = () ->
+
+getRoomInSidebar = () ->
   if window.innerWidth < 768
     return false
 
@@ -31,61 +32,95 @@ roomForMoreInSidebar = () ->
     .reduce (a, b) ->
       a + b
 
-  return mainContentHeight > (sidebarHeight + 300)
+  return mainContentHeight - sidebarHeight
 
-sidebar = document.getElementById("sidebar")
 
-if roomForMoreInSidebar() and window.location.pathname not in ["/blog", "/"]
-  # Add recent blog posts to sidebar
-  fetch('/feed.xml')
-    .then (response) -> response.text()
-    .then (responseText) ->
-      parser = new window.DOMParser()
-      return parser.parseFromString(responseText, "text/xml")
-    .then (responseDom) ->
+hiddenArticlesRemainInSidebarIndex = (sidebarIndex) ->
+  for article in sidebarIndex.getElementsByTagName("article")
+    if getComputedStyle(article).getPropertyValue("display") == "none"
+      if not articleLinksToCurrentPage(article)
+        return true
 
-      blogPostSection = document.createElement("section")
-      blogPostSection.setAttribute("id", "sidebar-index")
-      header = document.createElement("header")
-      heading = document.createElement("h1")
-      heading.innerText = "Recent Blog Posts"
-      header.appendChild(heading)
-      blogPostSection.appendChild(header)
-      sidebar.appendChild(blogPostSection)
+  return false
 
-      dateFormat = Intl.DateTimeFormat("en-AU", {day: "numeric", month: "long", year: "numeric"})
 
-      for entry in responseDom.getElementsByTagName("entry")
-        article = document.createElement("article")
+hiddenArticlesRemain = () ->
+  for sidebarIndex in document.getElementsByClassName("sidebar-index")
+    if hiddenArticlesRemainInSidebarIndex(sidebarIndex)
+      return true
 
-        link  = document.createElement("a")
-        link.setAttribute("href", entry.getElementsByTagName("link")[0].getAttribute("href"))
-        link.innerText = entry.getElementsByTagName("title")[0].textContent
+  return false
 
-        heading = document.createElement("h1")
-        heading.appendChild(link)
-        article.appendChild(heading)
 
-        publishedDate = new Date()
-        publishedDate.setTime(Date.parse(entry.getElementsByTagName("published")[0].textContent))
-        dateline = document.createElement("p")
-        dateline.setAttribute("class", "small")
-        dateline.innerText = "Published " + dateFormat.format(publishedDate) + "."
-        article.appendChild(dateline)
+articleLinksToCurrentPage = (article) ->
+  for a in article.getElementsByTagName("a")
+    if a.href == window.location.href
+      return true
 
-        blogPostSection.appendChild(article)
+  return false
 
-        if !roomForMoreInSidebar()
+
+redrawSidebar = () ->
+  # Hide everything in each sidebar index.
+  for sidebarIndex in document.getElementsByClassName("sidebar-index")
+    for element in sidebarIndex.children
+      element.style.display = "none"
+
+  roomForAnotherIndex = 600
+  roomForAnotherArticle = 300
+
+  if getRoomInSidebar() > roomForAnotherIndex
+
+    # If there's space, show the header, footer and first two articles in each sidebar index.
+    for sidebarIndex in document.getElementsByClassName("sidebar-index")
+      if getRoomInSidebar() > roomForAnotherIndex
+        for header in sidebarIndex.getElementsByTagName("header")
+          header.style.display = "block"
+        for footer in sidebarIndex.getElementsByTagName("footer")
+          footer.style.display = "block"
+
+        articlesShown = 0
+        for article in sidebarIndex.getElementsByTagName("article")
+          if articleLinksToCurrentPage(article)
+            continue
+
+          article.style.display = "block"
+
+          articlesShown += 1
+          if articlesShown >= 2
+            break
+
+        if not hiddenArticlesRemainInSidebarIndex(sidebarIndex)
+          for footer in sidebarIndex.getElementsByTagName("footer")
+            footer.style.display = "none"
+
+    for i in [0..20]
+      if getRoomInSidebar() < roomForAnotherArticle or not hiddenArticlesRemain()
+        break
+
+      for sidebarIndex in document.getElementsByClassName("sidebar-index")
+        if getRoomInSidebar() < roomForAnotherArticle
           break
 
-      link  = document.createElement("a")
-      link.setAttribute("href", "/blog")
-      link.innerText = "More…"
-      paragraph = document.createElement("p")
-      paragraph.appendChild(link)
-      footer = document.createElement("footer")
-      footer.appendChild(paragraph)
-      blogPostSection.appendChild(footer)
+        if not hiddenArticlesRemainInSidebarIndex(sidebarIndex)
+          break
+
+        for article in sidebarIndex.getElementsByTagName("article")
+          if articleLinksToCurrentPage(article)
+            continue
+
+          if getComputedStyle(article).getPropertyValue("display") == "none"
+            article.style.display = "block"
+
+            if not hiddenArticlesRemainInSidebarIndex(sidebarIndex)
+              for footer in sidebarIndex.getElementsByTagName("footer")
+                footer.style.display = "none"
+
+            break
+
+redrawSidebar()
+window.addEventListener("load", redrawSidebar)
+window.addEventListener("resize", redrawSidebar)
 
 
 fetch("//ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=craiganderson&period=7day&api_key=ad34f34858f38de2ed2a097d31a882eb&format=json")
