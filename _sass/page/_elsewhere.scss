@@ -1,0 +1,86 @@
+$baseSize: 18px;
+$cardSize: $baseSize * 8;
+
+#page-elsewhere {
+  #content header {
+    margin-bottom: 0;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      flex-grow: 1;
+      height: $cardSize;
+      width: $cardSize;
+
+      font-family: $heading;
+      text-align: center;
+
+      a, div {
+        color: $offWhite;
+        border-width: 0;
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          flex-grow: 1;
+          max-width: $cardSize * 0.382;
+          max-height: $cardSize * 0.382;
+          padding-top: $baseSize;
+          // https://codepen.io/sosuke/pen/Pjoqqp
+          filter: invert(90%) sepia(6%) saturate(1242%) hue-rotate(325deg) brightness(112%) contrast(98%);
+          // Loss: 0.8. This is a perfect result.
+        }
+
+        span {
+          flex-grow: 1;
+          display: flex;
+          align-items: center;
+          padding-bottom: $baseSize;
+        }
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: (7 * $cardSize * (100 / 61.8))), (min-width: (8 * $cardSize * (100 / 61.8))) {
+        @for $offset from 0 through 100 {
+          @for $i from 1 through length($rainbow) {
+            $colour: nth($rainbow, $i);
+            &:nth-of-type(#{$i + $offset * length($rainbow) - 1}) {
+              background: $colour;
+            }
+          }
+        }
+      }
+
+      @media (min-width: (7 * $cardSize * (100 / 61.8))) and (max-width: (8 * $cardSize * (100 / 61.8))) {
+        $reducedRainbow: $blue, $violet, $magenta, $orange, $green, $cyan;
+        
+        @for $offset from 0 through 100 {
+          @for $i from 1 through length($reducedRainbow) {
+            $colour: nth($reducedRainbow, $i);
+            &:nth-of-type(#{$i + $offset * length($reducedRainbow) - 1}) {
+              background: $colour;
+            }
+          }
+        }
+      }
+
+//       or 
+
+    }
+  }
+}
