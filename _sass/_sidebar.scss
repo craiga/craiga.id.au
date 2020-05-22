@@ -71,6 +71,13 @@ $opacity: 0.9;
       url("/lockdown.jpg");
   }
 
+  #sidebar-music {
+    background-position: top center;
+    background-image:
+      linear-gradient(rgba($darkGrey, $opacity), rgba($darkGrey, $opacity)),
+      url("https://www.tapmusic.net/collage.php?user=craiganderson&type=7day&size=3x3");
+  }
+
   .sidebar-index {
     padding: 0;
 
