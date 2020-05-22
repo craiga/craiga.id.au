@@ -10,7 +10,7 @@
         <link rel="icon" type="image/png" sizes="192x192" href="/assets/craig-square-192.jpg">
         <link rel="icon" type="image/png" sizes="256x256" href="/assets/craig-square-256.jpg">
         <link rel="apple-touch-icon" href="/assets/craig-square-180.jpg">
-        <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+        <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}?{{ site.github.build_revision }}">
         {% seo title=true %}
         {% feed_meta %}
     </head>
