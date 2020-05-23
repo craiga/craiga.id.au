@@ -126,6 +126,63 @@ window.addEventListener("load", redrawSidebar)
 window.addEventListener("resize", redrawSidebar)
 
 
+doSearch = (event) ->
+  event.preventDefault()
+  searchForm = document.getElementById("search")
+  searchText = searchForm.getElementsByTagName("input")[0].value;
+  scrollOptions = {
+    behavior: "smooth",
+    block: "nearest"
+  }
+
+  searchResults = document.querySelectorAll(".search-result")
+  for searchResult in searchResults
+    searchResult.parentNode.removeChild(searchResult)
+
+  loadingMessage = document.createElement("p")
+  loadingMessage.innerHTML = "Searching for <b>#{searchText}</b>…"
+  loadingIndicator = document.createElement("section")
+  loadingIndicator.classList.add("search-loading-indicator")
+  loadingIndicator.appendChild(loadingMessage)
+  searchForm.parentNode.insertBefore(loadingIndicator, searchForm.nextSibling)  # https://stackoverflow.com/a/4793630/1852024
+
+  loadingMessage.scrollIntoView(scrollOptions)
+
+  redrawSidebar()
+
+  for element in searchForm.elements
+    element.disabled = true
+
+  fetch("https://www.googleapis.com/customsearch/v1?q=#{searchText}&key=AIzaSyD9q2Q2jjMderdsMpbkI-_umYmcS02dQIM&cx=007129523963313219349:yjpcuhhjc73")
+    .then (response) -> response.json()
+    .then (responseData) ->
+      for loadingIndicator in document.querySelectorAll(".search-loading-indicator")
+        loadingIndicator.parentNode.removeChild(loadingIndicator)
+
+      afterSearch = searchForm.nextSibling
+      if parseInt(responseData.searchInformation.totalResults) > 1
+        for searchResult in responseData.items
+          resultArticle = document.createElement("article")
+          resultArticle.classList.add("search-result")
+          resultArticle.innerHTML = "<div><h1><a href='#{ searchResult.link }'>#{ searchResult.htmlTitle }</a></h1><p>#{ searchResult.htmlSnippet }</p></div>"
+          searchForm.parentNode.insertBefore(resultArticle, afterSearch)
+      else
+        resultArticle = document.createElement("article")
+        resultArticle.classList.add("search-result")
+        resultArticle.innerHTML = "<div><p>No results for <b>#{searchText}</b>.</p></div>"
+        searchForm.parentNode.insertBefore(resultArticle, afterSearch)
+
+      for element in searchForm.elements
+        element.disabled = false
+
+      document.getElementsByClassName("search-result")[0].scrollIntoView(scrollOptions)
+
+      redrawSidebar()
+
+
+document.getElementById("search").addEventListener("submit", doSearch)
+
+
 fetch("//ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=craiganderson&period=7day&api_key=ad34f34858f38de2ed2a097d31a882eb&format=json")
   .then (response) -> response.json()
   .then (responseData) ->

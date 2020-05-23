@@ -17,30 +17,7 @@ $opacity: 0.9;
     }
   }
 
-  #sidebar-my-face {
-    display: block;
-    height: 61.8vh;
-    min-height: $baseSize * 8 * 100 / 38.2;
-    overflow: hidden;
-    text-align: center;
-    border-bottom-width: 0;
-    img {
-      display: inline-block;
-      height: calc(61.8% - #{$baseSize * 2});
-      margin-top: $baseSize * 2;
-    }
-    h1 {
-      height: 38.2%;
-      font-size: $baseSize * 2;
-      margin: 0;
-      padding: $baseSize;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  }
-
-  section, article, header, footer {
+  section, article, header, footer, form {
     padding: $baseSize * 1.5 $baseSize * 2;
     margin: 0;
     background-size: cover;
@@ -52,8 +29,92 @@ $opacity: 0.9;
     }
   }
 
+  header, #sidebar-my-face {
+    text-align: center;
+    h1 {
+      font-family: $heading;
+      font-size: $baseSize * 2;
+      margin-bottom: $baseSize * 2;
+      margin-top: $baseSize * 5;
+    }
+  }
+
   footer {
     font-size: $smallSize;
+  }
+
+  #sidebar-my-face {
+    display: block;
+    height: 61.8vh;
+    min-height: $baseSize * 8 * 100 / 38.2;
+    overflow: hidden;
+    border-bottom-width: 0;
+    img {
+      display: inline-block;
+      height: calc(61.8% - #{$baseSize * 2});
+      margin-top: $baseSize * 2;
+    }
+    h1 {
+      height: 38.2%;
+      margin: 0;
+      padding: $baseSize;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  form {
+    p {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: $baseSize * 2;
+      margin-top: $baseSize * 5;
+
+      input, button {
+        margin: 0;
+      }
+
+      input {
+        flex-grow: 1;
+        background: $base2;
+        color: $darkGrey;
+        font-size: $baseSize;
+        padding: $baseSize / 2;
+        font-family: $sansSerif;
+        border: 1px solid $base2;
+        &:focus, &:hover {
+          background: $base3;
+        }
+      }
+      button {
+        background: $darkGrey;
+        font-size: $baseSize;
+        padding: $baseSize / 2;
+        border: 1px solid $offWhite;
+      }
+    }
+  }
+
+  article {
+    h1 {
+      font-size: $baseSize * 1.5;
+      a {
+        line-height: 135%;
+      }
+    }
+    h1, p {
+      margin: 0.5em 0;
+    }
+  }
+
+  .search-result, .search-loading-indicator {
+    br {
+      display: none;
+    }
+    b {
+      color: $cyan;
+    }
   }
 
   $sections: "work", "social-media", "blog", "beer", "melbourne", "lists";
@@ -81,26 +142,7 @@ $opacity: 0.9;
   .sidebar-index {
     padding: 0;
 
-    header {
-      h1 {
-        font-family: $heading;
-        font-size: $baseSize * 2;
-        text-align: center;
-        margin-bottom: $baseSize * 2;
-        margin-top: $baseSize * 5;
-      }
-    }
-
     article {
-      h1 {
-        font-size: $baseSize * 1.5;
-        a {
-          line-height: 135%;
-        }
-      }
-      h1, p {
-        margin: 0.5em 0;
-      }
       figure {
         padding-left: $baseSize;
       }
