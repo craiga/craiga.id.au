@@ -3,6 +3,7 @@ title: Here are some things I built
 id: home
 layout: index
 disable-sidebar-indexes: true
+include-mobile-intro: true
 ---
 
 

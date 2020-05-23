@@ -1,0 +1,35 @@
+$baseSize: 16px;
+$smallSize: $baseSize * 0.8;
+$opacity: 0.9;
+
+#mobile-intro {
+  background-color: $darkGrey;
+  color: $offWhite;
+  font-family: $sansSerif;
+  font-size: $baseSize;
+  line-height: 1.5;
+  padding: $baseSize;
+
+  a {
+    color: $offWhite;
+    border-color: $base1;
+    &:hover {
+      border-color: $offWhite;
+    }
+  }
+
+  h1 {
+    font-size: $baseSize * 2;
+  }
+  
+  img {
+    float: right;
+    border-radius: 50%;
+    max-width: 32.8vw;
+    max-height: $baseSize * 7;
+  }
+  
+  @media (min-width: 800px) {
+    display: none;
+  }
+}
