@@ -15,6 +15,7 @@ I'll try to keep this list up-to-date, but please feel free to [email contributi
 * [Pressure Drop](https://pressuredropbrewing.co.uk), probably my favourite brewery. They're also running a locals store with free delivery, though delivery slots seem super-limited.
 * [Howling Hops](https://www.howlinghops.co.uk/shop/)
 * [Signature Brew](https://www.signaturebrew.co.uk/collections/live)
+* [Pretty Decent Beer Co](https://www.prettydecentbeer.co)
 
 ## Elsewhere in London
 
