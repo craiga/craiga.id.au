@@ -1,5 +1,5 @@
 ---
-title: Other places you can find me on the Internet
+title: Other places you can find me
 id: elsewhere
 layout: index
 description: I like to sign up for things.
