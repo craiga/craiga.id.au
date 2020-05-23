@@ -3,16 +3,17 @@ $smallSize: $baseSize * 0.8;
 $opacity: 0.9;
 
 #mobile-intro {
-  background-color: $darkGrey;
+  background-color: nth($rainbow, -1);
   color: $offWhite;
   font-family: $sansSerif;
   font-size: $baseSize;
   line-height: 1.5;
-  padding: $baseSize;
+  padding: $baseSize * 2;
 
   a {
     color: $offWhite;
-    border-color: $base1;
+    border-color: $offWhite;
+    border-width: 2;
     &:hover {
       border-color: $offWhite;
     }
@@ -20,6 +21,12 @@ $opacity: 0.9;
 
   h1 {
     font-size: $baseSize * 2;
+    a {
+      border-width: 0;
+    }
+    @media (max-width: 400px) {
+      font-size: $baseSize * 1.75;
+    }
   }
   
   img {
@@ -27,6 +34,7 @@ $opacity: 0.9;
     border-radius: 50%;
     max-width: 32.8vw;
     max-height: $baseSize * 7;
+    padding-left: $baseSize / 2;
   }
   
   @media (min-width: 800px) {
