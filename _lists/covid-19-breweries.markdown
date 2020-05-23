@@ -3,21 +3,29 @@ title: Getting Craft Beer in London during COVID-19
 description: A list of breweries with online shops which will deliver beer to me, a member of the public in East London.
 layout: post
 date: 2020-04-03T17:40:00+01:00
-date-updated: 2020-05-23T17:18:00+01:00
+date-updated: 2020-05-23T17:27:00+01:00
 ---
 
-A list of breweries with online shops which will deliver beer to me, a member of the public in East London.
+A list of breweries and other beery businesses with online shops which will deliver beer to me, a member of the public in East London.
 
 I'll try to keep this list up-to-date, but please feel free to [email contributions](mailto:craiga@craiga.id.au) or [submit a pull request via GitHub](https://github.com/craiga/craiga.id.au/edit/master/_lists/covid-19-breweries.markdown).
 
 ## Local to Me
+
+### Breweries
 
 * [Pressure Drop](https://pressuredropbrewing.co.uk), probably my favourite brewery. They're also running a locals store with free delivery, though delivery slots seem super-limited.
 * [Howling Hops](https://www.howlinghops.co.uk/shop/)
 * [Signature Brew](https://www.signaturebrew.co.uk/collections/live)
 * [Pretty Decent Beer Co](https://www.prettydecentbeer.co)
 
+### Other
+
+* [Clapton Craft](https://www.claptoncraft.co.uk)
+
 ## Elsewhere in London
+
+### Breweries
 
 * [The Kernel](https://store.thekernelbrewery.com)
 * [Gipsy Hill](https://gipsyhillbrew.com)
@@ -26,7 +34,9 @@ I'll try to keep this list up-to-date, but please feel free to [email contributi
 * [Brick Brewery](https://www.brickbrewery.co.uk)
 * [Anspach & Hobday](https://www.anspachandhobday.com)
 
-[Kicking Horse](https://kicking-horse-craft-beer-merchants.myshopify.com) should also be mentioned here. They normally supply beer to restaurants, but have begun a home delivery service.
+### Other
+
+* [Kicking Horse](https://kicking-horse-craft-beer-merchants.myshopify.com) normally supply beer to restaurants, but have begun a home delivery service.
 
 ## Elsewhere in the UK
 
@@ -34,3 +44,5 @@ I'll try to keep this list up-to-date, but please feel free to [email contributi
 * [Cloudwater](https://shop.cloudwaterbrew.co)
 * [Lost and Grounded](https://www.lostandgroundedstore.co.uk)
 * [BrewDog](https://www.brewdog.com/uk/shop)
+
+It's not clear to me whether [Verdant](https://verdantbrewing.co) have shut down or whether they're so popular that nothing is available on their web shop each time I check.
