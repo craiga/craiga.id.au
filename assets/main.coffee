@@ -16,9 +16,6 @@ for element in document.querySelectorAll("a[data-fathom-goal-id]")
 
 
 getRoomInSidebar = () ->
-  if window.innerWidth < 768
-    return false
-
   mainContent = document.getElementsByTagName("main")[0];
   sidebar = document.getElementById("sidebar")
   mainContentHeight = Array.from(mainContent.children)
@@ -33,6 +30,12 @@ getRoomInSidebar = () ->
       a + b
 
   return mainContentHeight - sidebarHeight
+
+
+inMobileLayout = () ->
+  mainContent = document.getElementsByTagName("main")[0];
+  sidebar = document.getElementById("sidebar")
+  return mainContent.offsetWidth == sidebar.offsetWidth
 
 
 hiddenArticlesRemainInSidebarIndex = (sidebarIndex) ->
@@ -69,7 +72,7 @@ redrawSidebar = () ->
   roomForAnotherIndex = 600
   roomForAnotherArticle = 300
 
-  if getRoomInSidebar() > roomForAnotherIndex
+  if getRoomInSidebar() > roomForAnotherIndex and not inMobileLayout()
 
     # If there's space, show the header, footer and first two articles in each sidebar index.
     for sidebarIndex in document.getElementsByClassName("sidebar-index")
