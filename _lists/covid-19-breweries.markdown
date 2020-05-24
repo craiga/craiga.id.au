@@ -3,7 +3,7 @@ title: Getting Craft Beer in London during COVID-19
 description: A list of breweries with online shops which will deliver beer to me, a member of the public in East London.
 layout: post
 date: 2020-04-03T17:40:00+01:00
-date-updated: 2020-05-23T17:27:00+01:00
+date-updated: 2020-05-24T15:50:00+01:00
 ---
 
 A list of breweries and other beery businesses with online shops which will deliver beer to me, a member of the public in East London.
@@ -37,6 +37,7 @@ I'll try to keep this list up-to-date, but please feel free to [email contributi
 ### Other
 
 * [Kicking Horse](https://kicking-horse-craft-beer-merchants.myshopify.com) normally supply beer to restaurants, but have begun a home delivery service.
+* [Ghost Whale](https://www.ghostwhalelondon.com)
 
 ## Elsewhere in the UK
 
