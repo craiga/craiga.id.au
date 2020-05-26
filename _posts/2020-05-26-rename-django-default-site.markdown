@@ -20,7 +20,6 @@ Thankfully, the code which creates the default site is clever enough to check if
 After running a few tests, this was the data migration I came up with:
 
 ```python
-from django.conf import settings
 from django.db import migrations
 
 
