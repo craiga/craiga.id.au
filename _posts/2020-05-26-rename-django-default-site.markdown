@@ -1,6 +1,7 @@
 ---
 title: Renaming example.com, Django's Default Site
 date: 2020-05-26 21:25:00 +0100
+date-updated: 2020-05-27 09:55:00 +0100
 ---
 
 When you make use of Django's sites framework, it'll create a default site named "example.com".
@@ -48,7 +49,7 @@ def setup_default_site(apps, schema_editor):
 class Migration(migrations.Migration):
 
     dependencies = [
-        ("data_power", "0001_initial"),
+        ("my_cool_site", "0001_initial"),
         ("sites", "0002_alter_domain_unique"),
     ]
 
