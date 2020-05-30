@@ -6,13 +6,13 @@ $headerHeight: $baseSize * 18;
 
 #content {
   font-size: $baseSize;
-  color: $darkGrey;
+  color: $darkOrange;
   background: $offWhite;
   font-family: $serif;
   line-height: 1.4;
 
   header {
-    background-image: linear-gradient(to bottom right, $blue, $violet, $magenta);
+    background-image: linear-gradient(to bottom right, nth($rainbow, 1), nth($rainbow, 2), nth($rainbow, 3));
     color: $offWhite;
     margin-bottom: $headerHeight * .382;
 
@@ -48,7 +48,7 @@ $headerHeight: $baseSize * 18;
     img {
       float: right;
       box-sizing: border-box;
-      border: 8px solid $cyan;
+      border: 8px solid nth($rainbow, -1);
       width: 38.2% * 0.618;
       min-width: $baseSize * 10;
       margin-right: 38.2vw * .618 * .382;
@@ -68,7 +68,7 @@ $headerHeight: $baseSize * 18;
 
     .footnotes {
       margin-top: $baseSize * 5;
-      border-top: 8px solid $cyan;
+      border-top: 8px solid nth($rainbow, 1);
     }
 
     img {
@@ -76,7 +76,7 @@ $headerHeight: $baseSize * 18;
     }
 
     hr {
-      border-top: $baseSize * 0.1 solid $base01;
+      border-top: $baseSize solid $darkOrange;
     }
 
     .highlighter-rouge {
@@ -85,11 +85,11 @@ $headerHeight: $baseSize * 18;
     }
 
     code.highlighter-rouge {
-      color: $magenta;
+      color: $red;
     }
 
     .highlighter-rouge pre {
-      border: $baseSize * 0.1 solid $base01;
+      border: $baseSize * 0.1 solid $darkOrange;
       padding: $baseSize;
       margin-bottom: $baseSize * 3;
       overflow-x: scroll;

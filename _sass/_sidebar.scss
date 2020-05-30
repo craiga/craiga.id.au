@@ -3,7 +3,7 @@ $smallSize: $baseSize * 0.8;
 $opacity: 0.9;
 
 #sidebar {
-  background-color: $darkGrey;
+  background-color: $darkOrange;
   color: $offWhite;
   font-family: $sansSerif;
   font-size: $baseSize;
@@ -11,7 +11,7 @@ $opacity: 0.9;
 
   a {
     color: inherit;
-    border-color: $base1;
+    border-color: $offWhite;
     &:hover {
       border-color: $offWhite;
     }
@@ -77,18 +77,15 @@ $opacity: 0.9;
 
       input {
         flex-grow: 1;
-        background: $base2;
-        color: $darkGrey;
+        background: $offWhite;
+        color: $darkOrange;
         font-size: $baseSize;
         padding: $baseSize / 2;
         font-family: $sansSerif;
-        border: 1px solid $base2;
-        &:focus, &:hover {
-          background: $base3;
-        }
+        border: 1px solid $darkOrange;
       }
       button {
-        background: $darkGrey;
+        background: $darkOrange;
         font-size: $baseSize;
         padding: $baseSize / 2;
         border: 1px solid $offWhite;
@@ -113,7 +110,7 @@ $opacity: 0.9;
       display: none;
     }
     b {
-      color: $cyan;
+      color: nth($rainbow, -1);
     }
   }
 
@@ -121,21 +118,21 @@ $opacity: 0.9;
   @each $section in $sections {
     #sidebar-#{$section} {
       background-image:
-        linear-gradient(rgba($darkGrey, $opacity), rgba($darkGrey, $opacity)),
+        linear-gradient(rgba($darkOrange, $opacity), rgba($darkOrange, $opacity)),
         url("/assets/sidebar-bg/#{$section}.jpg");
     }
   }
 
   #sidebar-lockdown {
     background-image:
-      linear-gradient(rgba($darkGrey, $opacity), rgba($darkGrey, $opacity)),
+      linear-gradient(rgba($darkOrange, $opacity), rgba($darkOrange, $opacity)),
       url("/lockdown.jpg");
   }
 
   #sidebar-music {
     background-position: top center;
     background-image:
-      linear-gradient(rgba($darkGrey, $opacity), rgba($darkGrey, $opacity)),
+      linear-gradient(rgba($darkOrange, $opacity), rgba($darkOrange, $opacity)),
       url("https://www.tapmusic.net/collage.php?user=craiganderson&type=7day&size=3x3");
   }
 

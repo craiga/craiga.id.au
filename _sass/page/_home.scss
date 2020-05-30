@@ -4,7 +4,7 @@ $perspective: 38.2vw * .618;
 #page-home {
   article.thing-i-built {
     img {
-      filter: drop-shadow($baseSize * -0.5 $baseSize * 0.5 $baseSize * 0.5 rgba($darkGrey, 0.5));
+      filter: drop-shadow($baseSize * -0.5 $baseSize * 0.5 $baseSize * 0.5 rgba($darkOrange, 0.5));
       transform: perspective($perspective) rotateY($rotation);
     }
     
