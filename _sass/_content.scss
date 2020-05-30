@@ -108,12 +108,9 @@ $headerHeight: $baseSize * 18;
       border-width: 0;
     }
 
-    @for $offset from 0 through 100 {
-      @for $i from 1 through length($rainbow) {
-        $colour: nth($rainbow, $i);
-        hr:nth-of-type(#{$i + $offset * length($rainbow)}) {
-          border-color: $colour;
-        }
+    @for $i from 1 through length($rainbow) {
+      hr:nth-of-type(#{length($rainbow)}n + #{$i}) {
+        border-color: nth($rainbow, $i);
       }
     }
   }
