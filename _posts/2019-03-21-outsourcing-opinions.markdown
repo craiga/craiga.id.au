@@ -108,7 +108,6 @@ Instead of expending energy researching, comparing options, and coming to decisi
 
 Once you've found those opinions, they can be as valuable as you'll let them be.
 
----
 
 [^spaces-vs-tabs]: Just to be clear, Richard's obviously wrong.
 

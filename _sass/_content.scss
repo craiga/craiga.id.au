@@ -68,7 +68,7 @@ $headerHeight: $baseSize * 18;
 
     .footnotes {
       margin-top: $baseSize * 5;
-      border-top: 8px solid $cyan;
+      border-top: $baseSize / 2 solid $cyan;
     }
 
     img {
@@ -76,7 +76,7 @@ $headerHeight: $baseSize * 18;
     }
 
     hr {
-      border-top: $baseSize * 0.1 solid $base01;
+      border-top: $baseSize / 2 solid $base01;
     }
 
     .highlighter-rouge {
@@ -93,7 +93,7 @@ $headerHeight: $baseSize * 18;
       padding: $baseSize;
       margin-bottom: $baseSize * 3;
       overflow-x: scroll;
-      
+
       @media (min-width: ($maxWidth + $baseSize * 4) * 100 / 61.8) {
         position: relative;
         left: $baseSize * -1.1;
@@ -107,7 +107,12 @@ $headerHeight: $baseSize * 18;
       margin: 0;
       border-width: 0;
     }
-    
+
+    @for $i from 1 through length($rainbow) {
+      hr:nth-of-type(#{length($rainbow)}n + #{$i}) {
+        border-color: nth($rainbow, $i);
+      }
+    }
   }
 
   h1 {

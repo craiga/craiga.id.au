@@ -46,12 +46,9 @@ $headerHeight: $baseSize * 18;
     }
   }
 
-  @for $offset from 0 through 100 {
-    @for $i from 1 through length($rainbow) {
-      $colour: nth($rainbow, $i);
-      header:nth-child(#{$i + $offset * length($rainbow)}), article:nth-child(#{$i + $offset * length($rainbow)}) {
-        background: $colour;
-      }
+  @for $i from 1 through length($rainbow) {
+    header:nth-child(#{length($rainbow)}n + #{$i}), article:nth-child(#{length($rainbow)}n + #{$i}) {
+      background: nth($rainbow, $i);
     }
   }
 
