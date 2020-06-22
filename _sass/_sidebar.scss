@@ -83,6 +83,7 @@ $opacity: 0.9;
         padding: $baseSize / 2;
         font-family: $sansSerif;
         border: 1px solid $base2;
+        border-radius: 0;
         &:focus, &:hover {
           background: $base3;
         }
