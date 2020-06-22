@@ -91,7 +91,7 @@ $opacity: 0.9;
       button {
         background: $darkGrey;
         font-size: $baseSize;
-        padding: $baseSize / 2;
+        padding: $baseSize / 2 $baseSize;
         border: 1px solid $offWhite;
       }
     }
