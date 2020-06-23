@@ -24,7 +24,7 @@ Yes, I'm a big enough nerd to listen to three Star Trek podcasts. But they're al
 
 # Australian Football
 
- * [The Greatest Season The Was](https://omny.fm/shows/the-greatest-season-that-was-93)
+ * [The Greatest Season That Was](https://omny.fm/shows/the-greatest-season-that-was-93)
 
 ## Comedy
 
