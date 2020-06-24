@@ -8,7 +8,7 @@ I've been working from home and avoiding almost all physical contact with people
 
 I regret not getting a haircut before then.
 
-This is a visual log of hirsute madness, last updated <span id="lastUpdated">Wednesday 10 June</span>.
+This is a visual log of hirsute madness, last updated <span id="lastUpdated">Wednesday 24 June</span>.
 
 <p class="video-wrapper video-wrapper-3-4">
   <video width="960" height="1280" controls loop autoplay muted>
