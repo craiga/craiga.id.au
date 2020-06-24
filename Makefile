@@ -3,6 +3,9 @@ default:  ## Build and serve the web site.
 	bundle exec rougify style base16.solarized > _sass/rouge.scss
 	bundle exec jekyll serve --incremental --livereload
 
+drafts:  ## Build and serve the web site with blog post drafts.
+	bundle exec jekyll serve --livereload --drafts
+
 cv-pdf:  ## Create CV PDF.
 	bundle install
 	bundle exec jekyll serve --port 8765 --quiet --detach
