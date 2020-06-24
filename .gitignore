@@ -1,8 +1,9 @@
-_site
-.sass-cache
-.jekyll-metadata
-.ruby-version
-node_modules
-_drafts
-*.mov
-PNG image.png
+/_site
+/.sass-cache
+/.jekyll-metadata
+/.ruby-version
+/node_modules
+/_drafts
+/*.mov
+/PNG image.png
+/lockdown-end.jpg

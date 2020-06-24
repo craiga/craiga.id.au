@@ -15,7 +15,8 @@ cv-pdf:  ## Create CV PDF.
 
 lockdown: ## Create assets for lockdown page from assets exported from Everyday.
 	ffmpeg -i video.mov -an -vcodec h264 -b:v 0.5M -filter:v scale=360:-1 -y lockdown.mp4
-	cjpeg -outfile lockdown.jpg "PNG image.png"
+	cjpeg -outfile lockdown-end.jpg "PNG image.png"
+	convert lockdown-start.jpg lockdown-end.jpg +append lockdown.jpg
 	sed -i "" -e "s/<span id=\"lastUpdated\">.*<\/span>/<span id=\"lastUpdated\">`date +"%A %d %B"`<\/span>/g" lockdown.markdown
 	git add lockdown.*
 	git commit --message "Lockdown `date +"%A %d %B"`" --no-verify
