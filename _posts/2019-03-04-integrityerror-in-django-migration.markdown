@@ -2,7 +2,7 @@
 title: Handling Integrity Errors in Django Migrations
 description: "Short answer: don't 😉"
 date: 2019-03-04 12:50:00 +0000
-date-updated: 2019-05-02 17:00:00 +0100
+date-updated: 2020-06-28 11:40:00 +0100
 ---
 
 As part of a project I'm working on, I'm refactoring two nearly identical models (`create.Event` and `delete.Event`) into one (`generic.Event`).
@@ -40,6 +40,8 @@ DETAIL: Key (event_id)=(the-duplicate-key) already exists.
 Taking [a pythonic "easier to ask for forgiveness than permission" approach](https://docs.python.org/3/glossary.html#term-eafp), my first attempt at this was to wrap the call to save in a try … except block:
 
 ```python
+from django.db.utils import IntegrityError
+
 try:
     dest.save()
 except IntegrityError as err:
