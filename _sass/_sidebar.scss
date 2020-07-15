@@ -144,9 +144,6 @@ $opacity: 0.9;
     padding: 0;
 
     article {
-      figure {
-        padding-left: $baseSize;
-      }
       .small {
         font-size: $smallSize;
       }
@@ -155,5 +152,23 @@ $opacity: 0.9;
     article, header, footer {
       display: none;
     }
+  }
+
+  .preview {
+    figure {
+      padding-left: $baseSize;
+      @media (max-width: 510px) {
+        display: none;
+      }
+      a {
+        border-width: 0;
+      }
+    }
+  }
+}
+
+#page-lockdown {
+  #sidebar-lockdown {
+    display: none;
   }
 }
