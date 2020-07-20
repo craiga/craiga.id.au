@@ -61,4 +61,10 @@ $headerHeight: $baseSize * 18;
       border-width: 2px;
     }
   }
+
+  a {
+    color: inherit;
+    border-color: $offWhite;
+    border-width: 2px;
+  }
 }
