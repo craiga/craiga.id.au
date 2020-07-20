@@ -64,7 +64,9 @@ $headerHeight: $baseSize * 18;
 
   a {
     color: inherit;
-    border-color: $offWhite;
-    border-width: 2px;
+    border-color: $base1;
+    &:hover {
+      border-color: $offWhite;
+    }
   }
 }
