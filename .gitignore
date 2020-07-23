@@ -8,3 +8,5 @@
 /PNG image.png
 /lockdown-end.jpg
 /.nova/
+/.vendor/
+/.bundle/

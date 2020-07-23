@@ -8,6 +8,10 @@ email: craiga@craiga.id.au
 url: https://www.craiga.id.au
 lang: en_AU
 logo: /assets/avatar-400.optimised.jpg
+encoding: utf-8
+exclude:
+  - PNG image.png
+  - lockdown-end.jpg
 
 author:
   name: Craig Anderson
@@ -280,12 +284,5 @@ plugins:
 
 markdown: kramdown
 highlighter: rouge
-
-defaults:
-  -
-    scope:
-      path: '**/plugin/**'
-    values:
-      sitemap: false
-
 permalink: /:categories/:year/:month/:day/:title
+theme: null

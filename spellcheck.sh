@@ -19,7 +19,7 @@ set -e
 # 16.  Finally, check spelling of everything that remains.
 
 # shellcheck disable=SC2016
-misspelled_words=$(find . \( -iname "*.markdown" -or -iname "*.md" -or -iname "*.mdown" \) -not \( -path "./vendor/*" -or -path "./_drafts/*" \) -print0 \
+misspelled_words=$(find . \( -iname "*.markdown" -or -iname "*.md" -or -iname "*.mdown" \) -not \( -path "./.vendor/*" -or -path "./_drafts/*" \) -print0 \
   | xargs -0 cat \
   | grep -v -E "^(\\s|\\-)*(image|image-credit-name|image-credit-url|image-position|original_url|redirect_from|url):" \
   | grep -v -E "^\\s{4}" \
