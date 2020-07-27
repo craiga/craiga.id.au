@@ -30,7 +30,7 @@ Having said that, it's still the heart of the hipster inner north and has lots o
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=The%20Old%20Bar%2C%20Fitzroy%2C%20Australia"></iframe>
 
-Back in the day, you were guaranteed to find me here every Friday night after work, regardless of where I was working. It’s a dive bar with some kind of music every night. The beer garden definitely has more emphasis on beer than garden and should probably be avoided if you're not comfortable with cigarette smoke, but I love it out there.
+Back in the day, you were guaranteed to find me here every Friday night after work, regardless of where I was working. It's a dive bar with some kind of music every night. The beer garden definitely has more emphasis on beer than garden and should probably be avoided if you're not comfortable with cigarette smoke, but I love it out there.
 
 ### The Tote &#x1F37B;&#x1F3B8;&#x1F50A;
 
@@ -140,11 +140,11 @@ Good bakery/cafe. Worth visiting for either brunch or grabbing some bread and ca
 
 Nice local boozer. Good range of craft beers and reasonable food.
 
-### Danny’s Burgers &#x1F354;
+### Danny's Burgers &#x1F354;
 
 <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRCi8f2zsaX47QpIT_n8RYlWS1GCWYI_k&q=Danny%27s%20Burgers%2C%20Fitzroy%20North%2C%20Australia"></iframe>
 
-One of the places in Melbourne for an Australian-style burger. It’s massive, sloppy, and has egg and beetroot. Some people will say that the beetroot should be swapped for a pineapple ring, but they're wrong.
+One of the places in Melbourne for an Australian-style burger. It's massive, sloppy, and has egg and beetroot. Some people will say that the beetroot should be swapped for a pineapple ring, but they're wrong.
 
 Order one with the lot. You're wasting your time otherwise.
 

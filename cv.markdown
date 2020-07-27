@@ -3,7 +3,7 @@ title: Craig Anderson — CV
 description: Curriculum Vitae of Craig Anderson, a freelance product developer specialising in building web products with Python and Django.
 ---
 
-I’m a product developer specialising in web applications with over {{ "now" | date: "%Y" | minus: 2000 }} years of experience. I’m motivated by work for social and environmental good.
+I'm a product developer specialising in web applications with over {{ "now" | date: "%Y" | minus: 2000 }} years of experience. I'm motivated by work for social and environmental good.
 
 I love pets, but unfortunately I'm unable to work in an office with them as I live with somebody with severe allergies.
 

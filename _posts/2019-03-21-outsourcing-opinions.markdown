@@ -98,7 +98,7 @@ Just as The Wirecutter and Black have opinions about hammers and code formatting
 
 > **How should I split my settings file between production / development?**
 > 
-> Don’t.
+> Don't.
 
 ---
 

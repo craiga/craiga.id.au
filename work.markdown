@@ -1,5 +1,5 @@
 ---
-title: Hi, I’m Craig, a Freelance Product Developer
+title: Hi, I'm Craig, a Freelance Product Developer
 description: Freelance product developer specialising in Python and Django. Based in London.
 id: work
 ---
