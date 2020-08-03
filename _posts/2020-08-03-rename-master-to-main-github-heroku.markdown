@@ -3,7 +3,7 @@ title: Renaming master to main on GitHub and Heroku
 date: 2020-08-03 10:20:00 +0100
 ---
 
-It's a tiny thing, but a lot of cultural racism, sexism and homophobia is built from tiny things.
+It might seem like a small thing, but a lot of cultural racism, sexism and homophobia is built from things which seem small to a lot of people.
 
 [It's been pointed out](https://twitter.com/Una/status/1271180494944829441) that the widespread use of words like "master", "slave", and "blacklist" in tech is problematic.
 
