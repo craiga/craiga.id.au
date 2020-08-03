@@ -1,6 +1,7 @@
 ---
 title: Renaming master to main on GitHub and Heroku
 date: 2020-08-03 10:20:00 +0100
+date_updated: 2020-08-03 20:00:00 +0100
 ---
 
 It might seem like a small thing, but a lot of cultural racism, sexism and homophobia is built from things which seem small to a lot of people.
@@ -18,9 +19,13 @@ Here's how I moved from "master" to "main" in my projects which use GitHub and H
 ## Step 1: Create the main branch
 
 ```
+git fetch
+git rebase origin/master master
 git branch --move master main
 git push --set-upstream origin main
 ```
+
+Update: The main branch will be created from your local master branch, which may not be up-to-date with your remote master! I've added a couple of commands above to make sure your local master is up-to-date.
 
 ## Step 2: Set up main as the default branch
 
