@@ -25,7 +25,7 @@ include-mobile-intro: true
   <figure><img src="/assets/screenshots/will-of-the-prophets.jpg"></figure>
   <div>
     <h1><a href="http://gagh.biz/game" data-fathom-goal-id="CDWN0BWW">Game of Buttholes: Will of the Prophets</a></h1>
-    <p>A site I'm a little bit embarassed to have built for the hosts of one of my favourite podcasts.</p>
+    <p>A site I'm a little bit embarassed to have built for my favourite podcast.</p>
   </div>
 </article>
 
