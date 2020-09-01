@@ -1,6 +1,6 @@
 {
   "ignoredFiles": [
-    "*.original.*"
+    "*.original.*", ".svg"
   ],
   "aggressiveCompression": true,
   "minKBReduced": null
