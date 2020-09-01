@@ -1,9 +1,8 @@
 $baseSize: 16px;
 $smallSize: $baseSize * 0.8;
-$opacity: 0.9;
 
 #sidebar {
-  background-color: $darkGrey;
+  background-color: $brown;
   color: $offWhite;
   font-family: $sansSerif;
   font-size: $baseSize;
@@ -11,10 +10,7 @@ $opacity: 0.9;
 
   a {
     color: inherit;
-    border-color: $base1;
-    &:hover {
-      border-color: $offWhite;
-    }
+    border-color: $offWhite;
   }
 
   section, article, header, footer, form {
@@ -77,19 +73,16 @@ $opacity: 0.9;
 
       input {
         flex-grow: 1;
-        background: $base2;
-        color: $darkGrey;
+        background: $offWhite;
+        color: $brown;
         font-size: $baseSize;
         padding: $baseSize / 2;
         font-family: $sansSerif;
-        border: 1px solid $base2;
+        border: 1px solid $offWhite;
         border-radius: 0;
-        &:focus, &:hover {
-          background: $base3;
-        }
       }
       button {
-        background: $darkGrey;
+        background: $brown;
         font-size: $baseSize;
         padding: $baseSize / 2 $baseSize;
         border: 1px solid $offWhite;
@@ -114,29 +107,30 @@ $opacity: 0.9;
       display: none;
     }
     b {
-      color: $cyan;
+      color: $green;
     }
   }
 
   $sections: "work", "social-media", "blog", "beer", "melbourne", "lists";
+  $opacity: 0.95;
   @each $section in $sections {
     #sidebar-#{$section} {
       background-image:
-        linear-gradient(rgba($darkGrey, $opacity), rgba($darkGrey, $opacity)),
+        linear-gradient(rgba($brown, $opacity), rgba($brown, $opacity)),
         url("/assets/sidebar-bg/#{$section}.jpg");
     }
   }
 
   #sidebar-lockdown {
     background-image:
-      linear-gradient(rgba($darkGrey, $opacity), rgba($darkGrey, $opacity)),
+      linear-gradient(rgba($brown, $opacity), rgba($brown, $opacity)),
       url("/lockdown.jpg");
   }
 
   #sidebar-music {
     background-position: top center;
     background-image:
-      linear-gradient(rgba($darkGrey, $opacity), rgba($darkGrey, $opacity)),
+      linear-gradient(rgba($brown, $opacity), rgba($brown, $opacity)),
       url("https://www.tapmusic.net/collage.php?user=craiganderson&type=7day&size=3x3");
   }
 
