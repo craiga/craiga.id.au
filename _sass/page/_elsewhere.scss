@@ -55,7 +55,7 @@ $cardSize: 160px;  // iPhone SE width / 2
         text-decoration: underline;
       }
 
-      @media (max-width: (7 * $cardSize * (100 / 61.8))), (min-width: (8 * $cardSize * (100 / 61.8))) {
+      @media (max-width: (length($rainbow) * $cardSize * (100 / 61.8))), (min-width: ((length($rainbow) + 1) * $cardSize * (100 / 61.8))) {
         @for $i from 1 through length($rainbow) {
           &:nth-of-type(#{length($rainbow)}n + #{$i - 1}) {
             background: nth($rainbow, $i);
@@ -63,11 +63,10 @@ $cardSize: 160px;  // iPhone SE width / 2
         }
       }
 
-      @media (min-width: (7 * $cardSize * (100 / 61.8))) and (max-width: (8 * $cardSize * (100 / 61.8))) {
-        $reducedRainbow: $blue, $violet, $magenta, $orange, $green, $cyan;
-        @for $i from 1 through length($reducedRainbow) {
-          &:nth-of-type(#{length($reducedRainbow)}n + #{$i - 1}) {
-            background: nth($reducedRainbow, $i);
+      @media (min-width: (length($rainbow) * $cardSize * (100 / 61.8))) and (max-width: ((length($rainbow) + 1) * $cardSize * (100 / 61.8))) {
+        @for $i from 1 through (length($rainbow) - 1) {
+          &:nth-of-type(#{length($rainbow) - 1}n + #{$i - 1}) {
+            background: nth($rainbow, $i + 1);
           }
         }
       }

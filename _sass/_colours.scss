@@ -1,22 +1,19 @@
-$yellow:  #b58900;
-$orange:  #cb4b16;
-$red:     #dc322f;
-$magenta: #d33682;
-$violet:  #6c71c4;
-$blue:    #268bd2;
-$cyan:    #2aa198;
-$green:   #859900;
+// https://www.canva.com/colors/color-palette-generator/
+// colours from this tool were Dune (#23211F), Rodeo Dust (#C8AE9E),
+// Mountain Meadow (#0EB886) and Astral (#3174B0).
 
-$base03:  #002b36;
-$base02:  #073642;
-$base01:  #586e75;
-$base00:  #657b83;
-$base0:   #839496;
-$base1:   #93a1a1;
-$base2:   #eee8d5;
-$base3:   #fdf6e3;
+$hueOffset: -15;
+$saturation: 50;
+$lightness: 50;
 
-$darkGrey: $base03;
-$offWhite: $base3;
+$red:     hsl(0 + $hueOffset, $saturation, $lightness);
+$yellow:  hsl(60 + $hueOffset, $saturation, $lightness);
+$green:   hsl(140 + $hueOffset, $saturation, $lightness);  // https://coolors.co/0eb886
+// $cyan:  hsl(180 + $hueOffset, $saturation, $lightness);
+$blue:    hsl(240 + $hueOffset, $saturation, $lightness);
+$purple:  hsl(300 + $hueOffset, $saturation, $lightness);
 
-$rainbow: $blue, $violet, $magenta, $orange, $yellow, $green, $cyan;
+$brown: #23211F;
+$offWhite: #f8f8f0;
+
+$rainbow: $blue, $purple, $red, $yellow, $green;

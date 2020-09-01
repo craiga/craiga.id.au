@@ -8,7 +8,7 @@ $perspective: 38.2vw * .618;
         border-width: 0;
       }
       img {
-        filter: drop-shadow($baseSize * -0.5 $baseSize * 0.5 $baseSize * 0.5 rgba($darkGrey, 0.5));
+        filter: drop-shadow($baseSize * -0.5 $baseSize * 0.5 $baseSize * 0.5 rgba($brown, 0.5));
         transform: perspective($perspective) rotateY($rotation);
       }
     }
