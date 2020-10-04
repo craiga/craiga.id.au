@@ -3,12 +3,12 @@
 // Mountain Meadow (#0EB886) and Astral (#3174B0).
 
 $hueOffset: -15;
-$saturation: 95;
-$lightness: 40;
+$saturation: 100;
+$lightness: 44;
 
 $red:     hsl(0 + $hueOffset, $saturation, $lightness);
-$yellow:  hsl(60 + $hueOffset, $saturation, $lightness);
-$green:   hsl(120 + $hueOffset, $saturation, $lightness - 5);
+$yellow:  hsl(60 + $hueOffset, $saturation, $lightness - 2);
+$green:   hsl(120 + $hueOffset, $saturation, $lightness - 6);
 // $cyan:  hsl(180 + $hueOffset, $saturation, $lightness);
 $blue:    hsl(240 + $hueOffset, $saturation, $lightness);
 $purple:  hsl(300 + $hueOffset, $saturation, $lightness);
