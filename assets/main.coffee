@@ -218,6 +218,9 @@ fetch("//ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=craiganderson
 fetch("https://api.untappd.com/v4/user/checkins/craiganderson?client_id=DF32364366DD7CE975FAFF52336891109955F940&client_secret=FD1AE98E636B1F6609FB5C45E9EABC39C1D7CB42&compact=true")
   .then (response) -> response.json()
   .then (responseData) ->
+    if responseData.meta.code >= 300
+      return
+
     checkin = responseData.response.checkins.items[0]
     section = document.getElementById("sidebar-beer")
     fathomGoalId = section.getElementsByTagName("a")[0].getAttribute("data-fathom-goal-id")
