@@ -1,15 +1,11 @@
         </main>
         {% include sidebar.html %}
     </body>
+
 <script
-  src="https://browser.sentry-cdn.com/5.13.0/bundle.min.js"
-  integrity="sha384-ePH2Cp6F+/PJbfhDWeQuXujAbpil3zowccx6grtsxOals4qYqJzCjeIa7W2UqunJ"
-  crossorigin="anonymous"></script>
-<script>
-  Sentry.init({ dsn: 'https://87a4caa0fd8c4333929598cdd2e4b19b@sentry.io/255252' });
-</script>
+  src="https://js.sentry-cdn.com/87a4caa0fd8c4333929598cdd2e4b19b.min.js"
+  crossorigin="anonymous"
+></script>                
 <script src="{{ "/assets/main.js" | relative_url }}?{{ site.github.build_revision }}"></script>
-<!-- Fathom - beautiful, simple website analytics -->
 <script src="https://crawdad.craiga.id.au/script.js" site="NGWZHJXT" included-domains="www.craiga.id.au" defer></script>
-<!-- / Fathom -->
 </html>
