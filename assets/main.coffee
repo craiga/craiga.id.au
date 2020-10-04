@@ -186,7 +186,6 @@ document.getElementById("search").addEventListener("submit", doSearch)
 fetch("//ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=craiganderson&period=7day&api_key=ad34f34858f38de2ed2a097d31a882eb&format=json")
   .then (response) -> response.json()
   .then (responseData) ->
-    Sentry.setContext("lastfmResponseData", responseData)
     artists = responseData.topartists.artist
 
     linkForArtist = (artist, fathomGoalId) ->
@@ -219,7 +218,6 @@ fetch("//ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=craiganderson
 fetch("https://api.untappd.com/v4/user/checkins/craiganderson?client_id=DF32364366DD7CE975FAFF52336891109955F940&client_secret=FD1AE98E636B1F6609FB5C45E9EABC39C1D7CB42&compact=true")
   .then (response) -> response.json()
   .then (responseData) ->
-    Sentry.setContext("untappdResponseData", responseData)
     checkin = responseData.response.checkins.items[0]
     section = document.getElementById("sidebar-beer")
     fathomGoalId = section.getElementsByTagName("a")[0].getAttribute("data-fathom-goal-id")
