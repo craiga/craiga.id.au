@@ -3,12 +3,12 @@
 // Mountain Meadow (#0EB886) and Astral (#3174B0).
 
 $hueOffset: -15;
-$saturation: 50;
-$lightness: 50;
+$saturation: 95;
+$lightness: 40;
 
 $red:     hsl(0 + $hueOffset, $saturation, $lightness);
 $yellow:  hsl(60 + $hueOffset, $saturation, $lightness);
-$green:   hsl(140 + $hueOffset, $saturation, $lightness);  // https://coolors.co/0eb886
+$green:   hsl(120 + $hueOffset, $saturation, $lightness - 5);
 // $cyan:  hsl(180 + $hueOffset, $saturation, $lightness);
 $blue:    hsl(240 + $hueOffset, $saturation, $lightness);
 $purple:  hsl(300 + $hueOffset, $saturation, $lightness);

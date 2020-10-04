@@ -12,7 +12,7 @@ $headerHeight: $baseSize * 18;
   line-height: 1.4;
 
   header {
-    background-image: linear-gradient(to bottom right, nth($rainbow, 1), nth($rainbow, 2));
+    background-image: linear-gradient(to bottom right, nth($rainbow, -3), nth($rainbow, -2));
     color: $offWhite;
     margin-bottom: $headerHeight * .382;
 
