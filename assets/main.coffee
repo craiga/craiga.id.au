@@ -12,7 +12,7 @@ if localStorage.getItem("blockFathomTracking") == "true"
 for element in document.querySelectorAll("a[data-fathom-goal-id]")
   element.onclick = ->
     if fathom?
-      fathom('trackGoal', this.getAttribute("data-fathom-goal-id"), 0)
+      fathom.trackGoal(this.getAttribute("data-fathom-goal-id"), 0)
 
 
 getRoomInSidebar = () ->
