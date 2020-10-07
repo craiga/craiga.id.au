@@ -102,3 +102,35 @@ blockquote {
   padding-bottom: 133.33%;
 }
 
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    color: black !important;
+    background: transparent !important;
+  }
+
+  a {
+    color: inherit;
+    border-width: 0;
+  }
+
+  a:after {
+    content: " (" attr(href) ")";
+  }
+
+  a.footnote:after, a.reversefootnote:after {
+    content: "";
+  }
+
+  @page {
+    @bottom-left {
+      content: 'http://craiga.id.au\2003\25CF\2003http://uhf62.co.uk';
+    }
+
+    @bottom-right {
+      content: counter(page) " of " counter(pages);
+    }
+  }
+}

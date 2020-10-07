@@ -159,6 +159,10 @@ $smallSize: $baseSize * 0.8;
       }
     }
   }
+
+  @media print {
+    display: none;
+  }
 }
 
 #page-lockdown {
