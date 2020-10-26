@@ -1,9 +1,9 @@
 ---
 title: Craig Anderson — CV
-description: Curriculum Vitae of Craig Anderson, a freelance product developer specialising in building web products with Python and Django.
+description: Curriculum Vitae of Craig Anderson, a freelance digital product developer specialising in building web products with Python and Django.
 ---
 
-I'm a product developer specialising in web applications with over {{ "now" | date: "%Y" | minus: 2000 }} years of experience. I'm motivated by work for social and environmental good.
+I'm a digital product developer specialising in web applications with over {{ "now" | date: "%Y" | minus: 2000 }} years of experience. I'm motivated by work for social and environmental good.
 
 I love pets, but unfortunately I'm unable to work in an office with them as I live with somebody with severe allergies.
 
@@ -13,9 +13,9 @@ You can contact me via [email](mailto:craig@uhf62.co.uk).
 
 ## Skills Summary
 
-* Python
-* Django
-* Django REST Framework
+* Python, Django, & Django REST Framework
+* HTML, CSS & JavaScript
+* Heroku
 
 
 ## Work History
@@ -76,7 +76,7 @@ The code for these projects is available on [GitHub](https://github.com/craiga).
 
 I've contributed to number of open source projects including [Django](https://www.djangoproject.com), [Django REST Framework](https://www.django-rest-framework.org) and [moto](http://getmoto.org).
 
-I'm a coach at [Codebar](http://codebar.io), teaching people from underrepresented groups how to code, and a mentor at [Meet a Mentor](http://meetamentor.co.uk). I was formerly one of the organisers of the [London Django Meetup](https://www.djangolondon.com).
+I've coached people from underrepresented groups in tech how to code at [Codebar](http://codebar.io), mentored people working toward a career in tech at [Meet a Mentor](http://meetamentor.co.uk), and was a co-organiser of the [London Django Meetup](https://www.djangolondon.com). 
 
 ## Education
 

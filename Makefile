@@ -6,10 +6,8 @@ default:  ## Build and serve the web site.
 drafts:  ## Build and serve the web site with blog post drafts.
 	bundle exec jekyll serve --livereload --drafts
 
-cv-pdf:  ## Create CV PDF.
-	bundle install
+cv.pdf:  ## Create CV PDF.
 	bundle exec jekyll serve --port 8765 --quiet --detach
-	pipenv install
 	pipenv run weasyprint http\://localhost\:8765/cv cv.pdf
 	pkill -f jekyll
 

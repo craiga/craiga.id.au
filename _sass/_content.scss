@@ -1,5 +1,7 @@
 $baseSize: 18px;
+$printBaseSize: 16px;
 $smallSize: $baseSize * 0.75;
+$printSmallSize: $printBaseSize * 0.75;
 $maxWidth: $baseSize * 40;
 $headerHeight: $baseSize * 18;
 
@@ -10,11 +12,19 @@ $headerHeight: $baseSize * 18;
   background: $offWhite;
   font-family: $serif;
   line-height: 1.4;
+  
+  @media print {
+    font-size: $printBaseSize;
+  }
 
   header {
     background-image: linear-gradient(to bottom right, nth($rainbow, -3), nth($rainbow, -2));
     color: $offWhite;
     margin-bottom: $headerHeight * .382;
+    
+    @media print {
+      margin-bottom: 0;
+    }
 
     h1 {
       min-height: $headerHeight;
@@ -26,6 +36,12 @@ $headerHeight: $baseSize * 18;
       font-size: $baseSize * 2.5;
       @media (max-height: $headerHeight * 1.75) {
         min-height: 0;
+      }
+      @media print {
+        min-height: 0;
+        max-width: 100%;
+        padding: 0;
+        font-size: $printBaseSize * 2.5;
       }
     }
 
@@ -65,6 +81,10 @@ $headerHeight: $baseSize * 18;
     max-width: $maxWidth;
     margin: 0 auto;
     padding: 0 $baseSize $headerHeight * .382 $baseSize;
+    @media print {
+      max-width: 100%;
+      padding: 0;
+    }
 
     .footnotes {
       margin-top: $baseSize * 5;
@@ -128,5 +148,20 @@ $headerHeight: $baseSize * 18;
   h3 {
     font-size: $baseSize * 1.75;
     margin: $baseSize * 1.75 0 $baseSize 0;
+  }
+
+  @media print {
+    h1 {
+      font-size: $printBaseSize * 2;
+      margin: $printBaseSize * 2 0 $printBaseSize 0;
+    }
+    h2 {
+      font-size: $printBaseSize * 1.75;
+      margin: $printBaseSize * 1.75 0 $printBaseSize 0;
+    }
+    h3 {
+      font-size: $printBaseSize * 1.5;
+      margin: $printBaseSize * 1.5 0 $printBaseSize 0;
+    }
   }
 }
