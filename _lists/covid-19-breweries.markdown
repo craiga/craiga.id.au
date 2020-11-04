@@ -3,7 +3,7 @@ title: Getting Craft Beer in London during COVID-19
 description: A list of breweries with online shops which will deliver beer to me, a member of the public in East London.
 layout: post
 date: 2020-04-03T17:40:00+01:00
-date-updated: 2020-05-27T19:50:00+01:00
+date-updated: 2020-11-04T22:51:00+00:00
 ---
 
 A list of breweries and other beery businesses with online shops which will deliver beer to me, a member of the public in East London.
@@ -46,3 +46,4 @@ I'll try to keep this list up-to-date, but please feel free to [email contributi
 * [Cloudwater](https://shop.cloudwaterbrew.co)
 * [Lost and Grounded](https://www.lostandgroundedstore.co.uk)
 * [BrewDog](https://www.brewdog.com/uk/shop)
+* [Beak](https://beakbrewery.com)
