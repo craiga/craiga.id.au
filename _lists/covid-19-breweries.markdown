@@ -3,7 +3,7 @@ title: Getting Craft Beer in London during COVID-19
 description: A list of breweries with online shops which will deliver beer to me, a member of the public in East London.
 layout: post
 date: 2020-04-03T17:40:00+01:00
-date-updated: 2020-11-04T22:51:00+00:00
+date-updated: 2020-11-25T21:07:00+00:00
 ---
 
 A list of breweries and other beery businesses with online shops which will deliver beer to me, a member of the public in East London.
@@ -16,6 +16,7 @@ I'll try to keep this list up-to-date, but please feel free to [email contributi
 
 * [Pressure Drop](https://pressuredropbrewing.co.uk), probably my favourite brewery. They're also running a locals store with free delivery, though delivery slots seem super-limited.
 * [Howling Hops](https://www.howlinghops.co.uk/shop/)
+* [Wild Card Brewery](https://shop.wildcardbrewery.co.uk)
 * [Signature Brew](https://www.signaturebrew.co.uk/collections/live)
 * [Pretty Decent Beer Co](https://www.prettydecentbeer.co)
 
@@ -29,6 +30,7 @@ I'll try to keep this list up-to-date, but please feel free to [email contributi
 
 * [The Kernel](https://store.thekernelbrewery.com)
 * [Gipsy Hill](https://gipsyhillbrew.com)
+* [Rock Leopard](https://www.rockleopardbrewing.com)
 * [Clarkshaws](https://www.clarkshaws.co.uk/shop.html) (I've not tried them, but it was recommended to me by a friend who's local to this brewery)
 * [Brew By Numbers](https://www.brewbynumbers.com)
 * [Brick Brewery](https://www.brickbrewery.co.uk)
