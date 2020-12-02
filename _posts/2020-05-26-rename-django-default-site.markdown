@@ -1,7 +1,7 @@
 ---
 title: Renaming example.com, Django's Default Site
 date: 2020-05-26 21:25:00 +0100
-date-updated: 2020-05-27 09:55:00 +0100
+date-updated: 2020-12-02 12:44:00 +0000
 ---
 
 When you make use of Django's sites framework, it'll create a default site named "example.com".
@@ -54,6 +54,6 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.RunPython(setup_default_site),
+        migrations.RunPython(setup_default_site, migrations.RunPython.noop),
     ]
 ```
