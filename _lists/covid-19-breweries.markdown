@@ -14,7 +14,7 @@ I'll try to keep this list up-to-date, but please feel free to [email contributi
 
 ### Breweries
 
-* [Pressure Drop](https://pressuredropbrewing.co.uk), probably my favourite brewery. They're also running a locals store with free delivery, though delivery slots seem super-limited.
+* [Pressure Drop](https://pressuredropbrewing.co.uk)
 * [Howling Hops](https://www.howlinghops.co.uk/shop/)
 * [Wild Card Brewery](https://shop.wildcardbrewery.co.uk)
 * [Signature Brew](https://www.signaturebrew.co.uk/collections/live)
